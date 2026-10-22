@@ -1,0 +1,72 @@
+political_decisions = {
+	finish_poland_partition = {
+		picture = duchy_of_warsaw
+		potential = {
+			primary_culture = south_german
+			OR = {
+				tag = AUS
+				tag = KUK
+			}	
+			NOT = { has_country_flag = finish_poland_partition }
+			#has_country_flag=get_back_our_eastern_claim
+		}
+		allow = {
+			war=no
+			state_n_government=1
+			is_greater_power=yes
+			PLC = {is_greater_power=no}
+			war_policy=jingoism
+			AUS_702 = {owned_by = THIS}
+		}
+		effect = {
+			RUS_710 = { add_core = THIS }
+			badboy =4
+			set_country_flag=finish_poland_partition
+		}
+	}
+	reintegrate_illiya = {
+		picture = decision_illyria_AUS
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+				tag = ITA
+			}
+			NOT={has_country_flag=reintegrate_illiya}
+		}
+		allow = {
+			war=no
+			state_n_government=1
+			OR = {
+				DLM = {in_sphere = THIS}
+				DLM = {vassal_of = THIS}
+				DLM = { all_core = { owned_by = THIS } } 
+			}
+		}
+		effect = {
+			add_accepted_culture = slovene
+			DLM = {annex_to =THIS}
+			DLM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = reintegrate_illiya 
+		}
+	}
+	accept_slovak = {
+		picture = slovaks
+		potential = {
+			tag = KUK
+			NOT = { accepted_culture = slovak } 
+		}
+		allow = {
+			state_n_government = 1
+			is_greater_power = yes
+		}
+		effect = {
+			add_accepted_culture = slovak
+			prestige = 5
+		}
+	}
+}

@@ -1,0 +1,329 @@
+
+AUS = {
+	value = 100
+}
+
+RUS = {
+	value = 125
+}
+
+FRA = {
+	value = -150
+}
+
+DEN = {
+
+	value = -50
+}
+PLC = {
+
+	value = -100
+}
+SWE = {
+
+	value = -100
+}
+leader = {
+	name = "Bernard Joachim"
+	#picture = pru_gen_knesebeck
+	date = 1813.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
+	prestige = 0.3
+}
+leader = {
+	name = "Helmuth Karl Bernhard von Moltke"
+	#picture = pru_gen_boyen
+	date = 1800.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.3
+}
+leader = {
+	name = "Heinrich von Pfuel"
+	#picture = pru_gen_pfuel
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Karl von Grolman"
+	#picture = pru_gen_grolman
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Otto Ruhle von Lilienstern"
+	#picture = pru_gen_lilienstern
+	date = 1819.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Friedrich von Wrangel"
+	#picture = pru_gen_wrangel
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Prinz Karl"
+	#picture = pru_gen_prinzkarl
+	date = 1824.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+#Army
+
+
+army = {
+	name = "II. Korps"
+	location = 682
+	regiment = {
+		name= "VII. Linieninfanteriebrigade"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "VIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "IX. Linieninfanteriebrigade"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "II. Pionierbrigade"
+		type = infantry
+		home = 684
+	}
+
+	regiment = {
+		name= "X. Linieninfanteriebrigade"
+		type = hussar
+		home = 684
+	}
+
+	regiment = {
+		name= "XI. Linieninfanteriebrigade"
+		type = artillery
+		home = 684
+	}
+
+	regiment = {
+		name= "XII. Linieninfanteriebrigade"
+		type = artillery
+		home = 685
+	}
+
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 685
+	}
+	
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 549
+	}
+	
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 546
+	}
+}
+
+army = {
+	name = "III. Korps"
+	location = 681
+	regiment = {
+		name= "XIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 696
+	}
+
+	regiment = {
+		name= "XIV. Linieninfanteriebrigade"
+		type = infantry
+		home = 696
+	}
+
+	regiment = {
+		name= "XV. Linieninfanteriebrigade"
+		type = infantry
+		home = 693
+	}
+
+	regiment = {
+		name= "III. Pionierbrigade"
+		type = infantry
+		home = 693
+	}
+
+	regiment = {
+		name= "XVI. Linieninfanteriebrigade"
+		type = hussar
+		home = 695
+	}
+
+	regiment = {
+		name= "XVII. Linieninfanteriebrigade"
+		type = artillery
+		home = 695
+	}
+
+	regiment = {
+		name= "XVIII. Linieninfanteriebrigade"
+		type = artillery
+		home = 698
+	}
+
+	regiment = {
+		name= "III. Artilleriebrigade"
+		type = artillery
+		home = 698
+	}
+	
+	regiment = {
+		name= "III. Artilleriebrigade"
+		type = artillery
+		home = 695
+	}
+	
+	regiment = {
+		name= "III. Artilleriebrigade"
+		type = artillery
+		home = 683
+	}
+}
+
+army = {
+	name = "IV. Korps"
+	location = 549
+	regiment = {
+		name= "XIX. Linieninfanteriebrigade"
+		type = infantry
+		home = 547
+	}
+
+	regiment = {
+		name= "XX. Linieninfanteriebrigade"
+		type = infantry
+		home = 546
+	}
+
+	regiment = {
+		name= "XXI. Linieninfanteriebrigade"
+		type = infantry
+		home = 679
+	}
+
+	regiment = {
+		name= "IV. Pionierbrigade"
+		type = infantry
+		home = 680
+	}
+
+	regiment = {
+		name= "XXII. Linieninfanteriebrigade"
+		type = hussar
+		home = 548
+	}
+
+	regiment = {
+		name= "XXIII. Linieninfanteriebrigade"
+		type = artillery
+		home = 548
+	}
+
+	regiment = {
+		name= "IV. Artilleriebrigade"
+		type = artillery
+		home = 578
+	}
+
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = artillery
+		home = 552
+	}
+
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = artillery
+		home = 549
+	}
+
+	regiment = {
+		name= "III. Kavalleriebrigade"
+		type = artillery
+		home = 687
+	}
+
+	regiment = {
+		name= "IV. Kavalleriebrigade"
+		type = artillery
+		home = 681
+	}
+
+	regiment = {
+		name= "V. Kavalleriebrigade"
+		type = hussar
+		home = 550
+	}
+
+	regiment = {
+		name= "VI. Kavalleriebrigade"
+		type = artillery
+		home = 551
+	}
+
+
+	regiment = {
+		name= "X. Kavalleriebrigade"
+		type = artillery
+		home = 692
+	}
+}
+
+navy = {
+	name = "Koniglich Preussische Marine"
+	location = 695
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+

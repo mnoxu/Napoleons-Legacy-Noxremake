@@ -1,0 +1,10 @@
+owner = SWE
+controller = RUS
+add_core = SWE
+
+add_core = EST
+add_core = UBD
+trade_goods = grain
+life_rating = 35
+fort = 1
+naval_base = 2

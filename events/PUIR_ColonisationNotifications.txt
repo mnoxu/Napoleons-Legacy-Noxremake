@@ -1,0 +1,101 @@
+# Events to remind the player about colonisation dates
+country_event = { 
+		#TLDR liechtenstein gets 2 events, each of these events triggers 200009 for every player
+	id = 200009
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME200010"
+	desc = "EVTDESC200010"
+	picture = "colonial_uprising"
+	
+	option = { 
+		name = "EVTOPTA200010"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 200010 
+
+	trigger = {
+		tag = LCT
+	}
+ 
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.1
+			year = 1837
+		}
+		modifier = {
+			factor = 0.1
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME200010"
+	desc = "EVTDESC200010"
+	picture = "colonial_uprising"
+
+	immediate = { 	
+		any_country = { 
+			limit = { 
+				NOT = { tag = LCT } 	
+				ai = no 
+			}
+		country_event = 200009
+		}
+	}
+
+	option = {
+		name = "EVTOPTA200010"  
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 200011 
+
+	trigger = {
+		tag = LCT
+		year = 1870
+	}
+ 
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.1
+			year = 1871
+		}
+		modifier = {
+			factor = 0.1
+			year = 1872
+		}
+	}
+
+	title = "EVTNAME200010"
+	desc = "EVTDESC200010"
+	picture = "colonial_uprising"
+
+	immediate = { 	
+		any_country = { 
+			limit = { 
+				NOT = { tag = LCT } 	
+				ai = no 
+			}
+		country_event = 200009
+		}
+	}
+ 
+	option = {
+		name = "EVTOPTA200010"  
+		prestige = 1
+	}
+}

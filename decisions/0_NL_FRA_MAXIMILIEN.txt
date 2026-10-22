@@ -1,0 +1,103 @@
+political_decisions = { 
+	reintegrate_italy_kingdom = {
+		picture = north_italy_decision
+		potential = {
+			has_country_flag = maximilien
+			ITA = {exists = no}
+			NOT = {has_country_flag = reintegrate_italy_kingdom}
+			NOT = {accepted_culture = north_italian}
+		}
+		allow = {
+			war=no
+			nationalism_n_imperialism=1
+			NIT = {exists = yes}
+			NIT = {
+				vassal_of = THIS
+				in_sphere = THIS
+			}
+		}
+		effect = {
+			any_country = { 
+				limit = { 
+					primary_culture = north_italian
+					OR = { vassal_of = THIS in_sphere = THIS } 
+				}
+			annex_to = THIS 
+			}
+			set_country_flag = reintegrate_italy_kingdom 
+			SAR_720 = {add_core = FRA}
+			any_pop = {
+				limit = {
+					culture = north_italian 
+				}
+				militancy = 3
+			}
+		}
+	}
+
+	cisapline_submission = {
+		picture = piedmonte_decision
+		potential = {
+			has_country_flag = maximilien
+			NOT = {accepted_culture = north_italian}
+		}
+		allow = {
+			SAR_720 = {owned_by = THIS}
+			nationalism_n_imperialism = 1
+			war = no
+		}
+		effect = {
+			add_accepted_culture = north_italian
+			SAR_720 = {add_core = FRA}
+			prestige = 20
+		}
+	}
+
+	#italian_submission = {
+	#	picture = north_italy_decision
+	#	potential = {
+	#		has_country_flag = maximilien
+	#		ITA = {exists = no}
+	#		NOT = {accepted_culture = north_italian}
+	#	}
+	#	allow = {
+	#		NIT = {
+	#			all_core = {
+	#				owned_by = THIS
+	#			}
+	#		}
+	#		PAP_749 = {
+	#			OR = {
+	#				owned_by = THIS
+	#				owner = {
+	#					OR = {
+	#						vassal_of = THIS
+	#						in_sphere = THIS
+	#					}
+	#				}
+	#			}
+	#		}
+	#		is_greater_power = yes
+	#		revolution_n_counterrevolution = 1
+	#		war = no
+	#	}
+	#	effect = {
+	#		add_accepted_culture = north_italian
+	#		any_country = {
+	#			limit = {
+	#				OR = {
+	#					vassal_of = THIS
+	#					in_sphere = THIS
+	#				}
+	#				OR = {
+	#					accepted_culture = north_italian
+	#					primary_culture = north_italian
+	#				}
+	#			}
+	#			annex_to = THIS
+	#		}
+	#		SAR_720 = {add_core = FRA}
+	#		prestige = 20
+	#		}
+	#}
+}

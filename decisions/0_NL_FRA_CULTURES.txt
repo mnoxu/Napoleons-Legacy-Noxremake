@@ -1,0 +1,106 @@
+	political_decisions = { 
+		france_flemish = {
+			picture = france_flemish
+			potential = {
+				has_country_flag = franceculture
+				NOT = { accepted_culture = flemish }
+			}
+			allow = {
+				any_owned_province = { is_core = FLA } 
+			}
+			effect = {
+				add_accepted_culture = flemish
+				BEL = {
+					all_core = {
+						add_core = FRA
+					}
+				}	
+				any_pop = {
+					limit = {
+						culture = flemish
+					}
+					militancy=-1
+					consciousness=-1
+				}
+				clr_country_flag = franceculture
+			}
+		}
+		france_cisalpine = {
+			picture = france_cisalpine
+			potential = {
+				has_country_flag = franceculture
+				NOT = { accepted_culture = north_italian }
+			}
+			allow = {
+				720 = { owned_by = THIS }
+			}
+			effect = {
+				add_accepted_culture = north_italian
+				SAR_720  = { add_core = FRA }	
+				any_pop = {
+					limit = {
+						culture = north_italian
+					}
+					militancy=-1
+					consciousness=-1
+				}
+				clr_country_flag = franceculture
+			}
+		}
+		france_rhenish = {
+			picture = france_rhenish
+			potential = {
+				has_country_flag = franceculture
+				NOT = { accepted_culture = north_german }
+			}
+			allow = {
+				any_owned_province = { is_core = RHI }
+			}
+			effect = {
+				add_accepted_culture = north_german
+				RHI = {
+					all_core = {
+						add_core = FRA
+					}
+				}	
+				any_pop = {
+					limit = {
+						culture = north_german
+					}
+					militancy=-1
+					consciousness=-1
+				}
+				clr_country_flag = franceculture
+			}
+		}
+		france_catalan = {
+			picture = france_catalan
+			potential = {
+				has_country_flag = franceculture
+				NOT = { accepted_culture = catalan }
+			}
+			allow = {
+				any_owned_province = { is_core = CAT }
+			}
+			effect = {
+				add_accepted_culture = catalan
+				add_accepted_culture = basque
+				CAT = {
+					all_core = {
+						add_core = FRA
+					}
+				}	
+				any_pop = {
+					limit = {
+						OR = { 
+							culture = catalan
+							culture = basque
+						}
+					}
+					militancy=-1
+					consciousness=-1
+				}
+				clr_country_flag = franceculture
+			}
+		}
+	}

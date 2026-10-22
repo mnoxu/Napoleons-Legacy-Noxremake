@@ -1,0 +1,27 @@
+#El Supremo
+country_event = {
+
+	id = 40100
+	
+	trigger = {
+		tag = PRG
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "The Supreme and Perpetual Dictator of Paraguay"
+	desc = "José Gaspar Rodríguez de Francia is ruling this nation firmly but fairly. Paraguay is strengthened by him"
+	immediate = {
+		add_country_modifier = {
+			name = Francias_Enlightenment
+			duration = 12500
+		}
+	}
+	option = {
+		name = "Long live El Supremo."		
+	}
+	
+}

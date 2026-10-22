@@ -1,0 +1,82 @@
+###Country names;;;;;;;x
+FRA_prussian_constitutionalism;The French Empire;;;;;;;x
+FRA_hms_government;The French Empire;;;;;;;x
+FRA_absolute_monarchy;The French Empire;;;;;;;x
+FRA_proletarian_dictatorship;Commune de France;;;;;;;x
+FRA_fascist_dictatorship;Regime de France;;;;;;;x
+FRA_democracy;Deuxieme Republique Francaise;;;;;;;x
+###Heirs;;;;;;;x
+alexandre_walewski_title;Alexandre Walewski;;;;;;;x
+alexandre_walewski_desc;Alexandre is Napoleon's purported bastard son. Due to him being considered an "outsider", he might achieve some level of popularity with the ethnic minorities that reside in the frontiers of the French Empire - surely not as much as a hypothetical Second Republic would.;;;;;;;x
+french_republic_choice_title;The Second Republic;;;;;;;x
+french_republic_choice_desc;There is no man, or woman, suitable to succeed Napoleon as despot of France! Our only reasonable option is to give power back to the people and let God take the wheel.;;;;;;;x
+jerome_bonaparte_title;Jerome Bonaparte;;;;;;;x
+jerome_bonaparte_desc;Jerome Bonaparte is Napoleon's brother and the King of Westphalia. His experience in ruling, confirmed blood relation to Napoleon and an already vast German domain make Hieronymus an excellent choice to succeed his brother. ;;;;;;;x
+louis_bonaparte_title;Louis Bonaparte;;;;;;;x
+louis_bonaparte_desc;Louis Bonaparte, the Rabbit of the Netherlands, is Napoleon's youngest brother. Considered a lunatic by some, he is nevertheless well-liked by the people of Holland.;;;;;;;x
+marie_louise_title;Marie Louise;;;;;;;x
+marie_louise_desc;Marie Louise, Duchess of Parma is Napoleon's widow. Despite being past child-bearing age, many European monarchs would happily accept a political marriage with her in the hopes of securing prestige or an alliance with France's military might.  ;;;;;;;x
+maximilien_title;Maximilien de Beauharnais;;;;;;;x
+maximilien_desc;Maximilien de Beauharnais is the son of Italian vice-roy Eugene de Beauharnais. Although he's  currently only Duke of Lombardy, the nation of France might have better relations with the people of North Italy if Maximilien recovers his father's domain while reigning as Emperor of France.;;;;;;;x
+###Germany related;;;;;;;x
+accept_rhenish_title;Acceptance of the Rhenish;;;;;;;x
+accept_rhenish_desc;We should accept the Rhenish people in order to avoid another Rhenish revolt!;;;;;;;x
+annex_westphalia_title;Annexation of Westphalia;;;;;;;x
+annex_westphalia_desc;Since Jerome got the French throne, Westphalia has been a vassal in all but name. In fact, we are already running the country. So now its time for us to do it officially by annexing Westphalia!;;;;;;;x
+create_rhine_confederacy_title;Create the Rhine Confederacy;;;;;;;x
+create_rhine_confederacy_desc;Years ago Napoleon the Great created the Confederation of the Rhine, and now it is our job to help them unite under a single banner as they'll surely prove to be a great ally.;;;;;;;x
+french_rhur_boom_title;French Ruhr Boom;;;;;;;x
+french_rhur_boom_desc;With the Annexation of the Rhineland, we acquired ourselves a region with great goods and a strong potential. We need to invest to get it to be industrial heartland of the West and to show everyone our power!;;;;;;;x
+north_german_question_title;The North German Question;;;;;;;x
+north_german_question_desc;It's time to teach the french way to those german to further their integration inside the empire!;;;;;;;x
+#Italy related;;;;;;;x
+cisapline_submission_title;Cisalpine submission!;;;;;;;x
+cisapline_submission_desc;For long, the Cisapline people have been a part of the empire. It's time to make them true citizens!;;;;;;;x
+italian_submission_title;Italian Submission;;;;;;;x
+italian_submission_desc;We have reconquered the lost land in Italy. We should however give equal rights to its population to prevent any revolts against our rule;;;;;;;x
+reintegrate_italy_kingdom_title;Reintegrate the Kingdom of Italy;;;;;;;x
+reintegrate_italy_kingdom_desc;After the Death of Napoleon, the many Italian principalities broke free as there was no heir for the Italian kingdom throne. But we have found one and can reintegrate Italy now!;;;;;;;x
+unite_north_italy_gp_title;Unite North Italy;;;;;;;x
+unite_north_italy_gp_desc;Napoleon had created the Kingdom of Italy, we should unite it again to gain a strong vassal in the area!;;;;;;;x
+#Dutch related;;;;;;;x
+dutch_integration_title;Dutch Integration;;;;;;;x
+dutch_integration_desc;The Dutch people might try to revolt if we don't accept them into our empire. It's time to do so!;;;;;;;x
+flemish_integration_title;Flemish Integration;;;;;;;x
+flemish_integration_desc;The Flemish people have been in the empire for years. It's time to make them true citizens of the empire!;;;;;;;x
+reintegrate_the_netherlands_title;Reintegrate the Netherlands!;;;;;;;x
+reintegrate_the_netherlands_desc;Long ago, the Netherlands were integrated into the French Empire. But they broke free after the Death of Napoleon. It's time to get them back in!;;;;;;;x
+#Republic;;;;;;;x
+republic_culture_decision_1_title;Accept a Minority!;;;;;;;x
+republic_culture_decision_1_desc;We can accept one of the many minorities in our nation.;;;;;;;x
+republic_culture_decision_2_title;Accept a Minority!;;;;;;;x
+republic_culture_decision_2_desc;We can accept one of the many minorities in our nation.;;;;;;;x
+republic_culture_decision_3_title;Accept a Minority!;;;;;;;x
+republic_culture_decision_3_desc;We can accept one of the many minorities in our nation.;;;;;;;x
+#Walewski;;;;;;;x
+improve_france_1_title;Alexandre's Trade Reforms;;;;;;;x
+improve_france_1_desc;Seeing how France was left after the Napoleonic wars and the end of Napoleon reign, Alexandre has enacted a lot of reforms to better the working condition of a lot of people as well as the commerce inside the nation;;;;;;;x
+improve_france_2_title;Alexandre's Social Reforms;;;;;;;x
+improve_france_2_desc;Continuing his reforms, he significantly improved on the daily life of the people as population is stagnating in France while its exploding in the other parts of Europe;;;;;;;x
+#Cultures;;;;;;;x
+france_catalan_title;Accept Catalonia;;;;;;;x
+france_catalan_desc;Catalonia has always been closely related to France, but for ages has been ruled by oppressive Spanish rulers. Catalan people view us as saviors. §RYou can only accept one of these cultures right now.§!;;;;;;;x
+france_cisalpine_title;Accept Arpitania;;;;;;;x
+france_cisalpine_desc;Despite Arpitania not being as francized as other territories we've conquered, locals are generally receptive to cooperating with the Second Republic. §RYou can only accept one of these cultures right now.§!;;;;;;;x
+france_flemish_title;Accept Flanders;;;;;;;x
+france_flemish_desc;The people of Flanders are closely related to the people of Wallonia, who are closely related to the people of France. What further justification could we want? §RYou can only accept one of these cultures right now.§!;;;;;;;x
+france_rhenish_title;Accept the Rhineland;;;;;;;x
+france_rhenish_desc;The Rhineland, despite being a recent acquisition, is assimilating quite well. French standards and fashion have permeated Rhenish society. §RYou can only accept one of these cultures right now.§!;;;;;;;x
+#Misc.;;;;;;;x
+ionian_islands_question_title;Treaty of Paris (1864);;;;;;;x
+ionian_islands_question_desc;The Ionian Islands had been an amical protectorate of the French Empire ever since the Napoleonic Wars. In 1862 the protectorate was deemed too expensive to maintain, and the islands were, after two years of negotiations, seceded to Greece.;;;;;;;x
+the_reconquest_of_quebec_title;The Reconquest of Quebec;;;;;;;x
+the_reconquest_of_quebec_desc;Quebec has, for many years, stayed under the control of the English. It is imperative that we take advantage of the current weak state of Canada - let Quebec, and the world, know that we are coming back for what is ours!;;;;;;;x
+alexandre_reforms_1;Alexandre's Trade Reforms;;;;;;;x
+alexandre_reforms_1_desc;Seeing how France was left after the Napoleonic wars and the end of Napoleon reign, Alexandre has enacted a lot of reforms to better the working condition of a lot of people as well as the commerce inside the nation;;;;;;;x
+alexandre_reforms_2;Alexandre's Social Reforms;;;;;;;x
+alexandre_reforms_2_desc;Continuing his reforms, he significantly improved on the daily life of the people as population is stagnating in France while its exploding in the other parts of Europe;;;;;;;x
+french_tech_school;Military Hegemony;;;;;;;x
+french_education;French Education;;;;;;;x
+french_education_desc;It's time to teach the French ways to those Germans to further their integration inside our empire!;;;;;;;x
+french_republic;French Republic;;;;;;;x
+french_republic_desc;After the death of the dictator Napoleon the 1st, France can rejoice with the 2nd Republic!;;;;;;;x

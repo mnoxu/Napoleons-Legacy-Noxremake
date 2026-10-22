@@ -1,0 +1,531 @@
+ENG = {
+	value = 0
+}
+GBR = {
+	value = 0
+}
+
+PRU = {
+	value = -100
+}
+DEN = {
+	value = 100
+}
+FRA = {
+	value = 50
+}
+PLC = {
+	value = 100
+}
+
+leader = {
+	name = "Carl Nordenskjold"
+	date = 1834.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Carl XIV Johan"
+	date = 1818.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+leader = {
+	name = "Bernadotte"
+	date = 1763.1.26
+	type = land
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 2
+}
+
+leader = {
+	name = "Axel Morner"
+	date = 1818.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Baltzar von Platen"
+	date = 1834.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "C. Cederstrom"
+	date = 1824.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "af Billbergh"
+	date = 1814.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Gustaf Peyron"
+	date = 1827.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+army = {
+	name = "Svenska Armén"
+	location = 352
+	regiment = {
+		name= "Svea Livgarde"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Sodermanlands Regemente"
+		type = infantry
+		home = 326
+	}
+
+	regiment = {
+		name= "Forsta Livgrenadjorregementet"
+		type = infantry
+		home = 325
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "Vastgota Regemente"
+		type = infantry
+		home = 330
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = artillery
+		home = 332
+	}
+
+	regiment = {
+		name= "Jonkopings Regemente"
+		type = artillery
+		home = 333
+	}
+
+	regiment = {
+		name= "Sodra Skinska Infanteriregementet"
+		type = artillery
+		home = 334
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = hussar
+		home = 335
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 321
+	}
+
+}
+
+army = {
+	name = "Finland Armen"
+	location = 355
+	regiment = {
+		name= "2.Svea Livgarde"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "2.Sodermanlands Regemente"
+		type = infantry
+		home = 322
+	}
+
+	regiment = {
+		name= "2.Forsta Livgrenadjarregementet"
+		type = infantry
+		home = 317
+	}
+
+	regiment = {
+		name= "2.Upplands Regemente"
+		type = infantry
+		home = 323
+	}
+
+	regiment = {
+		name= "2.Vastgota Regemente"
+		type = infantry
+		home = 327
+	}
+
+	regiment = {
+		name= "2.Kalmar Regemente"
+		type = artillery
+		home = 328
+	}
+
+	regiment = {
+		name= "2.Jonkopings Regemente"
+		type = artillery
+		home = 329
+	}
+
+	regiment = {
+		name= "2.Sodra Sklnska Infanteriregementet"
+		type = artillery
+		home = 343
+	}
+
+	regiment = {
+		name= "2.Kronprinsens Husarregemente"
+		type = hussar
+		home = 345
+	}
+
+	regiment = {
+		name= "2.Norrlands Dragonregemente"
+		type = artillery
+		home = 346
+	}
+
+}
+
+army = {
+	name = "Baltics Army"
+	location = 357
+	regiment = {
+		name= "3.1Svea Livgarde"
+		type = artillery
+		home = 349
+	}
+
+	regiment = {
+		name= "3.2Sodermanlands Regemente"
+		type = infantry
+		home = 355
+	}
+
+	regiment = {
+		name= "3.3Forsta Livgrenadjarregementet"
+		type = infantry
+		home = 530
+	}
+
+	regiment = {
+		name= "3.4Upplands Regemente"
+		type = infantry
+		home = 548
+	}
+
+	regiment = {
+		name= "3.1Vastgota Regemente"
+		type = infantry
+		home = 548
+	}
+
+	regiment = {
+		name= "3.2Kalmar Regemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "3.3Jonkopings Regemente"
+		type = artillery
+		home = 329
+	}
+
+	regiment = {
+		name= "3.4Sodra Sklnska Infanteriregementet"
+		type = artillery
+		home = 343
+	}
+
+	regiment = {
+		name= "3.1Kronprinsens Husarregemente"
+		type = hussar
+		home = 345
+	}
+
+	regiment = {
+		name= "3.5Norrlands Dragonregemente"
+		type = artillery
+		home = 346
+	}
+
+}
+
+navy = {
+	name = "Swedish Navy"
+	location = 322
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+	ship = {
+		name= "Karl XIII II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet III"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten III"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+	ship = {
+		name= "Camilla II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea II"
+		type = frigate
+	}
+	ship = {
+		name= "Eurydice III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea III"
+		type = frigate
+	}
+
+		ship = {
+		name= "Karl XIII III"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan III"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet IV"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten IV"
+		type = manowar
+	}
+	ship = {
+		name= "Karl XIII IV"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan IV"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Faderneslandet VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten VI"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea IV"
+		type = frigate
+	}
+	ship = {
+		name= "Camilla IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice V"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea V"
+		type = frigate
+	}
+	ship = {
+		name= "Eurydice VI"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea VI"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {	
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

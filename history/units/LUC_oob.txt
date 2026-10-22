@@ -1,0 +1,20 @@
+army = {
+	name = "Esercito di Lucca"
+	
+	leader = {
+		name = "Big Chungus"
+		date = 1815.1.1
+		type = land
+		personality = defence_5.1
+		background = attack_5.1
+		prestige = 0.5
+	}
+	
+	location = 746
+	regiment = {
+		name= "1. Fanteria di Linea"
+		type = infantry
+		home = 746
+	}
+}
+

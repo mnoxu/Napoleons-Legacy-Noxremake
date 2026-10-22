@@ -1,0 +1,111 @@
+country_event = {
+	id = 7771001
+	title = "Who should REALLY get the Statue of Liberty?"
+	desc = "Now you have a choice. If you choose a dead / non-existent nation, it bricks!"
+	picture = "dixie"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "USA"
+		USA = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+			modifier = { factor = 0 USA = { exists = no }}
+		}
+	}
+	
+	option = {
+		name = "Canada"
+		CAN = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+	
+	option = {
+		name = "Mexico"
+		MEX = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+	
+	option = {
+		name = "Gran Columbia"
+		GCO = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+	
+	option = { 
+		name = "Peru"
+		PEU = { 
+			country_event = { id=19300 days = 0 } 
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}	
+	option = { 
+		name = "Peru-Bolivia"
+		PBC = { 
+			country_event = { id=19300 days = 0 } 
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}	
+
+	option = {
+		name = "Argentina"
+		ARG = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+
+	option = {
+		name = "La Plata"
+		LPL = {
+			country_event = { id=19300 days=0 }
+		}
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+
+	option = {
+		name = "Portugal-Brazil"
+		UPB = { 
+			country_event = { id=19300 days=0 } 
+		} 
+		ai_chance = {
+			factor = 1
+
+		}
+	}
+	
+	option = {
+		name = "Nevermind."
+		clr_global_flag = statue_of_liberty_has_been_built
+	}
+}

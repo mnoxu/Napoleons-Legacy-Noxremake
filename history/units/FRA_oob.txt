@@ -1,0 +1,1230 @@
+#Sphere of Influence
+IRE = { 
+	value = 125
+	level = 5
+	influence_value = 15
+}
+NET = { 
+	value = 125
+	level = 5
+	influence_value = 15
+}
+HAN = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+BAD = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+DZG = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+BRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+HES = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+NAS = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+FRM = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+DLM = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+SWI = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+LOM = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+ENG = {
+	value = 0
+}
+RUS = {
+	value = -75
+}
+AUS = {
+	value = 0
+}
+USA = {
+	value = 50
+}
+PRU = {
+	value = -25
+}
+TUR = {
+	value = 0
+}
+SPA = {
+	value = 100
+}
+UPB = {
+	value = -75
+}
+leader = {
+	name = "Jean-Baptiste Drouet"
+	#picture = fra_gen_drouet
+	date = 1803.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Bertrand Clauzel"
+	#picture = fra_gen_clauzel
+	date = 1803.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Honore Reille"
+	#picture = fra_gen_reille
+	date = 1807.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Louis-Isidore Harispe"
+	#picture = fra_gen_harispe
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Guillaume Dode"
+	#picture = fra_gen_dode
+	date = 1809.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Guy-Victor Duperre"
+	#picture = fra_adm_duperre
+	date = 1811.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Jacques Achard"
+	#picture = fra_gen_achard
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Henri de Castelanne"
+	#picture = fra_gen_castelanne
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Jean-Baptiste Vaillant"
+	#picture = fra_gen_vaillant
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Bernard Magnan"
+	#picture = fra_gen_magnan
+	date = 1835.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Thomas Bugeaud"
+	#picture = fra_gen_bugeaud
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Napoleon Suchet"
+	#picture = fra_gen_baraguey
+	date = 1836.1.1
+	type = land
+	personality = defence_2.3
+	background = attack_3.2
+}
+leader = {
+	name = "Napoleon Alexandre Berthier"
+	#picture = fra_adm_baudin
+	date = 1836.1.1 #1838
+	type = land
+	personality = defence_2.3
+	background = attack_2.4
+}
+leader = {
+	name = "Michel Louis Felix Ney"
+	#picture = fra_adm_baudin
+	date = 1803.1.1 #1838
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
+}
+leader = {
+	name = "Jules Davout"
+	#picture = fra_adm_baudin
+	date = 1803.1.1 #1838
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
+}
+
+army = {
+	name = "Garde Royale"
+	location = 577
+	regiment = {
+		name= "1er Regiment de Cavalerie Royale"
+		type = hussar
+		home = 425
+	}
+
+	regiment = {
+		name= "1er Regiment d'infanterie Royale"
+		type = infantry
+		home = 426
+	}
+
+	regiment = {
+		name= "2eme Regiment d'infanterie Royale"
+		type = infantry
+		home = 427
+	}
+
+	regiment = {
+		name= "3eme Regiment d'infanterie Royale"
+		type = infantry
+		home = 440
+	}
+	
+	regiment = {
+		name= "4eme Regiment d'infanterie Royale"
+		type = infantry
+		home = 458
+	}
+
+	regiment = {
+		name= "1er Regiment d'Artillerie de la Garde"
+		type = artillery
+		home = 420
+	}
+
+	regiment = {
+		name= "2eme Regiment d'Artillerie de la Garde"
+		type = artillery
+		home = 418
+	}
+
+	regiment = {
+		name= "3eme Regiment d'Artillerie de la Garde"
+		type = artillery
+		home = 406
+	}
+	
+	regiment = {
+		name= "4eme Regiment d'Artillerie de la Garde"
+		type = artillery
+		home = 451
+	}
+	
+	regiment = {
+		name= "5eme Regiment d'Artillerie de la Garde"
+		type = artillery
+		home = 447
+	}
+}
+
+army = {
+	name = "Force d'intervention Espagnole"
+	location = 575
+	regiment = {
+		name= "1.8eme Division de cavalerie"
+		type = hussar
+		home = 455
+	}
+
+	regiment = {
+		name= "2.8eme Division d'Infanterie"
+		type = infantry
+		home = 457
+	}
+
+	regiment = {
+		name= "3.8eme Division d'Infanterie"
+		type = infantry
+		home = 473
+	}
+
+	regiment = {
+		name= "1.9eme Division d'Infanterie"
+		type = infantry
+		home = 456
+	}
+
+	regiment = {
+		name= "2.9eme Division d'Infanterie"
+		type = infantry
+		home = 470
+	}
+
+	regiment = {
+		name= "3.9eme Division d'artillerie"
+		type = artillery
+		home = 434
+	}
+
+	regiment = {
+		name= "1.2eme Division d'artillerie"
+		type = artillery
+		home = 462
+	}
+
+	regiment = {
+		name= "2.2eme Division d'artillerie"
+		type = artillery
+		home = 463
+	}
+
+	regiment = {
+		name= "3.2eme Division d'artillerie"
+		type = artillery
+		home = 460
+	}
+	
+	regiment = {
+		name= "2.10eme Division d'artillerie"
+		type = artillery
+		home = 407
+	}
+
+}
+
+army = {
+	name = "Armee d'Italie"
+	location = 722
+	regiment = {
+		name= "1.4eme Division de Cavalerie"
+		type = hussar
+		home = 425
+	}
+
+	regiment = {
+		name= "2.4eme Division d'Infanterie"
+		type = infantry
+		home = 423
+	}
+
+	regiment = {
+		name= "3.4eme Division d'Infanterie"
+		type = infantry
+		home = 432
+	}
+
+	regiment = {
+		name= "1.5eme Division d'Infanterie"
+		type = infantry
+		home = 439
+	}
+
+	regiment = {
+		name= "2.5eme Division d'Infanterie"
+		type = infantry
+		home = 433
+	}
+
+	regiment = {
+		name= "3.5eme Division d'artillerie"
+		type = artillery
+		home = 431
+	}
+
+	regiment = {
+		name= "1.6eme Division d'artillerie"
+		type = artillery
+		home = 429
+	}
+
+	regiment = {
+		name= "2.6eme  Division d'artillerie"
+		type = artillery
+		home = 442
+	}
+
+	regiment = {
+		name= "3.6eme  Division d'artillerie"
+		type = artillery
+		home = 459
+	}
+	
+	regiment = {
+		name= "1.1eme  Division d'artillerie"
+		type = artillery
+		home = 387
+	}
+}
+
+army = {
+	name = "1ere Armee"
+	location = 570
+	regiment = {
+		name= "1ere Division de Cavalerie"
+		type = hussar
+		home = 438
+	}
+
+	regiment = {
+		name= "1ere Division d'Infanterie"
+		type = infantry
+		home = 400
+	}
+
+	regiment = {
+		name= "2eme Division d'Infanterie"
+		type = infantry
+		home = 401
+	}
+
+	regiment = {
+		name= "3eme Division d'Infanterie"
+		type = infantry
+		home = 441
+	}
+
+	regiment = {
+		name= "4eme Division d'Infanterie"
+		type = infantry
+		home = 2570
+	}
+
+	regiment = {
+		name= "1ere Division d'artillerie"
+		type = artillery
+		home = 404
+	}
+
+	regiment = {
+		name= "2eme Division d'artillerie"
+		type = artillery
+		home = 402
+	}
+
+	regiment = {
+		name= "3eme Division d'artillerie"
+		type = artillery
+		home = 403
+	}
+
+	regiment = {
+		name= "4eme Division d'artillerie"
+		type = artillery
+		home = 399
+	}
+	
+	regiment = {
+		name= "5eme Division d'artillerie"
+		type = artillery
+		home = 411
+	}
+}
+army = {
+	name = "2eme Armee"
+	location = 571
+	regiment = {
+		name= "2eme Division de Cavalerie"
+		type = hussar
+		home = 389
+	}
+
+	regiment = {
+		name= "5eme Division d'Infanterie"
+		type = infantry
+		home = 390
+	}
+
+	regiment = {
+		name= "6eme Division d'Infanterie"
+		type = infantry
+		home = 391
+	}
+
+	regiment = {
+		name= "7eme Division d'Infanterie"
+		type = infantry
+		home = 380
+	}
+	
+	regiment = {
+		name= "8eme Division d'Infanterie"
+		type = infantry
+		home = 378
+	}
+
+	regiment = {
+		name= "6eme Division d'artillerie"
+		type = artillery
+		home = 379
+	}
+
+	regiment = {
+		name= "7eme Division d'artillerie"
+		type = artillery
+		home = 381
+	}
+
+	regiment = {
+		name= "8eme Division d'artillerie"
+		type = artillery
+		home = 392
+	}
+	
+	regiment = {
+		name= "9eme Division d'artillerie"
+		type = artillery
+		home = 392
+	}
+	
+	regiment = {
+		name= "10eme Division d'artillerie"
+		type = artillery
+		home = 393
+	}
+}
+
+army = {
+	name = "3eme Armee"
+	location = 574
+	regiment = {
+		name= "3.1eme Division de cavalerie"
+		type = hussar
+		home = 415
+	}
+
+	regiment = {
+		name= "3.1eme Division d'Infanterie"
+		type = infantry
+		home = 416
+	}
+
+	regiment = {
+		name= "3.2eme Division d'Infanterie"
+		type = infantry
+		home = 417
+	}
+
+	regiment = {
+		name= "3.3ere Division d'Infanterie"
+		type = infantry
+		home = 422
+	}
+
+	regiment = {
+		name= "3.4ere Division d'Infanterie"
+		type = infantry
+		home = 436
+	}
+
+	regiment = {
+		name= "3.1ere Division d'artillerie"
+		type = artillery
+		home = 421
+	}
+	
+	regiment = {
+		name= "3.2eme Division d'artillerie"
+		type = artillery
+		home = 444
+	}
+
+	regiment = {
+		name= "3.3eme Division d'artillerie"
+		type = artillery
+		home = 467
+	}
+
+	regiment = {
+		name= "3.4eme Division d'artillerie"
+		type = artillery
+		home = 454
+	}
+
+	regiment = {
+		name= "3.5eme Division d'artillerie"
+		type = artillery
+		home = 428
+	}
+}
+
+army = {
+	name = "4eme Armee"
+	location = 409
+	regiment = {
+		name= "4.1eme Division de cavalerie"
+		type = hussar
+		home = 392
+	}
+
+	regiment = {
+		name= "4.1eme Division d'Infanterie"
+		type = infantry
+		home = 394
+	}
+
+	regiment = {
+		name= "4.1eme Division d'Infanterie"
+		type = infantry
+		home = 395
+	}
+
+	regiment = {
+		name= "4.1ere Division d'Infanterie"
+		type = infantry
+		home = 396
+	}
+
+	regiment = {
+		name= "4.1ere Division d'Infanterie"
+		type = infantry
+		home = 397
+	}
+
+	regiment = {
+		name= "4.1ere Division d'artillerie"
+		type = artillery
+		home = 398
+	}
+	
+	regiment = {
+		name= "4.1eme Division d'artillerie"
+		type = artillery
+		home = 399
+	}
+
+	regiment = {
+		name= "4.1eme Division d'artillerie"
+		type = artillery
+		home = 399
+	}
+
+	regiment = {
+		name= "4.1eme Division d'artillerie"
+		type = artillery
+		home = 399
+	}
+
+	regiment = {
+		name= "4.1eme Division d'artillerie"
+		type = artillery
+		home = 400
+	}
+
+}
+
+army = {
+	name = "5eme Armee"
+	location = 573
+	regiment = {
+		name= "5.1eme Division de cavalerie"
+		type = hussar
+		home = 401
+	}
+
+	regiment = {
+		name= "5.1eme Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+
+	regiment = {
+		name= "5.2eme Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+
+	regiment = {
+		name= "5.3ere Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+
+	regiment = {
+		name= "5.4ere Division d'Infanterie"
+		type = infantry
+		home = 408
+	}
+
+	regiment = {
+		name= "5.1ere Division d'artillerie"
+		type = artillery
+		home = 414
+	}
+	
+	regiment = {
+		name= "5.2eme Division d'artillerie"
+		type = artillery
+		home = 415
+	}
+
+	regiment = {
+		name= "5.3eme Division d'artillerie"
+		type = artillery
+		home = 415
+	}
+
+	regiment = {
+		name= "5.4eme Division d'artillerie"
+		type = artillery
+		home = 418
+	}
+
+	regiment = {
+		name= "5.5eme Division d'artillerie"
+		type = artillery
+		home = 418
+	}
+
+}
+
+army = {
+	name = "6eme Armee"
+	location = 400
+	regiment = {
+		name= "6.2eme Division de cavalerie"
+		type = hussar
+		home = 420
+	}
+
+	regiment = {
+		name= "6.3eme Division d'Infanterie"
+		type = infantry
+		home = 420
+	}
+
+	regiment = {
+		name= "6.4eme Division d'Infanterie"
+		type = infantry
+		home = 421
+	}
+
+	regiment = {
+		name= "6.1ere Division d'Infanterie"
+		type = infantry
+		home = 421
+	}
+
+	regiment = {
+		name= "6.1ere Division d'Infanterie"
+		type = infantry
+		home = 421
+	}
+
+	regiment = {
+		name= "6.1ere Division d'artillerie"
+		type = artillery
+		home = 421
+	}
+	
+	regiment = {
+		name= "6.2eme Division d'artillerie"
+		type = artillery
+		home = 423
+	}
+
+	regiment = {
+		name= "6.3eme Division d'artillerie"
+		type = artillery
+		home = 423
+	}
+
+	regiment = {
+		name= "6.4eme Division d'artillerie"
+		type = artillery
+		home = 430
+	}
+
+	regiment = {
+		name= "6.5eme Division d'artillerie"
+		type = artillery
+		home = 446
+	}
+
+}
+
+army = {
+	name = "7eme Armee"
+	location = 572
+	regiment = {
+		name= "7.1ere Division de cavalerie"
+		type = hussar
+		home = 424
+	}
+
+	regiment = {
+		name= "7.2eme Division d'Infanterie"
+		type = infantry
+		home = 424
+	}
+
+	regiment = {
+		name= "7.3eme Division d'Infanterie"
+		type = infantry
+		home = 424
+	}
+
+	regiment = {
+		name= "7.4eme Division d'Infanterie"
+		type = infantry
+		home = 424
+	}
+
+	regiment = {
+		name= "7.1ere Division d'Infanterie"
+		type = infantry
+		home = 424
+	}
+
+	regiment = {
+		name= "7.1ere Division d'artillerie"
+		type = artillery
+		home = 448
+	}
+	
+	regiment = {
+		name= "7.2eme Division d'artillerie"
+		type = artillery
+		home = 449
+	}
+
+	regiment = {
+		name= "7.3eme Division d'artillerie"
+		type = artillery
+		home = 451
+	}
+
+	regiment = {
+		name= "7.4eme Division d'artillerie"
+		type = artillery
+		home = 451
+	}
+
+	regiment = {
+		name= "7.5eme Division d'artillerie"
+		type = artillery
+		home = 452
+	}
+
+}
+
+navy = {
+	name = "Escadre du Nord"
+	location = 420
+	ship = {
+		name= "Couronne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Superbe"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jean Bart"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dix-huit Fructidor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wagram"
+		type = manowar
+	}
+
+	ship = {
+		name= "Trocadero"
+		type = manowar
+	}
+
+	ship = {
+		name= "Zelandais"
+		type = manowar
+	}
+
+	ship = {
+		name= "Superbe"
+		type = manowar
+	}
+
+	ship = {
+		name= "Austerlitz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Magnifique"
+		type = manowar
+	}
+
+	ship = {
+		name= "Republique Francaise"
+		type = manowar
+	}
+
+	ship = {
+		name= "Conquerant"
+		type = manowar
+	}
+
+	ship = {
+		name= "Neptune"
+		type = manowar
+	}
+
+	ship = {
+		name= "Algesiras"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nestor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duchesse de Berry"
+		type = frigate
+	}
+
+	ship = {
+		name= "Thetis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Astree"
+		type = frigate
+	}
+
+	ship = {
+		name= "Amazone"
+		type = frigate
+	}
+
+	ship = {
+		name= "Clorinde"
+		type = frigate
+	}
+
+	ship = {
+		name= "Maure"
+		type = frigate
+	}
+
+	ship = {
+		name= "Vestale"
+		type = frigate
+	}
+
+	ship = {
+		name= "Magicienne"
+		type = frigate
+	}
+
+	ship = {
+		name= "Marie Therese"
+		type = frigate
+	}
+
+	ship = {
+		name= "Venus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sirene"
+		type = frigate
+	}
+
+	ship = {
+		name= "Atalante"
+		type = frigate
+	}
+
+	ship = {
+		name= "Surveillante"
+		type = frigate
+	}
+
+	ship = {
+		name= "Iphigenie"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sultane"
+		type = frigate
+	}
+
+	ship = {
+		name= "1ere Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2eme Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3eme Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Triton"
+		type = manowar
+	}
+
+	ship = {
+		name= "Etats de Bourgogne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Souverain"
+		type = manowar
+	}
+
+	ship = {
+		name= "Marengo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ville de Marseilles"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercule"
+		type = manowar
+	}
+
+	ship = {
+		name= "Montebello"
+		type = manowar
+	}
+
+	ship = {
+		name= "Centaure"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jupiter"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duc d'Angouleme"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "Genereux"
+		type = manowar
+	}
+
+	ship = {
+		name= "Diademe"
+		type = manowar
+	}
+
+	ship = {
+		name= "Couronne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Suffren"
+		type = manowar
+	}
+
+	ship = {
+		name= "Trident"
+		type = manowar
+	}
+
+	ship = {
+		name= "Royal Louis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Commerces de Paris"
+		type = manowar
+	}
+
+	ship = {
+		name= "Terpsichore"
+		type = frigate
+	}
+
+	ship = {
+		name= "Arthemise"
+		type = frigate
+	}
+
+	ship = {
+		name= "Belle Gabrielle"
+		type = frigate
+	}
+
+	ship = {
+		name= "Didon"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caroline"
+		type = frigate
+	}
+
+	ship = {
+		name= "Herminie"
+		type = frigate
+	}
+
+	ship = {
+		name= "Melpomene"
+		type = frigate
+	}
+
+	ship = {
+		name= "Uranie"
+		type = frigate
+	}
+
+	ship = {
+		name= "Andromede"
+		type = frigate
+	}
+
+	ship = {
+		name= "Jeanne d'Arc"
+		type = frigate
+	}
+
+	ship = {
+		name= "Belle Poule"
+		type = frigate
+	}
+
+	ship = {
+		name= "Erigone"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nereide"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloire"
+		type = frigate
+	}
+
+	ship = {
+		name= "Reine Blanche"
+		type = frigate
+	}
+
+	ship = {
+		name= "4eme Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5eme Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6eme Flotille de Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "7eme Flotille de Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "8eme Flotille de Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "9eme Flotille de Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "10eme Flotille de Transport"
+		type = clipper_transport
+	}
+
+}
+

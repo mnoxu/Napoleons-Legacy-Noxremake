@@ -1,0 +1,69 @@
+
+
+#========================= H E A D E R =========================
+
+capital = 171
+primary_culture = native_american_minor
+culture = cherokee
+religion = placeholder
+government = democracy
+plurality = 10
+nationalvalue = nv_order
+literacy = 0.3
+prestige = 15
+schools = army_tech_school
+#oob = "ICF.txt"
+set_country_flag = new_world_nation
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = ICF_reactionary_81
+upper_house = {
+fascist = 0
+reactionary = 20
+conservative = 60
+socialist = 0
+communist = 0
+liberal = 20
+}
+slavery = no_slavery
+vote_franschise = universal_voting
+upper_house_composition = proportional_equal_weight
+voting_system = first_past_the_post
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+political_parties = secret_ballots
+wage_reform = no_minimum_wage
+work_hours = eight_hours
+safety_regulations = no_safety
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+health_care = no_health_care
+school_reforms = no_schools
+
+
+#========================= T E C H N O L O G I E S =========================
+post_napoleonic_thought =  1
+flintlock_rifles = 1
+muzzle_loaded_rifles =  1
+army_command_principle = 1
+late_enlightenment_philosophy = 1
+basic_chemistry = 1
+
+#Inventions
+foreign_training = yes_foreign_training
+set_country_flag = foreign_tactics_flag
+
+foreign_weapons = foreign_weapons_two
+set_country_flag = foreign_weapons_flag
+set_country_flag = foreign_weapons2_flag
+
+foreign_officers = yes_foreign_officers
+set_country_flag = fo_flag
+
+industrial_construction = yes_western_science
+set_country_flag = indc_flag
+
+#========================= END OF FILE =========================
+

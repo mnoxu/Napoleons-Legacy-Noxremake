@@ -1,0 +1,6 @@
+owner = GHO
+controller = GHO
+add_core = GHO
+trade_goods = cattle
+life_rating = 1
+

@@ -1,0 +1,4 @@
+owner = GHO
+life_rating = 1
+controller = GHO
+add_core = GHO

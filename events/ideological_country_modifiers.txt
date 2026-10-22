@@ -1,0 +1,223 @@
+#Police State                    
+country_event = {		#See 0_NL_JAN_cleanup.txt 
+	id = 7771010
+	title = "The Police State"
+	desc = "You've facilitated the establishment of a Police State."
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = {
+		add_country_modifier = {
+			name = policestate_modifier
+			duration = -1
+		}
+ 	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771011
+	title = "The Police State Removed!"
+	desc = "You've removed the circumstances that created a Police State in your country."
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		remove_country_modifier = policestate_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}
+
+#One Party State
+country_event = {
+	id = 7771012
+	title = "One Party State"
+	desc = "Your Nation has been taken over by a One Party System."
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = { 
+		add_country_modifier = {
+			name = one_party_state_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771013
+	title = "One Party State Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		remove_country_modifier = one_party_state_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}
+#Totalitarianism
+
+country_event = {
+	id = 7771014
+	title = "Totalitarianism"
+	desc = "Your Nation has been taken over by a Totalitarian."
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		add_country_modifier = {
+			name = totalitarianism_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771015
+	title = "Totalitarianism Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		remove_country_modifier = totalitarianism_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}
+#Leadership Principle
+
+country_event = {
+	id = 7771016
+	title = "Leadership Principle"
+	desc = "Your Nation has been enthralled by the Leadership Principle."
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		add_country_modifier = {
+			name = leadership_principle_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771017
+	title = "Leadership Principle Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		remove_country_modifier = leadership_principle_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}
+#Ultranationalism
+
+country_event = {
+	id = 7771018
+	title = "Ultranationalism"
+	desc = "Your Nation has been enthralled by Ultranationalism."
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = { 
+		add_country_modifier = {
+			name = ultranationalism_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771019
+	title = "Ultranationalism Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = {
+		remove_country_modifier = ultranationalism_modifier
+ 	}
+	option = {
+		name = "Thank God"
+	}
+}
+# Collectivsation
+
+country_event = {
+	id = 7771020
+	title = "Collectivisation"
+	desc = "Your Nation has been enthralled by Collectivisation."
+#	picture = "native_force"
+	is_triggered_only = yes
+	immediate = {
+		add_country_modifier = {
+			name = collectivisation_modifier
+			duration = -1
+		}
+}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771021
+	title = "Collectivisation Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = { 
+		remove_country_modifier = collectivisation_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}
+#Classless Society
+
+country_event = {
+	id = 7771022
+	title = "The Classless Society"
+	desc = "Your Nation has been reformed into a classless society."
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = { 		
+		add_country_modifier = {
+			name = classless_society_modifier
+			duration = -1
+		} 
+	}
+	option = {
+		name = "We'll see how this unfolds.."
+	}
+}
+
+country_event = {
+	id = 7771023
+	title = "The Classless Society Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	is_triggered_only = yes 
+	immediate = { 
+		remove_country_modifier = classless_society_modifier
+	}
+	option = {
+		name = "Thank God"
+	}
+}

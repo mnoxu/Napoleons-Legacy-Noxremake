@@ -1,0 +1,5 @@
+owner = UPB
+controller = UPB
+add_core = UPB
+trade_goods = fruit
+life_rating = 35

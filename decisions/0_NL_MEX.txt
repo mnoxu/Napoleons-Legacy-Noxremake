@@ -1,0 +1,85 @@
+political_decisions = {
+	mexican_empire = {
+	picture = empire_mexico_decision
+		potential = {
+			tag = MEX
+			government = democracy
+			NOT = { has_country_flag = mexican_empire }
+		}
+		allow = {
+			war = no
+			OR = {
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+            		all_core = {
+                			owned_by = THIS
+           			}
+           			nationalism_n_imperialism = 1
+           	 		UCA = {
+                			all_core = {
+                    				OR = {
+                        				owned_by = THIS
+                        				owner = {
+                            					vassal_of = THIS
+                        				}
+                    				}
+                			}
+            		}
+       	 	}
+		effect = {
+			government = hms_government
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 8
+				}
+			}
+			random_country = {
+				limit = {
+					tag = UCA 
+					vassal_of = THIS 
+				}
+				MEX = { inherit = UCA }
+			}
+            		UCA = {
+                			all_core = {
+                    				add_core = THIS
+                			}
+            		}
+            		add_accepted_culture=central_american
+			set_country_flag = mexican_empire
+		}
+	}
+	retake_texas = {
+	picture = texas_decision
+	potential = {
+            	has_country_flag = texas_retaker
+        	}
+       	allow = {
+            	state_n_government = 1
+           		TEX = {
+                		all_core = {
+                    			OR = {
+                        			owned_by = THIS
+                        			owner = {
+                            				vassal_of = THIS
+                            				in_sphere = THIS
+                        			}
+                    			}
+                		}
+            	}
+        	}
+	effect = {
+            	TEX = {
+			all_core = {
+                    			add_core = THIS
+                    			secede_province = THIS
+                		}
+            	}
+            add_accepted_culture = texan
+	clr_country_flag = texas_retaker
+            prestige = 20
+        	}
+    }   
+}

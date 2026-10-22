@@ -1,0 +1,65 @@
+
+
+country_event = {
+	id = 600034
+	trigger = {
+		tag = GBR
+		NOT = {year = 1837}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    title = "EVTNAME600034"
+	desc = "EVTDESC600034"
+	picture = "debate"
+    option = {
+        name = "Establish the Capital in South Africa (Will stop you from getting immigrants)"
+        any_pop = {
+            limit = {
+                culture = boer
+            }
+			militancy=-2
+			consciousness=-2
+		}
+		SAF = {
+            all_core = {
+                add_core = GBR
+            }
+        }
+        add_accepted_culture = boer
+        GBR = {capital = 2087}
+        clr_country_flag = new_world_nation
+        ai_chance = {
+			factor = 0.4
+    	}
+	}
+	option = {
+        name = "Keep the Capital in Sydney"
+        any_pop = {
+            limit = {
+                culture = british
+            }
+			militancy=-1
+			consciousness=-1
+		}
+		NZL = {
+			all_core=  {
+				add_core = THIS
+			}
+		}
+		all_core = {
+			limit = {
+					NOT = { life_rating = 40 }
+				}
+				life_rating = 10
+		}
+        ai_chance = {
+			factor = 0.6
+    	}
+	}
+}
+

@@ -1,0 +1,91 @@
+country_event = {
+    id = 91309
+    title = "EVTNAME545454"
+    desc = "EVTDESC545454"
+
+    trigger = {
+        ai = no
+        war = no
+        capital_scope = {
+            NOT = {
+                has_province_modifier = capital_supply_depot
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+    
+    option = {
+        name = "Great!"
+        capital_scope = {
+            add_province_modifier = {
+                name = capital_supply_depot
+                duration = -1
+            }
+        }
+		any_owned = {
+			limit = { 
+                is_capital = no 
+            }
+			remove_province_modifier = capital_supply_depot
+		}
+    }
+}
+
+country_event = {
+    id = 91308
+    title = "EVTNAME555454"
+    desc = "EVTDESC555454"
+
+    trigger = {
+        capital_scope = {
+            has_province_modifier = capital_supply_depot
+        }
+        ai = yes
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    option = {
+        name = "Sad!"
+
+        any_owned = {
+            remove_province_modifier = capital_supply_depot
+        }
+    } 
+}
+
+country_event = {
+    id = 91307
+    title = "EVTNAME565454"
+    desc = "EVTDESC565454"
+
+    trigger = {
+        capital_scope = {
+            has_province_modifier = capital_supply_depot
+        }
+        war = yes
+        war_countries = {
+            ai = no
+        }
+        ai = no
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    immediate = {
+        any_owned = {
+            remove_province_modifier = capital_supply_depot
+        }
+    }
+
+    option = {
+        name = "The Supply Depot has fallen"
+    }
+}

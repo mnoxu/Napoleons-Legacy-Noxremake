@@ -1,0 +1,97 @@
+political_decisions = { 
+	louis_bonaparte = { 
+	picture = louis_bonaparte	#This is actually redundant but i hate it when the validator tells me that there's no decision that uses a pic when the decision and image names are the same 
+		potential = { 
+			tag = FRA
+			ai = no
+			NOT = { has_country_flag = chose_heir_nap }
+		}
+		allow = { NET = { ai = yes } }
+		effect = { 
+			create_vassal = NET
+			set_country_flag = chose_heir_nap
+			set_country_flag = louis
+		}
+	}
+	jerome_bonaparte = { 
+	picture = jerome_bonaparte
+		potential = { 
+			tag = FRA
+			ai = no
+			NOT = { has_country_flag = chose_heir_nap } 
+		}
+		allow = { 
+			HAN = { ai = yes }	
+		}
+		effect = { 
+			create_vassal = HAN
+      		  	create_vassal = FRM
+        			create_vassal = NAS
+      	  		create_vassal = HES
+        			create_vassal = BRA
+			set_country_flag = chose_heir_nap
+			set_country_flag = jerome
+		}
+	}
+	alexandre_walewski = { 
+	picture = alexandre_walewski
+		potential = { 
+			tag = FRA
+			NOT = { has_country_flag = chose_heir_nap } 
+		}
+		allow = { }
+		effect = { 
+			set_country_flag = chose_heir_nap
+			set_country_flag = alexandre
+		}
+	}
+	maximilien = { 
+	picture = maximilien 
+		potential = { 
+			tag = FRA
+			ai = no
+			NOT = { has_country_flag = chose_heir_nap } 
+		}
+		allow = { }
+		effect = { 
+			set_country_flag = chose_heir_nap
+			any_country = {
+                			limit = {
+                  				primary_culture = north_italian
+					NOT = {tag = LOM tag = TUS}
+                			}
+				all_core = { add_core = NIT } 
+               			annex_to = LOM
+            		}
+           			create_vassal = LOM
+            		create_alliance = LOM
+            		diplomatic_influence = {
+                			who = LOM
+                			value = 300
+            		}
+			LOM = {change_tag = NIT}	
+			NIT = { all_core = { remove_core = LOM remove_core = VEN remove_core = MOD remove_core = LUC } } 
+			NIT = { prestige = -100 }
+			set_country_flag = maximilien
+		}
+	}
+	french_republic_choice = {
+	picture = french_republic
+		potential = { 
+			tag = FRA
+			ai = no
+			NOT = { has_country_flag = chose_heir_nap } 
+		}
+		allow = { }
+		effect = { 
+			set_country_flag = chose_heir_nap
+			set_country_flag = republic
+			government = democracy
+			political_reform = wealth_voting
+			add_country_modifier = {
+				name = french_republic
+				duration = -1
+			}
+		}
+	}
+}

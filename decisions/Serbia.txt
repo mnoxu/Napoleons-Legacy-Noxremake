@@ -1,0 +1,28 @@
+political_decisions = {
+        vuk_karadzic_reform = { #Originally Scripted by Slayzer
+			picture = vuk_karadzic_reform
+
+                potential = {
+                        tag = SER
+                        NOT = {
+                                has_country_flag = vuk_karadzic_reforms_enacted
+                        }
+                }
+
+                allow = {
+                        prestige = 15
+                        biologism = 1
+                }
+
+                effect = {
+                        add_country_modifier = {
+				name = karadzic_reforms
+				duration = -1
+                        }
+                        set_country_flag = vuk_karadzic_reforms_enacted
+                }
+                ai_will_do = {
+                        factor = 1
+                }
+        }
+}

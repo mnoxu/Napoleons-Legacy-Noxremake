@@ -1,0 +1,226 @@
+color = { 163  196  227 }
+graphical_culture = SouthAmericanGC
+party = {
+    name = "ARG_liberal"
+    start_date = 1856.1.1
+    end_date = 2000.1.1
+
+    ideology = liberal
+
+    economic_policy = laissez_faire
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = limited_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_liberal_2"
+    start_date = 1835.1.1
+    end_date = 1856.1.1
+
+    ideology = liberal
+
+    economic_policy = laissez_faire
+    trade_policy = free_trade
+    religious_policy = pluralism
+    citizenship_policy = full_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_conservative"
+    start_date = 1835.1.1
+    end_date = 1870.1.1
+
+    ideology = conservative
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = jingoism
+}
+
+party = {
+    name = "ARG_conservative_2"
+    start_date = 1871.1.1
+    end_date = 1874.1.1
+
+    ideology = conservative
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_conservative_3"
+    start_date = 1874.1.1
+    end_date = 2000.1.1
+
+    ideology = conservative
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = limited_citizenship
+    war_policy = jingoism
+}
+
+party = {
+    name = "ARG_conservative_4"
+    start_date = 1868.1.1
+    end_date = 1874.1.1
+
+    ideology = conservative
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = full_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_liberal_3"
+    start_date = 1890.1.1
+    end_date = 2000.1.1
+
+    ideology = liberal
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = pluralism
+    citizenship_policy = residency
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_socialist"
+    start_date = 1848.1.1
+    end_date = 2000.1.1
+
+    ideology = socialist
+
+    economic_policy = state_capitalism
+    trade_policy = free_trade
+    religious_policy = pro_atheism
+    citizenship_policy = full_citizenship
+    war_policy = pacifism
+}
+
+party = {
+    name = "ARG_conservative_5"
+    start_date = 1891.1.1
+    end_date = 2000.1.1
+
+    ideology = conservative
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_liberal_4"
+    start_date = 1891.1.1
+    end_date = 2000.1.1
+
+    ideology = liberal
+
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = secularized
+    citizenship_policy = limited_citizenship
+    war_policy = jingoism
+}
+
+party = {
+    name = "ARG_reactionary"
+    start_date = 1820.1.1
+    end_date = 2000.1.1
+
+    ideology = reactionary
+
+    economic_policy = state_capitalism
+    trade_policy = protectionism
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = jingoism
+}
+
+party = {
+    name = "ARG_communist"
+    start_date = 1848.1.1
+    end_date = 2000.1.1
+
+    ideology = communist
+
+    economic_policy = planned_economy
+    trade_policy = protectionism
+    religious_policy = pro_atheism
+    citizenship_policy = full_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "ARG_fascist"
+    start_date = 1900.1.1
+    end_date = 2000.1.1
+
+    ideology = fascist
+
+    economic_policy = state_capitalism
+    trade_policy = protectionism
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = jingoism
+}
+
+unit_names = {
+    dreadnought = {
+        "Alvear" "Argentina" "General Rosas" "Moreno" "Paz" "Presidente Avellaneda" "Rio de la Plata" "Rivadavia" "San Martin" "Urquiza"
+        "Yrigoyen"
+    }
+    ironclad = {
+        "Almirante Brown" "Bouchard" "Campichuelo" "Cepeda" "De las Heras" "Federacion" "Huamita" "Independencia" "Jupiter" "Lavalle"
+        "Libertad" "Marte" "Mercurio" "Neptuno" "Pavon" "Pluton" "Salado" "Salta" "Suipacha" "Thomas"
+    }
+    manowar = {
+        "America" "Aquiles" "Argentina" "Argonauta" "Furor" "Heroe" "Libertador" "Navegante" "Perla Negra" "Rio de la Plata"
+        "Salvador" "San Bernardo" "San Claudio" "San Honorato" "San Joaquin" "Santa Ana" "Santa Maria" "Santiago" "Terror" "Victoriosa"
+    }
+    cruiser = {
+        "Almirante Brown" "Alvarez Jonte" "Belgrano" "Buenos Aires" "Castelli" "Chichlana" "Garibaldi" "Guemes" "Liniers" "Matheu"
+        "Mitre" "Nueve de Julio" "Paso" "Patagonia" "Patria" "Pueyrredon" "Roca" "San Martin" "Sarratea" "Veinticinco de Mayo"
+    }
+    frigate = {
+        "Azopardo" "Cervantes" "Espora" "Garay" "Hercules" "Heroina" "La Argentina" "La Libertad" "Murillo" "Parker"
+        "Piedra Buena" "Presidente Sarmiento" "Republica" "Robinson" "Rondeau" "Rosales" "Saavedra" "Santisima Trinidad" "Sarandi" "Spiro"
+    }
+    monitor = {
+        "El Plata" "Formosa" "Gran Chaco" "La Pampa" "Lago Argentino" "Los Andes" "Mesopotamia" "Posadas" "Rawson" "Resistencia"
+        "San Fernando del Valle" "San Miguel" "San Salvador" "Santa Rosa" "Sirena" "Somuncura" "Tetis" "Triton" "Viedma" "Vulcano"
+    }
+    clipper_transport = {
+        "Aguila" "Apolo" "Atlantida" "Audaz" "Ceres" "Condor" "Cruel" "Delfin" "Eolo" "Esperanza"
+        "Fenix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
+        "Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Relampago" "Salvadora" "San Jose" "San Juan Bautista"
+        "Santa Maria" "Servidora" "Temeraria" "Tiburon" "Tranquila" "Triunfo" "Ulises" "Veloz" "Victoria" "Voladora"
+    }
+    steam_transport = {
+        "Aguila" "Apolo" "Atlantida" "Audaz" "Ceres" "Condor" "Cruel" "Delfin" "Eolo" "Esperanza"
+        "Fenix" "Fidela" "Flora" "Hera" "Iris" "Lanza" "Minerva" "Minotauro" "Movimiento" "Odisea"
+        "Platense" "Proserpina" "Providencia" "Prueba" "Puma" "Rayo" "Relampago" "Salvadora" "San Jose" "San Juan Bautista"
+        "Santa Maria" "Servidora" "Temeraria" "Tiburon" "Tranquila" "Triunfo" "Ulises" "Veloz" "Victoria" "Voladora"
+    }
+    commerce_raider = {
+        "Bermejo" "Catamarca" "Constitucion" "Cordoba" "Corrientes" "Entrerrios" "Jujuy" "La Plata" "La Rioja" "Mendoza"
+        "Misiones" "Parana" "Pilcomayo" "Rosario" "San Juan" "San Luis" "Santa Cruz" "Sol Argentino" "Tucuman" "Uruguay"
+    }
+}

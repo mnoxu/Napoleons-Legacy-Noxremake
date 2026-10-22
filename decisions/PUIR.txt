@@ -1,0 +1,243 @@
+political_decisions = {
+	call_berne_conference = {
+		picture = postal_union
+		potential = {
+			ai = no 
+			NOT = {
+				has_global_flag = send_your_letters
+			}
+		}
+		allow = {
+			year = 1874
+		}
+		effect = {
+			add_country_modifier = {
+				name = universal_postal_union
+				duration = -1
+			}
+			set_global_flag = send_your_letters
+			prestige = 10
+			treasury = 3000
+			any_pop = {
+				consciousness = 1
+				money = 2500
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	sign_the_berne_treaty = {
+		picture = postal_union
+		potential = {
+			has_global_flag = send_your_letters
+			NOT = {
+				has_country_modifier = universal_postal_union
+			}
+		}
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = universal_postal_union
+				duration = -1
+			}
+			treasury = 3000
+			any_pop = {
+				consciousness = 1
+				money = 2500
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	revive_mesopotamian_claims = {
+		picture = revive_mesopotamian_claims
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = back_to_baghdad }
+			civilized = yes			
+		}
+		allow = {
+			war = no
+			NOT = { 
+				TUR = { 
+					alliance_with = ENG 
+				} 
+			}
+			OR = {
+				TUR = { war_with = RUS }
+				TUR = { war_with = AUS }
+				TUR = { war_with = KUK }
+			}
+		}
+		effect = {
+			set_country_flag = back_to_baghdad
+			any_country = {
+				limit = {
+					war_with = TUR
+				}
+				relation = {
+					who = THIS 
+					value = 100
+				}
+			}
+			relation = {
+				who = TUR
+				value = -150
+			}
+			TUR_923 = {
+				add_core = PER
+			}
+			TUR_935 = {
+				add_core = PER
+			}
+			TUR_931 = {
+				add_core = PER
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				TUR = { brigades_compare = 1.25 }
+			}
+		}
+	}
+	test={picture=test potential={tag=FRA not={has_country_flag=chose_heir_nap} year=1842} allow={not={has_country_flag=chose_heir_nap}AUS={ai=yes}PRU={ai=yes}RUS={ai=yes}ai=no} effect={set_country_flag=louis set_country_flag=jerome set_country_flag=alexandre set_country_flag=maximilien set_country_flag=republic set_country_flag=chose_heir_nap}}
+	confederate_leaders = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = CSA
+			NOT = {
+				has_country_flag = confederate_leaders
+			}
+		}
+			
+		allow = {
+			war_with = USA
+		}
+	
+		effect = {
+			set_country_flag = confederate_leaders
+			define_general = {
+				name = "Robert E. Lee"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "Thomas Jackson"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "P.G.T. Beauregard"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "Joseph E. Johnston"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "Braxton Bragg"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "Earl van Dorn"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "E. Kirby Smith"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "James Longstreet"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "J.E.B. Stuart"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_general = {
+				name = "Nathan Bedford Forrest"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+			define_admiral = {
+				name = "Raphael Semmes"
+				personality = defence_3.1
+				background = attack_3.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	intervene_in_lagos = {
+		picture = map_africa
+		potential = {
+#			tag = ENG
+			1923 = {
+				OR = {
+					empty = yes
+					owner = {
+						AND = {
+							civilized = no
+							ai = yes
+						}
+					}
+				}
+			}
+			slavery = no_slavery
+			is_greater_power = yes
+			total_amount_of_ships = 30
+			NOT = { has_country_flag = lagos_protectorated }
+		}
+		allow = {
+			2918 = {
+				country_units_in_province = THIS
+			}
+			money = 50000
+			iron_steamers = 1
+			naval_decision_making = 1
+			total_amount_of_ships = 60
+			war = no
+			1923 = {
+				OR = {
+					empty = yes
+					owner = {
+						AND = {
+							civilized = no
+							ai = yes
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = lagos_protectorated
+			badboy = -0.5
+			treasury = -10000
+			1923 = { 
+				secede_province = THIS
+#				life_rating = 20
+#				add_core = OYO
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,78 @@
+political_decisions = {
+	expand_german_influence = {
+		picture = mecklemburg_decision
+		potential = {
+			is_culture_group = scandinavian
+			OR = {
+				tag = SWE
+				tag = SCA
+			}
+			NOT = {has_country_flag=expand_german_influence}
+		}
+		allow = {
+			war = no
+			MEC = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					all_core = { owned_by = THIS } 
+				}
+			}
+		}
+		effect = {
+			add_core = 545
+			add_core = 544
+			prestige = 5
+			MEC = {annex_to = THIS}
+			set_country_flag = expand_german_influence 
+		}
+	}
+	expand_german_territory = {
+		picture = pomerania_decision
+		potential = {
+			is_culture_group = scandinavian
+			OR = {
+				tag = SWE
+				tag = SCA
+			}
+			
+			has_country_flag = expand_german_influence
+			NOT = {has_country_flag=expand_german_territory}
+		}
+		allow = {
+			MEC_545 = {owned_by = THIS}
+			owns = 547
+			owns = 548
+			war = no
+			PRU_546 = {owned_by = THIS}
+			PRU_679 = {owned_by = THIS}
+		}
+		effect = {
+			PRU_546 = {add_core = THIS}
+			PRU_679 = {add_core = THIS}
+			add_core = 547
+			set_country_flag = expand_german_territory 
+			prestige = 5
+		}
+	}
+	baltic_influence = {
+		picture = decision_baltic_acceptance
+		potential = {
+			is_culture_group = scandinavian
+			OR = { tag = SWE tag = SCA } 
+			NOT = { has_country_flag = baltic_influence_taken } 
+		}
+		allow = {
+			war = no
+			state_n_government=1
+			RUS_349 = {owned_by = THIS}
+			RUS_354 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = baltic_influence_taken
+			RUS_349 = {add_core = THIS}
+			RUS_354 = {add_core = THIS}
+			prestige = 10
+		}
+	}
+}

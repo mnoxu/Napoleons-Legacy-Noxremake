@@ -1,0 +1,7 @@
+owner = UPB
+controller = UPB
+
+add_core = UPB add_core = BRZ
+trade_goods = iron
+life_rating = 36
+

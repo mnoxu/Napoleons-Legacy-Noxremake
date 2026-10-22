@@ -1,0 +1,81 @@
+NAPOLEON'S LEGACY NOXREMAKE - DEGISIKLIK GUNLUGU
+=================================================
+
+
+2026-10-21 / 22
+---------------
+
+KULTUR / POP
+- Pop dosyalari IGoR 13.0.5'ten birebir kopyalandi (history\pops\1836.1.1).
+- common\cultures.txt IGoR 13.0.5'ten kopyalandi (eskisi silinmisti, oyun aciliste cokuyordu).
+- Ulke gecmisleri, kararlar ve eventlerdeki eski kulturler IGoR kulturlerine eslestirildi
+  (orn. peninsular_arab -> bedouin, marathi/rajput -> indo_aryan, rhenish -> north_german).
+- Eksik kultur isimleri eklendi (Afro-Asiatic, Indo-Aryan, Dravidian, Niger-Congo A, Nilo-Saharan).
+- Avustralya pop dosyasinda australian -> british (GBR icin).
+
+DIN
+- Tum dinler placeholder yapildi (ulke gecmisleri, eventler, kararlar, pop tipleri).
+- Azinlik dinini secen kurallar "kimseyi secmez" hale getirildi; Temperance League'in
+  "Musluman degilse" kosulu kaldirildi; Japonya State Shinto karari placeholder'a cevrildi.
+
+COKME DUZELTMELERI
+- common\pop_types.txt: tanimsiz "oceania" kitasi -> australia + polynesia_micronesia
+  (kultur tooltip'i / kulture gore siralama cokmesi).
+- common\rebel_types.txt, decisions\Turkey.txt: tanimsiz "asia" kitasi -> Asya kitalari.
+- decisions\NationalUnification.txt: tanimsiz BRZ_2463 bolgesi -> BRZ_2467.
+- common\production_types.txt: RGO_template_bankers, precious_metal_mine'dan once tasindi
+  (bankerler calismiyordu, RGO modunda LCT'ye tiklayinca cokuyordu).
+- interface\country_pops.gui, popdetails.gui: IGoR'dan kopyalandi.
+
+GHO / STATE SIZING
+- GHO'ya capital = 1128 (Arak), isim ve ghostland bayragi eklendi.
+- IGoR State Sizing sistemi: events\State Sizing.txt, TIN/SMA/MED/LRG/HUG ulkeleri (dosya, gecmis, bayrak),
+  sizing_cooldown/neutrality/generic_neutrality modifierlari.
+- Ghost Country Cleanup eventleri (91303-91305) eklendi; ulke listesi bu modun 233 ulkesine gore uretildi.
+
+CB'LER
+- IGoR'un 27 boyutlu CB'si eklendi (acquire_core_state / acquire_state / place_in_the_sun /
+  free_peoples / demand_concession _tiny.._huge, make_puppet_small/large).
+- Eski boyutsuz CB'ler (acquire_state, acquire_core_state, place_in_the_sun, demand_concession_casus_belli)
+  can_use = always = no ile kapatildi; CBGeneration/CBsAndCores/RUSFlavor eventleri boyutlu CB'lere uyarlandi.
+- conquest ve conquest_low IGoR surumu (JAN/LCT korumasi korundu).
+- take_capital IGoR surumu.
+- defines.lua: PEACE_COST_PRESTIGE 1 -> 4000; humiliate peace_cost_factor 15 -> 0.00375,
+  rude_boy 1.5 -> 0.0012 (savas skorlari ayni kaldi).
+- defines.lua: INFAMY_PRESTIGE 2 -> 0.005; humiliate badboy_factor 1.5 -> 600 (infamy ayni kaldi).
+
+LCT (HOST NATION / WORLD BANK)
+- LCT IGoR'daki gibi: polar_bears kulturu, GHO_exclusive partisi, world_bank_off/ghostland bayraklari, isim "Host Nation".
+- decisions\host_nation_decisions.txt (26 karar), events\host_decision_events.txt (swap listeleri bu modun
+  232 ulkesine gore), events\world_bank_control.txt, decisions\LCT_neutrality.txt.
+- World Bank binasi/uretim tipi, world_bank / world_bank_economics parti politikalari, 3 modifier, 20 karar resmi.
+- Eski NL host kararlari (host_options, unsiege) ve events\0_NL_Host_Nation.txt kaldirildi.
+- Vaduz (3252) kendi state'i oldu: LCT_3252; province ve state ismi "Host Nation".
+- poptypes\bankers.txt IGoR surumu (ihtiyac listesi kapali).
+- Calarasi (669) ve Bam (1143): precious_metal -> cattle; RGOChangeEvents'ten precious_metal secenegi kaldirildi
+  (degerli maden sadece Vaduz'da).
+
+ULUSAL ODAKLAR
+- common\national_focus.txt IGoR'un 6 kademeli sistemi (67 odak), events\national_focus_flags.txt,
+  inventions\pop_shift_psychology_inventions.txt, interface\province_interface.gfx + odak/terrain resimleri.
+- Tier 1'e "Attract Immigrants" (immigrant_attract 0.2) odagi eklendi.
+- Tier 1 odak isimleri IGoR'daki gibi ("Encourage ... Tier 1").
+- defines.lua: NATIONAL_FOCUS_DIVIDER 250000 -> 1.0.
+
+GOC / ASIMILASYON / TERFI
+- common\pop_types.txt tamamen IGoR surumu; 11 pop tipinin promote_to, migration_target,
+  country_migration_target bloklari IGoR surumu.
+- Asimilasyonda neo_european_cultures istisnasi GBR icin kaldirildi.
+- Goc bayraklari sadece: Kuzey = USA, MEX, CAN, GBR | Guney = USA, GCO, ARG | UPB Rio karariyla Guney.
+- IMMIGRATION_SCALE 0.004 (degismedi).
+
+DIGER
+- life_rating degerleri IGoR'a gore (748 degisen, 19 eklenen, 4 tarihli).
+- defines.lua: LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE 0.05 -> 0.0 (general degistirince prestij gitmez).
+- Rusya: acceptance_of_steppe2 (turkic) ve acceptance_of_steppe3 (mongol) kararlari silindi;
+  southern_expansion sadece AZB core'lari + azerbaijani.
+- Estonca/Letonca hicbir karardan kabul edilmis kultur olmuyor (RUS ve SWE baltic_influence).
+- Baslangic fabrikalari IGoR'a gore: 26 fabrika eklendi, 4 seviye yukseltildi (orn. Viyana makine parcalari,
+  Prag top fabrikasi 5. seviye).
+- Insa sureleri: fabrikalar 30 gun, fort 360, demiryolu 180, deniz ussu 360.
+- Yeni isimlerin hepsi localisation\00_Noxremake_ek.csv dosyasinda.

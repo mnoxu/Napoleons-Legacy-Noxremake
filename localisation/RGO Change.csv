@@ -1,0 +1,33 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+rgo_change_mining_title;Change Mining RGO;;;;;;;x
+rgo_change_mining_desc;Allows the switching of a single RGO province of the following types: Coal, Iron, Sulphur, or Precious Metal into Coal, Iron, or Sulphur. Causes a cooldown of 25 years.;;;;;;;x
+EVTNAME199936;Mining RGO Change;;;;;;;x
+EVTDESC199936;Choose to change a province to the following RGO types, cool down is 25 years for changing, 1 year for not choosing one.;;;;;;;x
+EVT199936OPTA;Change a province to produce Coal.;;;;;;;x
+EVT199936OPTB;Change a province to produce Iron.;;;;;;;x
+EVT199936OPTC;Change a province to produce Sulphur.;;;;;;;x
+EVT199936OPTD;I'd rather not change anything.;;;;;;;x
+rgo_change_agriculture_title;Change Agriculture RGO;;;;;;;x
+rgo_change_agriculture_desc;Allows the switching of a single RGO province of the following types: Grain, Fruit, Fish, Cattle, Wool, Cotton, Timber, or Precious Goods into Grain, Fruit, Fish, Cattle, Wool, Cotton, or Timber. Causes a cool down of 12.5 years.;;;;;;;x
+199937;Agriculture RGO Change;;;;;;;x
+EVTNAME199937;Agriculture RGO Change;;;;;;;x
+EVTDESC199937;Choose to change a province to the following RGO types, cool down is 12.5 years for changing, 1 year for not choosing one. Fish require an available costal province, Timber requires forested terrain.;;;;;;;x
+EVT199937OPTA;Change a province to produce Wool.;;;;;;;x
+EVT199937OPTB;Change a province to produce Timber.;;;;;;;x
+EVT199937OPTC;Change a province to produce Cotton.;;;;;;;x
+EVT199937OPTD;Change a province to produce Cattle.;;;;;;;x
+EVT199937OPTE;Change a province to produce Fish.;;;;;;;x
+EVT199937OPTF;Change a province to produce Fruit.;;;;;;;x
+EVT199937OPTG;Change a province to produce Grain.;;;;;;;x
+EVT199937OPTH;I'd rather not change anything.;;;;;;;x
+rgo_changed;RGO Change Cooldown;;;;;;;x
+rgo_changed_title;RGO Change Cooldown;;;;;;;x
+rgo_changed_desc;You have recently taken a decision to change a RGO, you must wait a while before doing so again.;;;;;;;x
+switched_production;Switched Production;;;;;;;x
+switched_production_desc;The province has just switched its major production, and locals are still acclimatizing to the change.;;;;;;;x
+migration_factor_reduced;No Migration from Province;;;;;;;x
+migration_factor_reduced_title;No Migration from Province;;;;;;;x
+migration_factor_reduced_desc;Due to the unemployment caused by switching to Lumber RGO, this province will not have any migration for two years untill pops can be reemployed with time.;;;;;;;x
+timber_employment_fix;Timber Employment Fix;;;;;;;x
+timber_employment_fix_title;Timber Employment Fix;;;;;;;x
+timber_employment_fix_desc;A temporary market reset for Lumber prices inorder to fix the unemployment bug caused by switching a province to a Lumber RGO.;;;;;;;x

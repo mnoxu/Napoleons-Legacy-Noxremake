@@ -1,0 +1,22 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+####Buildings;;;;;;;x
+leather_factory;Industrial Tannery;;;;;;;x
+leather_factory_desc;Cattle are processed into leather products here.;;;;;;;x
+wool_fabric_factory;Wool Fabric Factory;;;;;;;x
+wool_fabric_factory_desc;Wool is processed into fabric here.;;;;;;;x
+fabric_factory;Cotton Fabric Factory;;;;;;;x
+fabric_factory_desc;Cotton is processed into fabric here.;;;;;;;x
+synthetic_rubber_factory;Synthetic Rubber Factory;;;;;;;x
+synthetic_rubber_factory_desc;Synthetic rubber, like other polymers, is made from various petroleum-based monomers. A mixture of coal and oil is added together and then refined to produce the flammable hydrocarbon naphtha, which is then combined with natural gas to produce monomers. Chemical additives bond together with the monomers to form chains of polymers and the resulting product then undergoes vulcanisation in order to produce synthetic rubber.;;;;;;;x
+####Other events;;;;;;;x
+EVTNAME776801;Colonial Tech Inheritance;;;;;;;x
+EVTDESC776801;Uncivilized Puppets gain basic industrial techs to further the out-sourcing of resources.;;;;;;;x
+EVTOPTA776801;Isn't this just exploitation of our natural resources?;;;;;;;x
+776405;Chinese Pop Nerf;;;;;;;x
+EVTDESC776405;China gets nerfs to their large population to help with balance & late-game lag.;;;;;;;x
+EVTOPTA776405;Damn the acts of attempting to balance Asia.;;;;;;;x
+####Modifiers;;;;;;;x
+help_ai;Moderate Boost to AI Economy;;;;;;;x
+player_unciv_mobilization;Player Controlled Uncivilized Nation;;;;;;;x
+tariff_efficiency_boost;Tariff Hotfix Boost;;;;;;;x
+fairer_taxation;Taxation Relief;;;;;;;x

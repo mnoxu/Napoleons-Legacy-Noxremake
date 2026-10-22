@@ -1,0 +1,49 @@
+political_decisions = {
+	form_french_indochina = {
+		picture = map_east_indies
+		potential = {
+			tag = FRA
+			1380 = {
+				owned_by = THIS
+				is_colonial = yes
+			}
+			NOT = { has_country_flag = created_french_indochina }
+		}
+		
+		allow = {
+			owns = 1380
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = created_french_indochina
+			prestige = 10
+			1380 = {
+				naval_base = 1
+				add_province_modifier = {
+					name = colonial_recruitment
+					duration = 1825
+				}
+			}
+			any_owned = {
+				limit = { region = ANN_1383 }
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 1825
+				}
+			}
+			any_neighbor_country = {
+				limit = {
+					OR = {
+						primary_culture = vietnamese
+						primary_culture = thai
+						primary_culture = lao
+						primary_culture = khmer
+					}
+					civilized = no
+				}
+				relation = { who = THIS value = -100 }
+			}	
+		}
+	}
+}

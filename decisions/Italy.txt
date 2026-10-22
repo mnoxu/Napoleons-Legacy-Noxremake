@@ -1,0 +1,132 @@
+political_decisions = {
+	build_vittoriano = {
+		picture = build_vittoriano
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		
+		allow = {
+			realism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	law_of_guarantees = {
+		picture = law_of_guarantees
+		potential = {
+			tag = ITA
+			NOT = {
+				capital = 749
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 749
+		}
+		
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = SAR
+						is_core = SIC
+						is_core = MOD
+						is_core = TUS
+						is_core = LUC
+						is_core = PAR
+						is_core = PAP
+						is_core = LOM
+						is_core = VEN
+						is_core = NPL
+						is_core = SYC
+					}
+				}
+				add_core = ITA
+				remove_core = SAR
+				remove_core = SIC
+				remove_core = MOD
+				remove_core = TUS
+				remove_core = LUC
+				remove_core = PAR
+				remove_core = PAP
+				remove_core = VEN
+				remove_core = LOM
+				remove_core = NPL
+				remove_core = SYC
+			}
+		}
+	}
+
+	italia_irredenta = {
+		picture = italia_irredenta
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+		}
+		
+		allow = {
+			OR = {
+				invention = national_fraternity
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag = italia_ulterior
+			badboy = 3
+			AUS_729 = { add_core = ITA remove_core = VEN} #Venetia
+			AUS_736 = { add_core = ITA remove_core = TRE remove_core = VEN} #Friuli
+			473 = { add_core = ITA } #Corsica
+			AUS_726 = { remove_core = LOM } #Lombardia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	claim_the_adriatic = {
+		picture = conquest_adriatic
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = adriatic_claimed }
+			has_country_flag = italia_ulterior
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			war_policy = jingoism
+			NOT = {
+				government = democracy
+			}
+		}
+		
+		effect = {
+			badboy = 8
+			set_country_flag = adriatic_claimed
+			AUS_778 = { add_core = ITA } #Fiume
+			AUS_736 = { add_core = ITA } #Istria
+			AUS_780 = { add_core = ITA } #Dalmatia
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,49 @@
+political_decisions = {
+
+	will_receive = {
+		picture = grant
+		alert = no
+		potential = {
+		civilized = yes
+			ai = no
+			NOT = { has_country_flag = will_receive_grants }	#This country flag isn't set anywhere - hosts can save edit it in to disable a nation's ability to get grants
+		}
+		
+		allow = { 
+		}
+		effect = {
+			country_event = {id = 100000 days = 0}
+		}
+
+	}
+
+	will_give = {
+		alert = no
+		potential = {
+			civilized = yes
+			ai = no
+			NOT = { has_country_flag = will_give_grants }
+			}
+
+		allow = { NOT = { has_country_flag = will_give_grants } }
+		effect = {
+			set_country_flag = will_give_grants
+		}
+	}
+
+
+	will_not_give = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = will_give_grants
+		}
+		
+		allow = { 
+			ai = no
+			has_country_flag = will_give_grants }
+		effect = {
+			clr_country_flag = will_give_grants 
+			}
+	}
+}

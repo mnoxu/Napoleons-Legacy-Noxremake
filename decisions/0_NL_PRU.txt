@@ -1,0 +1,102 @@
+political_decisions = {
+	
+	repartition_poland = {
+		picture = duchy_of_warsaw
+		potential = {
+			is_culture_group = germanic
+			OR = { 
+				tag = PRU
+				tag = NGF
+				tag = GER 
+			}
+			NOT = { has_country_flag = repartition_poland }
+		}
+		allow = {
+			owns = 699
+			war=no
+			state_n_government=1
+			is_greater_power=yes
+			PLC = {is_greater_power=no}
+			war_policy=jingoism
+		}
+		effect = {
+			set_country_flag = repartition_poland
+			RUS_706 = {
+				add_core = THIS
+			}
+			badboy = 4
+		}
+	}
+	
+	greater_prussia = {
+		picture = become_prussia
+		potential = {
+			tag = PRU
+			NOT = { has_country_flag = greater_prussia }
+		}
+		allow = {
+			owns = 690
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = greater_prussia
+			MEC_545 = {add_core = THIS}
+			PRU_546 = {add_core = THIS}
+			badboy = 4
+		}
+	}
+	
+	the_danzig_coup = {
+		picture = become_danzig
+		potential = {
+			OR = {
+				tag = SWE
+				tag = SCA
+				primary_culture = north_german
+				tag = PLC
+			}
+			NOT = { has_country_flag = danzig_coup }
+			DZG = { exists = yes }
+		}
+		allow = {
+			state_n_government = 1
+			is_greater_power = yes
+			DZG = {
+				in_sphere = THIS
+			}
+		}
+		effect = {
+			DZG = { annex_to = THIS }
+			set_country_flag = danzig_coup
+		}
+	}
+	declaration_an_mein_volk= {
+		picture = decision_volk_PRU
+		potential = {
+			tag = PRU
+			NOT = { has_country_flag = declaration_an_mein_volk } 
+			NOT = {
+				NGF = {exists = yes}
+				GER = {exists = yes}
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			state_n_government = 1
+			GER = {
+				any_core = {
+					owned_by = FRA
+				}
+			}
+		}
+		effect = {
+			prestige = 10
+			add_country_modifier = {
+				name = an_mein_volk
+				duration = 1825
+			}
+			set_country_flag = declaration_an_mein_volk
+		}
+	}
+}

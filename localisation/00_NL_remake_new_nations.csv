@@ -1,0 +1,128 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+GBR_ADJ;British;;;;;;;;;;;;;x
+GBR;Great Britain;;;;;;;;;;;;;x
+GBR_proletarian_dictatorship;British Commonwealth;;;;;;;;;;;;;x
+GBR_presidential_dictatorship;British Commonwealth;;;;;;;;;;;;;x
+GBR_fascist_dictatorship;British Commonwealth;;;;;;;;;;;;;x
+GBR_absolute_monarchy;Great Britain;;;;;;;;;;;;;x
+GBR_prussian_constitutionalism;Great Britain;;;;;;;;;;;;;x
+GBR_hms_government;Great Britain;;;;;;;;;;;;;x
+GBR_democracy;British Commonwealth;;;;;;;;;;;;;x
+GBR_conservative_92;Conservatives;;;;;;;;;;;;;x
+GBR_liberal_79;Liberals;;;;;;;;;;;;;x
+GBR_liberal_87;National Liberals;;;;;;;;;;;;;x
+GBR_socialist_85;Socialists;;;;;;;;;;;;;x
+GBR_socialist_99;National Socialists;;;;;;;;;;;;;x
+GBR_reactionary_84;Roundheads;;;;;;;;;;;;;x
+GBR_communist_86;Communists;;;;;;;;;;;;;x
+GBR_fascist_72;Fascists;;;;;;;;;;;;;x
+ICF_ADJ;Indian;;;;;;;;;;;;;x
+ICF;Indian Confederacy;;;;;;;;;;;;;x
+ICF_absolute_monarchy;Indian Kingdom;;;;;;;;;;;;;x
+ICF_prussian_constitutionalism;Indian Kingdom;;;;;;;;;;;;;x
+ICF_hms_government;Indian Kingdom;;;;;;;;;;;;;x
+ICF_conservative_92;Conservatives;;;;;;;;;;;;;x
+ICF_liberal_79;Liberals;;;;;;;;;;;;;x
+ICF_liberal_87;National Liberals;;;;;;;;;;;;;x
+ICF_socialist_85;Socialists;;;;;;;;;;;;;x
+ICF_socialist_99;National Socialists;;;;;;;;;;;;;x
+ICF_reactionary_81;Chieftain Faction;;;;;;;;;;;;;x
+ICF_communist_86;Communists;;;;;;;;;;;;;x
+ICF_fascist_72;Fascists;;;;;;;;;;;;;x
+MAH_ADJ;Maharashtran;;;;;;;;;;;;;x
+MAH;Maratha Confederacy;;;;;;;;;;;;;x
+MAH_hms_government;Maratha Empire;;;;;;;;;;;;;x
+MAH_conservative_92;Conservatives;;;;;;;;;;;;;x
+MAH_liberal_79;Liberals;;;;;;;;;;;;;x
+MAH_liberal_87;National Liberals;;;;;;;;;;;;;x
+MAH_socialist_85;Socialists;;;;;;;;;;;;;x
+MAH_socialist_99;National Socialists;;;;;;;;;;;;;x
+MAH_reactionary_84;Monarchy Leadership;;;;;;;;;;;;;x
+MAH_communist_86;Communists;;;;;;;;;;;;;x
+MAH_fascist_72;Fascists;;;;;;;x;;;;;;
+UPB_ADJ;Portuguese-Brazilian;;;;;;;x;;;;;;
+UPB;Portugal-Brazil;;;;;;;;;;;;;x
+UPB_absolute_monarchy;Union of Portugal and Brazil;;;;;;;;;;;;;x
+UPB_prussian_constitutionalism;Union of Portugal and Brazil;;;;;;;;;;;;;x
+UPB_hms_government;Union of Portugal and Brazil;;;;;;;;;;;;;x
+UPB_democracy;Portugal-Brazil;;;;;;;;;;;;;x
+UPB_conservative_92;Conservatives;;;;;;;;;;;;;x
+UPB_liberal_79;Liberals;;;;;;;;;;;;;x
+UPB_liberal_87;National Liberals;;;;;;;;;;;;;x
+UPB_socialist_85;Socialists;;;;;;;;;;;;;x
+UPB_socialist_99;National Socialists;;;;;;;;;;;;;x
+UPB_reactionary_84;Monarchy Leadership;;;;;;;;;;;;;x
+UPB_communist_86;Communists;;;;;;;;;;;;;x
+UPB_fascist_72;Fascists;;;;;;;;;;;;;x
+NIT_ADJ;Italian;;;;;;;;;;;;;x
+NIT;Royaume d'Italie;;;;;;;x;;;;;;
+NIT_conservative_92;Conservatives;;;;;;;;;;;;;x
+NIT_liberal_79;Liberals;;;;;;;;;;;;;x
+NIT_liberal_87;National Liberals;;;;;;;;;;;;;x
+NIT_socialist_85;Socialists;;;;;;;;;;;;;x
+NIT_socialist_99;National Socialists;;;;;;;;;;;;;x
+NIT_reactionary_84;Monarchy Leadership;;;;;;;;;;;;;x
+NIT_communist_86;Communists;;;;;;;;;;;;;x
+NIT_fascist_72;Fascists;;;;;;;;;;;;;x
+NPL_ADJ;Neapolitan;;;;;;;;;;;;;x
+NPL;Naples;;;;;;;;;;;;;x
+NAP_conservative_92;Conservatives;;;;;;;;;;;;;x
+NAP_liberal_79;Liberals;;;;;;;;;;;;;x
+NAP_liberal_87;National Liberals;;;;;;;;;;;;;x
+NAP_socialist_85;Socialists;;;;;;;;;;;;;x
+NAP_socialist_99;National Socialists;;;;;;;;;;;;;x
+NAP_reactionary_84;Monarchy Leadership;;;;;;;;;;;;;x
+NAP_communist_86;Communists;;;;;;;;;;;;;x
+NAP_fascist_72;Fascists;;;;;;;;;;;;;x
+SYC_ADJ;Sicilian;;;;;;;;;;;;;x
+SYC;Sicily;;;;;;;;;;;;;x
+SYC_conservative_92;Conservatives;;;;;;;;;;;;;x
+SYC_liberal_79;Liberals;;;;;;;;;;;;;x
+SYC_liberal_87;National Liberals;;;;;;;;;;;;;x
+SYC_socialist_85;Socialists;;;;;;;;;;;;;x
+SYC_socialist_99;National Socialists;;;;;;;;;;;;;x
+SYC_reactionary_84;Monarchy Leadership;;;;;;;;;;;;;x
+SYC_communist_86;Communists;;;;;;;;;;;;;x
+SYC_fascist_72;Fascists;;;;;;;;;;;;;x
+HAN_ADJ;Westfalian;;;;;;;;;;;;;x
+HAN;Westphalia;;;;;;;;;;;;;x
+GCF;Confederation of the Rhine;;;;;;;x;;;;;;
+GCF_ADJ;Rhenish;;;;;;;x;;;;;;
+TUS;Etruria;;;;;;;x;;;;;;
+TUS_hms_government;Tuscany;;;;;;;x;;;;;;
+TUS_absolute_monarchy;Tuscany;;;;;;;x;;;;;;
+TUS_prussian_constitutionalism;Tuscany;;;;;;;x;;;;;;
+WUL;Wurzburg;;;;;;;x;;;;;;
+WUL_ADJ;Wurzburgian;;;;;;;x;;;;;;
+BRA;Berg;;;;;;;x;;;;;;
+BRA_ADJ;Berg;;;;;;;x;;;;;;
+INO;Indonesia;;;;;;;;;;;x;;
+INO_ADJ;Indonesian;;;;;;;;;;;x;;
+INO_conservative;Partai Golongan Karya;;;;;;;x;;;;;;
+INO_liberal;Partai Majelis Syuro Muslimin Indonesia;;;;;;;x;;;;;;
+INO_liberal_2;Partai Demokrat;;;;;;;x;;;;;;
+INO_reactionary;Nahdlatul Ulama;;;;;;;x;;;;;;
+INO_socialist;Partai Sosialis Indonesia;;;;;;;x;;;;;;
+INO_socialist_2;Partai Nasional Indonesia;;;;;;;x;;;;;;
+INO_communist;Partai Komunis Indonesia;;;;;;;x;;;;;;
+INO_fascist;Partai Gerakan Indonesia Raya;;;;;;;x;;;;;;
+FRA_proletarian_dictatorship;Commune de France;;;;;;;x;;;;;;
+FRA_fascist_dictatorship;Regime de France;;;;;;;x;;;;;;
+FRA_democracy;Deuxieme Republique Francaise;;;;;;;x;;;;;;
+IBR;Iberia;;;;;;;x;;;;;;
+IBR_ADJ;Iberian;;;;;;;x;;;;;;
+BUR_absolute_monarchy;The Konbaung Dynasty;;;;;;;x;;;;;;
+BUR_prussian_constitutionalism;The Konbaung Dynasty;;;;;;;x;;;;;;
+SWI_democracy;The Helvetic Republic;;;;;;;x;;;;;;
+NET_democracy;The Batavian Republic;;;;;;;x;;;;;;
+SLS;Silesia;;;;;;;x;;;;;;
+SLS_ADJ;Silesian;;;;;;;x;;;;;;
+PBC;Peru-Bolivian Confederation;;;;;;;x;;;;;;
+PBC_ADJ;Peru-Bolivian;;;;;;;x;;;;;;
+PBC_absolute_monarchy;Great Peru;;;;;;;x;;;;;;
+PBC_proletarian_dictatorship;The People's Andine Republic;;;;;;;x;;;;;;
+PBC_proletarian_dictatorship_ADJ;Andine;;;;;;;x;;;;;;
+PBC_democracy;The Andine Federation;;;;;;;x;;;;;;
+PBC_democracy_ADJ;Andine;;;;;;;x;;;;;;
+ITA_fascist_dictatorship;The Roman Empire;;;;;;;x;;;;;;
+ITA_fascist_dictatorship_ADJ;Roman;;;;;;;x;;;;;;

@@ -1,0 +1,26 @@
+country_event = {
+	id = 9999901
+	title = "EVTNAME9999901"
+	desc = "EVTDESC9999901"
+	picture = "Opiumwar"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Convert them to Artisans!"
+		all_core = {
+			any_pop = {
+				limit = { 
+					AND = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					type = craftsmen
+				}
+				pop_type = artisans
+			}
+				
+		}
+		
+	}
+}	

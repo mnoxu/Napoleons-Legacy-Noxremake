@@ -1,0 +1,189 @@
+definitions: 236 tags, 1 religions ['placeholder'], 226 cultures (from VANILLA), 13 poptypes, 3300 provinces, 987 events, 25 units, 150 techs, 549 inventions, 238 modifiers
+
+== duplicate_event_id: 2
+   91307: ['events\\GTFObutbetterevents.txt', 'events\\capitalsupply.txt']
+   91308: ['events\\GTFObutbetterevents.txt', 'events\\capitalsupply.txt']
+
+== missing_flag: 234
+   gfx/flags/ABU_monarchy.tga
+   gfx/flags/AFG_monarchy.tga
+   gfx/flags/ALB_monarchy.tga
+   gfx/flags/ALD_monarchy.tga
+   gfx/flags/ANH_monarchy.tga
+   gfx/flags/ARA_monarchy.tga
+   gfx/flags/ARG_monarchy.tga
+   gfx/flags/ARM_monarchy.tga
+   gfx/flags/ARO_monarchy.tga
+   gfx/flags/ASH_monarchy.tga
+   gfx/flags/AST_monarchy.tga
+   gfx/flags/ATJ_monarchy.tga
+   gfx/flags/AUS_monarchy.tga
+   gfx/flags/AWA_monarchy.tga
+   gfx/flags/AZB_monarchy.tga
+   gfx/flags/BAD_monarchy.tga
+   gfx/flags/BAL_monarchy.tga
+   gfx/flags/BAS_monarchy.tga
+   gfx/flags/BAV_monarchy.tga
+   gfx/flags/BEL_monarchy.tga
+   gfx/flags/BEN_monarchy.tga
+   gfx/flags/BER_monarchy.tga
+   gfx/flags/BHO_monarchy.tga
+   gfx/flags/BHU_monarchy.tga
+   gfx/flags/BIK_monarchy.tga
+   gfx/flags/BOH_monarchy.tga
+   gfx/flags/BOL_monarchy.tga
+   gfx/flags/BOS_monarchy.tga
+   gfx/flags/BRA_monarchy.tga
+   gfx/flags/BRU_monarchy.tga
+   gfx/flags/BRZ_monarchy.tga
+   gfx/flags/BUK_monarchy.tga
+   gfx/flags/BUL_monarchy.tga
+   gfx/flags/BUN_monarchy.tga
+   gfx/flags/BUR_monarchy.tga
+   gfx/flags/BYE_monarchy.tga
+   gfx/flags/CAL_monarchy.tga
+   gfx/flags/CAM_monarchy.tga
+   gfx/flags/CAN_monarchy.tga
+   gfx/flags/CAT_monarchy.tga
+   ... +194 more
+
+== unknown_culture: 167
+   decisions\0_NL_DEN.txt: accepted_culture = scotish
+   decisions\0_NL_DEN.txt: add_accepted_culture = scotish
+   decisions\0_NL_FRA_CULTURES.txt: accepted_culture = cisalpine
+   decisions\0_NL_FRA_CULTURES.txt: accepted_culture = rhenish
+   decisions\0_NL_FRA_CULTURES.txt: add_accepted_culture = cisalpine
+   decisions\0_NL_FRA_CULTURES.txt: add_accepted_culture = rhenish
+   decisions\0_NL_FRA_CULTURES.txt: culture = cisalpine
+   decisions\0_NL_FRA_CULTURES.txt: culture = rhenish
+   decisions\0_NL_FRA_JEROME.txt: accepted_culture = rhenish
+   decisions\0_NL_FRA_JEROME.txt: add_accepted_culture = rhenish
+   decisions\0_NL_FRA_JEROME.txt: culture = rhenish
+   decisions\0_NL_FRA_MAXIMILIEN.txt: accepted_culture = cisalpine
+   decisions\0_NL_FRA_MAXIMILIEN.txt: add_accepted_culture = cisalpine
+   decisions\0_NL_ITA.txt: accepted_culture = cisalpine
+   decisions\0_NL_ITA.txt: add_accepted_culture = cisalpine
+   decisions\0_NL_RUS.txt: accepted_culture = aryan
+   decisions\0_NL_RUS.txt: accepted_culture = turkic
+   decisions\0_NL_RUS.txt: add_accepted_culture = aryan
+   decisions\0_NL_RUS.txt: add_accepted_culture = turkic
+   decisions\NationalUnification.txt: add_accepted_culture = cisalpine
+   decisions\NationalUnification.txt: add_accepted_culture = rhenish
+   decisions\NationalUnification.txt: primary_culture = andean
+   decisions\NationalUnification.txt: remove_accepted_culture = german
+   decisions\Turkey.txt: add_accepted_culture = egyptian
+   decisions\Turkey.txt: add_accepted_culture = peninsular_arab
+   events\PRUFlavor.txt: has_pop_culture = rhenish
+   history\countries\ABU - Abu Dhabi.txt: primary_culture = peninsular_arab
+   history\countries\AFG - Afghanistan.txt: culture = turkic
+   history\countries\AFG - Afghanistan.txt: primary_culture = aryan
+   history\countries\ALD - Aldjazair.txt: primary_culture = north_african
+   history\countries\ARA - Arabia.txt: primary_culture = peninsular_arab
+   history\countries\ARO - Aro.txt: primary_culture = volta
+   history\countries\ASH - Ashanti.txt: primary_culture = western_african
+   history\countries\BAD - Baden.txt: culture = rhenish
+   history\countries\BEN - Benin.txt: primary_culture = volta
+   history\countries\BOL - Bolivia.txt: primary_culture = andean
+   history\countries\BUK - Bukkhara.txt: primary_culture = turkic
+   history\countries\CHL - Chile.txt: primary_culture = andean
+   history\countries\CLA - Calabar.txt: primary_culture = volta
+   history\countries\CLM - Colombia.txt: primary_culture = andean
+   ... +127 more
+
+== unknown_government: 1
+   history\countries\LPL - La Plata.txt: government = republic
+
+== unknown_modifier: 1
+   events\0_NL_Host_Nation.txt: add_country_modifier name = bigchungus
+
+== unknown_poptype: 1
+   common\production_types.txt: poptype = artisan
+
+== unknown_religion: 287
+   decisions\Japan.txt: religion = shinto
+   decisions\UncivFlavor.txt: religion = shiite
+   events\PRUFlavor.txt: has_pop_religion = jewish
+   events\TemperanceLeague.txt: religion = shiite
+   events\TemperanceLeague.txt: religion = sunni
+   events\USAFlavor.txt: has_pop_religion = catholic
+   events\USAFlavor.txt: has_pop_religion = protestant
+   history\countries\ABU - Abu Dhabi.txt: religion = shiite
+   history\countries\AFG - Afghanistan.txt: religion = sunni
+   history\countries\ALB - Albania.txt: religion = sunni
+   history\countries\ALD - Aldjazair.txt: religion = sunni
+   history\countries\ANH - Anhalt.txt: religion = protestant
+   history\countries\ARA - Arabia.txt: religion = sunni
+   history\countries\ARG - Argentina.txt: religion = catholic
+   history\countries\ARM - Armenia.txt: religion = orthodox
+   history\countries\ARO - Aro.txt: religion = animist
+   history\countries\ASH - Ashanti.txt: religion = animist
+   history\countries\AST - Australia.txt: religion = protestant
+   history\countries\ATJ - Atjeh.txt: religion = sunni
+   history\countries\AUS - Austria.txt: religion = catholic
+   history\countries\AWA - Awadh.txt: religion = shiite
+   history\countries\AZB - Azerbaijan.txt: religion = sunni
+   history\countries\BAD - Baden.txt: religion = catholic
+   history\countries\BAL - Bali.txt: religion = animist
+   history\countries\BAS - Bastar.txt: religion = hindu
+   history\countries\BAV - Bavaria.txt: religion = catholic
+   history\countries\BEL - Belgium.txt: religion = catholic
+   history\countries\BEN - Benin.txt: religion = animist
+   history\countries\BER - Beroda.txt: religion = hindu
+   history\countries\BHO - Bhopal.txt: religion = hindu
+   history\countries\BHU - Bhutan.txt: religion = gelugpa
+   history\countries\BIK - Bikaner.txt: religion = hindu
+   history\countries\BOH - Bohemia.txt: religion = catholic
+   history\countries\BOL - Bolivia.txt: religion = catholic
+   history\countries\BRA - Braunschweig.txt: religion = protestant
+   history\countries\BRU - Brunei.txt: religion = sunni
+   history\countries\BRZ - Brazil.txt: religion = catholic
+   history\countries\BUK - Bukkhara.txt: religion = sunni
+   history\countries\BUL - Bulgaria.txt: religion = orthodox
+   history\countries\BUN - Bundelkhand.txt: religion = hindu
+   ... +247 more
+
+== unknown_tag: 40
+   history\countries\D02.txt: history file for undefined tag
+   history\countries\D03.txt: history file for undefined tag
+   history\countries\D04.txt: history file for undefined tag
+   history\countries\D05.txt: history file for undefined tag
+   history\countries\D06.txt: history file for undefined tag
+   history\countries\D07.txt: history file for undefined tag
+   history\countries\D08.txt: history file for undefined tag
+   history\countries\D09.txt: history file for undefined tag
+   history\countries\D10.txt: history file for undefined tag
+   history\countries\D11.txt: history file for undefined tag
+   history\countries\D12.txt: history file for undefined tag
+   history\countries\D13.txt: history file for undefined tag
+   history\countries\D14.txt: history file for undefined tag
+   history\countries\D15.txt: history file for undefined tag
+   history\countries\D16.txt: history file for undefined tag
+   history\countries\D17.txt: history file for undefined tag
+   history\countries\D18.txt: history file for undefined tag
+   history\countries\D19.txt: history file for undefined tag
+   history\countries\D20.txt: history file for undefined tag
+   history\countries\D21.txt: history file for undefined tag
+   history\countries\D22.txt: history file for undefined tag
+   history\countries\D23.txt: history file for undefined tag
+   history\countries\D24.txt: history file for undefined tag
+   history\countries\D25.txt: history file for undefined tag
+   history\countries\D26.txt: history file for undefined tag
+   history\countries\D27.txt: history file for undefined tag
+   history\countries\D28.txt: history file for undefined tag
+   history\countries\D29.txt: history file for undefined tag
+   history\countries\D30.txt: history file for undefined tag
+   history\countries\D31.txt: history file for undefined tag
+   history\countries\D32.txt: history file for undefined tag
+   history\countries\D33.txt: history file for undefined tag
+   history\countries\D34.txt: history file for undefined tag
+   history\countries\D35.txt: history file for undefined tag
+   history\countries\D36.txt: history file for undefined tag
+   history\countries\D37.txt: history file for undefined tag
+   history\countries\D38.txt: history file for undefined tag
+   history\countries\D39.txt: history file for undefined tag
+   inventions\PUIR_mobilisation.txt: tag = HUI
+   inventions\PUIR_rare_goods.txt: tag = TPG
+
+== unknown_tech_or_invention: 2
+   events\Goods.txt: invention = synthetic_dye
+   inventions\PUIR_military.txt: invention = medium_artillery

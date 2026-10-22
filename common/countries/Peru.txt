@@ -1,0 +1,118 @@
+color = { 124  140  162 }
+graphical_culture = SouthAmericanGC
+
+party = {
+	name = "PEU_conservative"
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "PEU_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PEU_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "PEU_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "PEU_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PEU_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Chakana "Hanan Pacha" Inti "Machu Picchu" "Mama Cocha" "Mama Kuka" "Pacha Camac" Pariacaca Supay "Uku Pacha"
+	}
+	ironclad = {
+		Ancash Arequipa Ayacucho Cajamarca Castilla Huanuco Loreto Rimac Velarde Villavisencio
+	}
+	manowar = {
+		Arequipeno Balcarce Belgrano "Coronel Spano" Cruz Limena Peruviana Protector Sacramento Union
+	}
+	cruiser = {
+		"Almirante Grau" "Capitan Quinones" Chachapoyas "Comandante Aguirre" "Coronel Bolognesi" Huancavelica Lima Mayobamba Moquegua Trujillo
+	}
+	frigate = {
+		Amazonas Apurimac Callao Independencia Mercedes Meteoro Monteagudo Palacios Presidente "Teniente Galvez"
+	}
+	monitor = {
+		Atahualpa "Diego de Almagro" "Francisco Pizarro" "Hernando de Soto" Huascar "Huayna Capac" "Manco Capac" Pachacuti "Tupac Amaru" "Tupac Inca"
+	}
+	clipper_transport = { 
+		Caupolican Chalaco Chimbote Colon Constitucion "Contraalmirante Haza" "General Lerzundi" "Guardian Rios" Independencia Iquitos
+		Limena Oroya Peru Pucallpa "San Martin" "Santa Fe" "Santa Rosa" Tacna Talisman Vilcanota
+	}
+	steam_transport = { 
+		Caupolican Chalaco Chimbote Colon Constitucion "Contraalmirante Haza" "General Lerzundi" "Guardian Rios" Independencia Iquitos
+		Limena Oroya Peru Pucallpa "San Martin" "Santa Fe" "Santa Rosa" Tacna Talisman Vilcanota
+	}
+	commerce_raider = {
+		"Almirante Guise" "Almirante Villar" America Arno Chanchamayo Chorrillos "Coronel Portillo" Cuzco Pilcomayo "Teniente Rodriguez"
+	}
+}

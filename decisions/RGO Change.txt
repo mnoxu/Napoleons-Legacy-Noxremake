@@ -1,0 +1,36 @@
+political_decisions = {
+		
+		rgo_change_mining = {
+			picture = alsace_lorraine_mines
+				potential = {
+					ai = no
+					NOT = { has_country_modifier = rgo_changed }
+				}	
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = { 
+						id = 199936
+					}
+				}
+		}
+		
+		rgo_change_agriculture = {
+			picture = tea_production
+				potential = {
+					ai = no
+					NOT = { has_country_modifier = rgo_changed }
+				}	
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = {
+						id = 199937
+					}
+				}
+		}
+}

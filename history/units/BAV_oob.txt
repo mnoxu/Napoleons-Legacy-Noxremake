@@ -1,0 +1,99 @@
+leader = {
+	name = "Pappenheim"
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+leader = {
+	name = "von Washington"
+	date = 1825.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Karl von Heideck"
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Prinz Karl"
+	date = 1825.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
+	prestige = 0.1
+}
+
+army = {
+	name = "I. Korps"
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 592
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 602
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Cavalerybrigade"
+		type = hussar
+		home = 599
+	}
+
+	regiment = {
+		name= "1. Kgl. Bayer. Artillerybrigade"
+		type = artillery
+		home = 601
+	}
+
+	location = 595
+	regiment = {
+		name= "2. Kgl. Bayer. Artillerybrigade"
+		type = artillery
+		home = 595
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Artillerybrigade"
+		type = artillery
+		home = 599
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Artillerybrigade"
+		type = artillery
+		home = 612
+	}
+
+	regiment = {
+		name= "5. Kgl. Bayer. Artillerybrigade"
+		type = artillery
+		home = 613
+	}
+}

@@ -1,0 +1,69 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+infantry_offensive;Offensive Infantry;;;;;;;x
+infantry_defensive;Defensive Infantry;;;;;;;x
+artillery_offensive;Offensive Artillery;;;;;;;x
+artillery_defensive;Defensive Artillery;;;;;;;x
+generic_conservative;Generic Conservative;;;;;;;x
+generic_reactionary;Generic Reactionary;;;;;;;x
+generic_liberal;Generic Liberal;;;;;;;x
+generic_socialist;Generic Socialist;;;;;;;x
+generic_communist;Generic Communist;;;;;;;x
+generic_fascist;Generic Fascist;;;;;;;x
+craftsmen_fix_cooldown;Craftsmen Fix Cooldown;;;;;;;x
+craftsmen_fix_cooldown_desc;Craftsmen Fix Cooldown is 10 years.;;;;;;;x
+bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;x
+bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;x
+EVTNAME9999901;Craftsmen Exploit Salvage;;;;;;;x
+EVTDESC9999901;This event converts all non-core/non-accepted craftsmen on your cores into artisans.;;;;;;;x
+EVT2600OPTA;Integrate Them.;;;;;;;x
+EVT2600OPTB;Reject Them.;;;;;;;x
+EVT2605OPTA;Hurrah!;;;;;;;x
+craftsmen_fix_title;Craftsmen Salvage Decision (10 year cooldown);;;;;;;x
+craftsmen_fix_desc;This decision is intended to salvage your country after it has been craftsmen hijacked. It will revert all non-core/non-accepted craftsmen on your cores to artisans so that your core craftsmen will start working. (Think South Germans in Venetia hijacking.) BE CAREFUL OF USE.;;;;;;;x
+bureaucrats_fix_title;Non-Accepted Bureaucrats Decision (10 year cooldown);;;;;;;x
+bureaucrats_fix_desc;This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding.;;;;;;;x
+france_sphere_jap_title;Ask The French Empire for Support;;;;;;;x
+france_sphere_jap_desc;While France rules in Europe, we can rule in Asia, making an alliance between our two nations a logical decision. They will understand then that we require her resources to prosper in our time of need. (Decision only available in 1836);;;;;;;x
+usa_sphere_jap_title;Ask the United States for Support;;;;;;;x
+usa_sphere_jap_desc;Clearly we cannot trust other interests in Asia, but we can't fuel this machine on good will. There appears to be a budding nation across the Pacific... they may be able to provide us with markets in our time of need. (Decision only available in 1836);;;;;;;x
+rus_sphere_jap_title;Ask Russian Empire for Support;;;;;;;x
+rus_sphere_jap_desc;If our interests are in China, then surely allying ourselves with the next best thing to overcome her would be the right course of action. (Decision only available in 1836);;;;;;;x
+change_tech_school_on_title;Change Tech School (Hidden);;;;;;;x
+change_tech_school_on_desc;Show Tech School Decisions;;;;;;;x
+change_tech_school_off_title;Change Tech School (Showing);;;;;;;x
+change_tech_school_off_desc;Hide Tech School Decisions;;;;;;;x
+player_alliances_title;Ally All Player Nations;;;;;;;x
+player_alliances_desc;Automatically allies all player nations. DO NOT SPAM.;;;;;;;x
+assert_on_steppe_title;Assert Ourselves in Central Asia;;;;;;;x
+assert_on_steppe_desc;The Major Powers chaffing at our periphery is inclining us to attempt projecting into the steppe, but who could possibly own such a vast region with land ownership? The real value is the people themselves.;;;;;;;x
+enact_the_homestead_act_mexico_title;The Mexican Homestead Act;;;;;;;x
+enact_the_homestead_act_mexico_desc;During this time period, there were land reforms in Mexico very similar to the United States Homestead Act.;;;;;;;x
+double_down_in_the_balkans_title;Double Down in the Balkans;;;;;;;x
+double_down_in_the_balkans_desc;For too long have the peoples of the Balkans thwarted our efforts of expansion. Let us focus all our attention to the re-education and assimilation of these barbaric peoples.;;;;;;;x
+the_homestead_act_mexico_title;The Mexican Homestead Act;;;;;;;x
+the_homestead_act_mexico_desc;During this time period, there were land reforms in Mexico very similar to the United States Homestead Act.;;;;;;;x
+policestate_modifier;The Police State;;;;;;;x
+policestate_modifier_desc;You have an active Police State.;;;;;;;x
+one_party_state_modifier;One Party State;;;;;;;x
+one_party_state_modifier_desc;You have an active One Party State.;;;;;;;x
+totalitarianism_modifier;Totalitarian;;;;;;;x
+totalitarianism_modifier_desc;You have an active Totalitarianist government.;;;;;;;x
+leadership_principle_modifier;The Leadership Principle;;;;;;;x
+leadership_principle_modifier_desc;Your people are enthralled by the Leadership Principle.;;;;;;;x
+ultranationalism_modifier;Ultranationalism;;;;;;;x
+ultranationalism_modifier_desc;Your people are enthralled by Ultranationalism.;;;;;;;x
+collectivisation_modifier;Collectivisation;;;;;;;x
+collectivisation_modifier_desc;Your people are enthralled by Collectivisation.;;;;;;;x
+classless_society_modifier;Classless Society;;;;;;;x
+classless_society_modifier_desc;Your people have created a Classless Society.;;;;;;;x
+aryan;Aryan;;;;;;;x
+turkic;Turkic;;;;;;;x
+UNIT_BUILD_TIME_IW;$VAL$ days.;;;;;;;x
+industrial_tanneries;Industrial Tanneries;;;;;;;x
+industrial_tanneries_desc;In the Victorian era tanneries were often close to the abattoirs and so the skins would often arrive at the tannery fresh and unsalted. With industrial levels of meat consumption, it was inevitable that the leather industry advance as well.;;;;;;;x
+offensive_infantry_activation;Activate Offensive Infantry;;;;;;;x
+defensive_infantry_activation;Activate Defensive Infantry;;;;;;;x
+offensive_artillery_activation;Activate Offensive Artillery;;;;;;;x
+defensive_artillery_activation;Activate Defensive Artillery;;;;;;;x
+political_reformed_nation;Politically Liberal State;;;;;;;x
+political_reformed_nation_desc;Our country political reforms match every liberal demand, giving us international recognition as a truly free state.;;;;;;;x

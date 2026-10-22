@@ -1,0 +1,115 @@
+
+
+country_event = {
+	
+	id = 44825
+	title = "EVTNAME44825" #The Treaty of Guadalupe Hidalgo
+	desc = "EVTDESC44825"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We agree to their proposal."
+		set_country_flag = treaty_of_guadalupe_hidalgo
+		prestige = -25
+		treasury = 100000
+		random_owned = {
+			limit = {
+				owner = { war_with = USA }
+			}
+			owner = { end_war = USA }
+			any_country = {
+				limit = {
+					war_with = THIS
+					alliance_with = USA
+				}
+				end_war = THIS
+			}
+		}
+		all_core = {
+			limit = {
+				OR = {
+					region = TEX_132
+					region = MEX_103
+					region = MEX_94
+					region = MEX_85
+					region = MEX_100
+				}
+			}
+			remove_core = MEX
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = USA
+					region = TEX_132
+					region = MEX_103
+					region = MEX_94
+					region = MEX_85
+					region = MEX_100
+					region = USA_106
+					region = USA_129
+				}
+			}
+			secede_province = USA
+		}
+		USA = { country_event = 44826 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "We refuse!"
+		war_exhaustion = 20
+		USA = { country_event = 44827 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+
+	id = 44826
+	title = "EVTNAME44826" #Mexico Agrees
+	desc = "EVTDESC44826"
+	news = yes
+	news_title = "EVTNAME44825"
+	news_desc_long = "EVTDESC44826_NEWS_LONG"
+	news_desc_medium = "EVTDESC44826_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44826_NEWS_SHORT"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A wise move."
+		prestige = 20
+		treasury = -100000
+		diplomatic_influence = {
+			who = FROM
+			value = 400
+		}
+		relation = {
+			who = FROM
+			value = 200
+		}
+	}
+}
+
+country_event = {
+
+	id = 44827
+	title = "EVTNAME44827" #Mexico Refuses
+	desc = "EVTDESC44827"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A foolish move."
+		war_exhaustion = -20
+	}
+}

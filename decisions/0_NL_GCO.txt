@@ -1,0 +1,41 @@
+political_decisions = {
+	force_peru = {
+		potential = {
+			tag = GCO
+			NOT = { has_country_flag = forced_peru }
+		}
+		allow = {
+			PEU = {
+				OR = {
+					all_core = {
+						owned_by = THIS
+					}
+					in_sphere = THIS
+					vassal_of = THIS
+				}
+			}
+			war_policy = jingoism
+		}
+		effect = {
+			PEU = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			random_country = {
+				limit = {
+					tag = PEU
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			BOL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			badboy = 10
+			set_country_flag = forced_peru
+		}
+	}
+}

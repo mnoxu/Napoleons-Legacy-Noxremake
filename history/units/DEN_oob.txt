@@ -1,0 +1,521 @@
+ENG = {
+	value = -100
+}
+GBR = {
+	value = -100
+}
+
+PRU = {
+	value = -50
+}
+SWE = {
+	value = 100
+}
+FRA = {
+	value = 50
+}
+
+leader = {
+	name = "Rye"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Erik"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Noah"
+	date = 1836.1.1
+	type = sea
+	personality = defence_2.71
+	background = attack_3.5
+}
+
+army = {
+	name = "Danske Haeren"
+	location = 372
+	regiment = {
+		name= "1.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "1.2. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "1.3. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+	
+	regiment = {
+		name= "1.4. Infanteridivision"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "1.1. Infanteridivision"
+		type = artillery
+		home = 305
+	}
+
+	regiment = {
+		name= "1.2. Infanteridivision"
+		type = artillery
+		home = 366
+	}
+	regiment = {
+		name= "1.3. Infanteridivision"
+		type = artillery
+		home = 366
+	}
+	regiment = {
+		name= "1.4. Infanteridivision"
+		type = artillery
+		home = 310
+	}
+	regiment = {
+		name= "1.5. Infanteridivision"
+		type = artillery
+		home = 309
+	}
+
+	regiment = {
+		name= "1.1. Kavalleridivision"
+		type = hussar
+		home = 373
+	}
+
+}
+army = {
+	name = "Indian army"
+	location = 1309
+	regiment = {
+		name= "1.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "2.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "3.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+	
+	regiment = {
+		name= "1.2. Infanteridivision"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "2.2. Infanteridivision"
+		type = artillery
+		home = 373
+	}
+
+	regiment = {
+		name= "3.2. Infanteridivision"
+		type = artillery
+		home = 1309
+	}
+	regiment = {
+		name= "4.2. Infanteridivision"
+		type = artillery
+		home = 1310
+	}
+	regiment = {
+		name= "5.2. Infanteridivision"
+		type = artillery
+		home = 1318
+	}
+	regiment = {
+		name= "6.2. Infanteridivision"
+		type = artillery
+		home = 1319
+	}
+
+	regiment = {
+		name= "1.1. Kavalleridivision"
+		type = hussar
+		home = 373
+	}
+
+}
+
+navy = {
+	name = "Danish First Squadron"
+	location = 372
+	ship = {
+		name= "Danmark"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dronning Marie"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frederik den sjette"
+		type = manowar
+	}
+	ship = {
+		name= "Waldemar"
+		type = manowar
+	}
+	ship = {
+		name= "Ingolf"
+		type = manowar
+	}
+	ship = {
+		name= "Skjold"
+		type = manowar
+	}
+	ship = {
+		name= "Frederik den sjette II"
+		type = manowar
+	}
+	ship = {
+		name= "Waldemar II"
+		type = manowar
+	}
+	ship = {
+		name= "Ingolf II"
+		type = manowar
+	}
+	ship = {
+		name= "Skjold II"
+		type = manowar
+	}
+	ship = {
+		name= "Danmark II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dronning Marie II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frederik den sjette III"
+		type = manowar
+	}
+	ship = {
+		name= "Waldemar III"
+		type = manowar
+	}
+	ship = {
+		name= "Ingolf III"
+		type = manowar
+	}
+	ship = {
+		name= "Skjold III"
+		type = manowar
+	}
+	ship = {
+		name= "Frederik den sjette IV"
+		type = manowar
+	}
+	ship = {
+		name= "Gefion"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund II"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion II"
+		type = frigate
+	}
+	ship = {
+		name= "Bellona II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diana II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freja II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fylla II"
+		type = frigate
+	}
+	ship = {
+		name= "Leopard II"
+		type = frigate
+	}
+	ship = {
+		name= "Raae II"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund III"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion III"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund IV"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion IV"
+		type = frigate
+	}
+	
+	
+	ship = {
+		name= "Bellona III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diana III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freja III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fylla III"
+		type = frigate
+	}
+	ship = {
+		name= "Leopard III"
+		type = frigate
+	}
+	ship = {
+		name= "Raae III"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund V"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion V"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund VI"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion VI"
+		type = frigate
+	}
+	ship = {
+		name= "Bellona IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diana IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freja IV"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fylla IV"
+		type = frigate
+	}
+	ship = {
+		name= "Leopard IV"
+		type = frigate
+	}
+	ship = {
+		name= "Raae IV"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund VII"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion VII"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund VIII"
+		type = frigate
+	}
+	ship = {
+		name= "Gefion VIII"
+		type = frigate
+	}
+
+
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Danish Indian Fleet"
+	location = 3251
+	ship = {
+		name= "Waldemar IV"
+		type = manowar
+	}
+	ship = {
+		name= "Ingolf IV"
+		type = manowar
+	}
+	ship = {
+		name= "Skjold IV"
+		type = manowar
+	}
+	ship = {
+		name= "Bellona"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diana"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freja"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fylla"
+		type = frigate
+	}
+	ship = {
+		name= "Leopard"
+		type = frigate
+	}
+	ship = {
+		name= "Raae"
+		type = frigate
+	}
+	ship = {
+		name= "Stralsund"
+		type = frigate
+	}
+
+	ship = {
+		name= "11th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "12th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "13th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "14th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "15th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "16th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "17th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "18th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "19th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "20th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
+
+

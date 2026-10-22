@@ -1,0 +1,303 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+GHO;Ghost Country;;;;;;;;;;;;;x
+GHO_ADJ;Ghost;;;;;;;;;;;;;x
+afro_asiatic;Afro-Asiatic;;;;;;;;;;;;;x
+indo_aryan;Indo-Aryan;;;;;;;;;;;;;x
+dravidian;Dravidian;;;;;;;;;;;;;x
+niger_congo_a;Niger-Congo A;;;;;;;;;;;;;x
+nilo_saharan;Nilo-Saharan;;;;;;;;;;;;;x
+make_puppet_small;Make Small Puppet;;;;;;;;;;;;;x
+make_puppet_small_desc;Puppet a ßYcountryßW of small size and population by aggression;;;;;;;;;;;;;x
+make_puppet_small_setup;Puppet the minor nation of $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_small_short;Puppet $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_large;Make Large Puppet;;;;;;;;;;;;;x
+make_puppet_large_desc;Puppet a ßYcountryßW of respectable size and population by aggression;;;;;;;;;;;;;x
+make_puppet_large_setup;Puppet the nation of $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_large_short;Puppet $RECIPIENT$;;;;;;;;;;;;;x
+TIN;ßGTiny State Flag\nßWThis province is in a state that meets the following criteria:\nßY1836 - 1870 ßWLess than 100k POPs\nßY1870 - 1900 ßWLess than 150k POPs\nßY1900+ ßWLess than 200k POPs\n\nßRWarscore Costs (0.5x For Great Wars)\nßWThis province is in a state that has the following costs:\nßYAcquire Core: ßW4% Warscore\nßYAcquire State: ßW12% Warscore\nßYDemand Concession: ßW8% Warscore\nßYPlace in the Sun: ßW4% Warscore\nßYFree Peoples: ßW12% Warscore\nßYTake Capital: ßW66% Warscore;;;;;;;;;;;;;x
+SMA;ßGSmall State Flag\nßWThis province is in a state that meets the following criteria:\nßY1836 - 1870 ßW100k to 400k POPs\nßY1870 - 1900 ßW150k to 600k POPs\nßY1900+ ßW200k to 800k POPs\n\nßRWarscore Costs (0.5x For Great Wars)\nßWThis province is in a state that has the following costs:\nßYAcquire Core: ßW12% Warscore\nßYAcquire State: ßW24% Warscore\nßYDemand Concession: ßW16% Warscore\nßYPlace in the Sun: ßW8% Warscore\nßYFree Peoples: ßW24% Warscore\nßYTake Capital: ßW66% Warscore;;;;;;;;;;;;;x
+MED;ßGMedium State Flag\nßWThis province is in a state that meets the following criteria:\nßY1836 - 1870 ßW400k to 700k POPs\nßY1870 - 1900 ßW600k to 1M POPs\nßY1900+ ßW800k to 1.4M POPs\n\nßRWarscore Costs (0.5x For Great Wars)\nßWThis province is in a state that has the following costs:\nßYAcquire Core: ßW16% Warscore\nßYAcquire State: ßW32% Warscore\nßYDemand Concession: ßW24% Warscore\nßYPlace in the Sun: ßW12% Warscore\nßYFree Peoples: ßW32% Warscore\nßYTake Capital: ßW66% Warscore;;;;;;;;;;;;;x
+LRG;ßGLarge State Flag\nßWThis province is in a state that meets the following criteria:\nßY1836 - 1870 ßW700k to 1M POPs\nßY1870 - 1900 ßW1M to 1.5M POPs\nßY1900+ ßW1.4M to 2M POPs\n\nßRWarscore Costs (0.5x For Great Wars)\nßWThis province is in a state that has the following costs:\nßYAcquire Core: ßW24% Warscore\nßYAcquire State: ßW48% Warscore\nßYDemand Concession: ßW32% Warscore\nßYPlace in the Sun: ßW16% Warscore\nßYFree Peoples: ßW48% Warscore\nßYTake Capital: ßW66% Warscore;;;;;;;;;;;;;x
+HUG;ßGHuge State Flag\nßWThis province is in a state that meets the following criteria:\nßY1836 - 1870 ßWGreater than 1M POPs\nßY1870 - 1900 ßWGreater than 1.5M POPs\nßY1900+ ßWGreater than 2M POPs\n\nßRWarscore Costs (0.5x For Great Wars)\nßWThis province is in a state that has the following costs:\nßYAcquire Core: ßW32% Warscore\nßYAcquire State: ßW64% Warscore\nßYDemand Concession: ßW40% Warscore\nßYPlace in the Sun: ßW20% Warscore\nßYFree Peoples: ßW64% Warscore\nßYTake Capital: ßW66% Warscore;;;;;;;;;;;;;x
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;
+acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_tiny_desc;Aquire an enemy ßYtiny stateßW where we have ßYcore provinces.ßW;;;;;;;;;;;
+acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_small;Acquire Small Core;;;;;;;;;;;
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_small_desc;Aquire an enemy ßYsmall stateßW where we have ßYcore provinces.ßW;;;;;;;;;;;
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_medium;Acquire Medium Core;;;;;;;;;;;
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_medium_desc;Aquire an enemy ßYmedium stateßW where we have ßYcore provinces.ßW;;;;;;;;;;;
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_large;Acquire Large Core;;;;;;;;;;;
+acquire_core_state_large_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_large_desc;Aquire an enemy ßYlarge stateßW where we have ßYcore provinces.ßW;;;;;;;;;;;
+acquire_core_state_large_setup;Acquire large core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_huge;Acquire Huge Core;;;;;;;;;;;
+acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_huge_desc;Aquire an enemy ßYhuge stateßW where we have ßYcore provinces.ßW;;;;;;;;;;;
+acquire_core_state_huge_setup;Acquire huge core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_state_tiny;Acquire Tiny State;;;;;;;;;;;
+acquire_state_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+acquire_state_tiny_desc;Aquire an enemy ßYtiny stateßW.;;;;;;;;;;;
+acquire_state_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+acquire_state_small;Acquire Small State;;;;;;;;;;;
+acquire_state_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_desc;Aquire an enemy ßYsmall stateßW.;;;;;;;;;;;
+acquire_state_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_small_americas;Acquire Small State;;;;;;;;;;;
+acquire_state_small_americas_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_americas_desc;Aquire an enemy ßYsmall stateßW.;;;;;;;;;;;
+acquire_state_small_americas_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_medium;Acquire Medium State;;;;;;;;;;;
+acquire_state_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+acquire_state_medium_desc;Aquire an enemy ßYmedium stateßW.;;;;;;;;;;;
+acquire_state_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+acquire_state_large;Acquire Large State;;;;;;;;;;;
+acquire_state_large_short;Acquire Large State $STATE$.;;;;;;;;;;;
+acquire_state_large_desc;Aquire an enemy ßYlarge stateßW.;;;;;;;;;;;
+acquire_state_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+acquire_state_huge;Acquire Huge State;;;;;;;;;;;
+acquire_state_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;
+acquire_state_huge_desc;Aquire an enemy ßYhuge stateßW.;;;;;;;;;;;
+acquire_state_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+demand_concession_casus_belli_tiny;Tiny State Concession;;;;;;;;;;;
+demand_concession_casus_belli_tiny_short;Demand Tiny State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_desc;Demand a ßYtiny stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+demand_concession_casus_belli_small;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_desc;Demand a ßYsmall stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_desc;Demand a ßYsmall stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_medium;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_desc;Demand a ßYmedium stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_desc;Demand a ßYmedium stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli_large;Large State Concession;;;;;;;;;;;
+demand_concession_casus_belli_large_short;Demand Large State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_large_desc;Demand a ßYlarge stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception;Large State Concession;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_short;Demand Large State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_desc;Demand a ßYlarge stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+demand_concession_casus_belli_huge;Huge State Concession;;;;;;;;;;;
+demand_concession_casus_belli_huge_short;Demand Huge State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_huge_desc;Demand a ßYhuge stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception;Huge State Concession;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_short;Demand Huge State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_desc;Demand a ßYhuge stateßW concession.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+place_in_the_sun_tiny;Tiny Place in the Sun;;;;;;;;;;;
+place_in_the_sun_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+place_in_the_sun_tiny_desc;Demand a ßYtiny stateßW colony.;;;;;;;;;;;
+place_in_the_sun_tiny_setup;Acquire Tiny State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_small;Small Place in the Sun;;;;;;;;;;;
+place_in_the_sun_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+place_in_the_sun_small_desc;Demand a ßYsmall stateßW colony.;;;;;;;;;;;
+place_in_the_sun_small_setup;Acquire Small State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_medium;Medium Place in the Sun;;;;;;;;;;;
+place_in_the_sun_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+place_in_the_sun_medium_desc;Demand a ßYmedium stateßW colony.;;;;;;;;;;;
+place_in_the_sun_medium_setup;Acquire Medium State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_large;Large Place in the Sun;;;;;;;;;;;
+place_in_the_sun_large_short;Acquire Large State $STATE$.;;;;;;;;;;;
+place_in_the_sun_large_desc;Demand a ßYlarge stateßW colony.;;;;;;;;;;;
+place_in_the_sun_large_setup;Acquire Large State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_huge;Huge Place in the Sun;;;;;;;;;;;
+place_in_the_sun_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;
+place_in_the_sun_huge_desc;Demand a ßYhuge stateßW colony.;;;;;;;;;;;
+place_in_the_sun_huge_setup;Acquire Huge State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_tiny;Free People Tiny State;;;;;;;;;;;
+free_peoples_tiny_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_tiny_desc;Liberate a ßYcountryßW's state from its oppressors.;;;;;;;;;;;
+free_peoples_tiny_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_small;Free People Small State;;;;;;;;;;;
+free_peoples_small_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_small_desc;Liberate a ßYcountryßW's state from its oppressors.;;;;;;;;;;;
+free_peoples_small_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_medium;Free People Medium State;;;;;;;;;;;
+free_peoples_medium_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_medium_desc;Liberate a ßYcountryßW's state from its oppressors.;;;;;;;;;;;
+free_peoples_medium_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_large;Free People Large State;;;;;;;;;;;
+free_peoples_large_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_large_desc;Liberate a ßYcountryßW's state from its oppressors.;;;;;;;;;;;
+free_peoples_large_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_huge;Free People Huge State;;;;;;;;;;;
+free_peoples_huge_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_huge_desc;Liberate a ßYcountryßW's state from its oppressors.;;;;;;;;;;;
+free_peoples_huge_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+kinda_bad_badboy;International Sanctions;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+declare_neutrality_generic_title;Declare Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+declare_neutrality_generic_desc;We have little interest in the wars of the world. By enacting this decision, we will no longer be able to use the following CBs: Conquest, Minor Conquest, Acquire State, Place in the Sun, Take Capital, Acquire Treaty Port, Demand Concession, Establish Protectorate and Install Communist Government. Other nations will no longer be able to use the following CBs against us: Conquest, Minor Conquest, Acquire State, Place in the Sun, Free Peoples, Liberate Country, Take Capital, and Install Communist Government;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+generic_neutrality;Political Neutrality;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
+abandon_neutrality_generic_title;Abandon Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+abandon_neutrality_generic_desc;The might of our army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+neutrality;Political Neutrality;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
+become_host_nation_title;Become the Host Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+become_host_nation_desc;Only click this decision if you are the host/GM!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+show_host_decisions_title;Show Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+show_host_decisions_desc;Click to show all host decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_host_decisions_title;Hide Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_host_decisions_desc;Click to hide all host decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+ally_all_countries_title;Ally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+ally_all_countries_desc;Click to ally all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unally_all_countries_title;Unally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unally_all_countries_desc;Click to unally all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+get_militaryaccess_with_all_countries_title;Grant Military Access to All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+get_militaryaccess_with_all_countries_desc;Click to grant military access to all countries in the game. Manually remove the mil access given to the country or countries you want to set as targets for the decisions.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+remove_militaryaccess_with_all_countries_title;Remove Mil Access Given to All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+remove_militaryaccess_with_all_countries_desc;Click to remove military access given to all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+transfer_host_nation_title;Transfer Host Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+transfer_host_nation_desc;Click to transfer the host nation flag to the target nation.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+kick_players_no_milaccess_title;Kick All Target Players;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+kick_players_no_milaccess_desc;Click to kick all target player-countries from the game.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unsige_country_no_milaccess_title;Unsiege All Target Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unsige_country_no_milaccess_desc;Click to unoccupy all non-rebel occupations in target countries.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+choose_country_to_siege_title;Choose a Target Country to be the Occupier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+choose_country_to_siege_desc;Click to pick a target country to be the occupier, after clicking this a new decision will unlock allowing you to choose which countries will be sieged by this target country.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+siege_country_title;Siege All Target Countries to the Occupier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+siege_country_desc;Click this to siege all target countries to the occupier you picked earlier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_title;Change Tag to the Target Country;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_desc;Clicking this decision will change your tag to the target country.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_host_flag_yes_title;Enable Host Flag Following Tag Changes;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_host_flag_yes_desc;Clicking this decision will make it so when you change tag, the host nation flag will follow to the nation you swap to.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_host_flag_no_title;Disable Host Flag Following Tag Changes;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+swap_country_host_flag_no_desc;Clicking this decision will disable the host flag following your tag swaps again.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+select_country_to_swap_title;Set a Player to Tag Switch to a Target Country.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+select_country_to_swap_desc;Click this decision to set a target country as the player to move to the destination tag with the next decision.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+select_country_to_swap_to_title;Set The Destination Tag to a Target Country.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+select_country_to_swap_to_desc;Click this decision to set a target country as the destination tag, and move the initially selected player to said tag.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+reset_swap_selection_title;Reset Tag Switch Selection;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+reset_swap_selection_desc;Clicking this decision will reset the countries flagged for tag swaps;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+world_bank_factory;World Bank;;;;;;;;;x;;;;
+restart_bank_construction_title;Additional World Bank Construction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+restart_bank_construction_desc;This decision is a debugging tool for hosts to cancel existing bank construction projects and to press this button x amount of times to begin constructing new banks.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+give_host_money_title;Give Host Money;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+give_host_money_desc;Give yourself money to help sustain the world bank.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+total_war_cb_title;Enables Total Annexation CBs;;;;;;;;;;;;;;x
+total_war_cb_desc;Enables total annexation CBs for players in the game. (Requires no building);;;;;;;;;;;;;;x
+total_war_cb_safety_title;Total Annexation CBs Safety Decision;;;;;;;;;;;;;;x
+total_war_cb_safety_desc;Disables the safety on enabling Total Annexation CBs.;;;;;;;;;;;;;;x
+GHO_exclusive;World Bank Debug Party;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+give_sanctions_title;Give Sanctions;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+give_sanctions_desc;Does what it says.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+decrease_infamy_title;Decrease Infamy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+decrease_infamy_desc;Does what it says.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+increase_infamy_title;Increase Infamy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+increase_infamy_desc;Does what it says.;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+world_bank;World Bank;;;;;;;;;;;;;x
+world_bank_economics;World Bank Economics;;;;;;;;;;;;;x
+ghost_rp_nerf;Ghost Research Penalty;;;;;;;;;;;;;x
+world_bank_rp_nerf;World Bank Research Penalty;;;;;;;;;;;;;x
+sizing_cooldown;State Sizing Cooldown;;;;;;;;;;;;;x
+tier_1_focus;Tier 1;;;;;;;;;x;;;;
+tier_2_focus;Tier 2;;;;;;;;;x;;;;
+tier_3_focus;Tier 3;;;;;;;;;x;;;;
+tier_4_focus;Tier 4;;;;;;;;;x;;;;
+tier_5_focus;Tier 5;;;;;;;;;x;;;;
+tier_6_focus;Tier 6;;;;;;;;;x;;;;
+input_clerks;Promote Clerks and Reduce Factory Inputs;;;;;;;;;x;;;;
+output_clerks;Promote Clerks and Increase Factory Outputs;;;;;;;;;x;;;;
+input_craftsmen;Promote Craftsmen and Reduce Factory Inputs;;;;;;;;;x;;;;
+output_craftsmen;Promote Craftsmen and Increase Factory Outputs;;;;;;;;;x;;;;
+factory_input_output_bonus;Reduce Factory Inputs and Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_craftsmen;Promote Craftsmen and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_clerks;Promote Clerks and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_soldiers;Promote Soldiers and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_rgos;Reduce Factory Inputs, Increase Factory Outputs, and Increase Mining/Farming Efficiency;;;;;;;;;x;;;;
+soldier_assimilation_bonus;Promote Soldiers and Boost Assimilation Rate;;;;;;;;;x;;;;
+craftsmen_assimilation_bonus;Promote Craftsmen and Boost Assimilation Rate;;;;;;;;;x;;;;
+factory_input_bonus;Reduce Factory Inputs;;;;;;;;;x;;;;
+factory_output_bonus;Increase Factory Outputs;;;;;;;;;x;;;;
+mining_bonus;Bonus Mining Efficiency;;;;;;;;;x;;;;
+farming_bonus;Bonus Farming Efficiency;;;;;;;;;x;;;;
+assimilation_bonus;Bonus Assimilation Rate;;;;;;;;;x;;;;
+internal_migration;Internal Migrant Priority;;;;;;;;;x;;;;
+bureaucrat_migration_bonus;Promote Bureaucrats and Increase Internal Migrant Priority;;;;;;;;;x;;;;
+ship_focus;Ship Repair Speed;;;;;;;;;x;;;;
+militancy_and_reform_focus;Raise Reform Desire and Militancy;;;;;;;;;x;;;;
+promote_bureaucrats_2;Encourage Bureaucrats Tier 2;;;;;;;;;x;;;;
+promote_capitalists_2;Encourage Capitalists Tier 2;;;;;;;;;x;;;;
+promote_clergymen_2;Encourage Clergymen Tier 2;;;;;;;;;x;;;;
+promote_clerks_2;Encourage Clerks Tier 2;;;;;;;;;x;;;;
+promote_craftsmen_2;Encourage Craftsmen Tier 2;;;;;;;;;x;;;;
+promote_officers_2;Encourage Officers Tier 2;;;;;;;;;x;;;;
+promote_soldiers_2;Encourage Soldiers Tier 2;;;;;;;;;x;;;;
+promote_bureaucrats_3;Encourage Bureaucrats Tier 3;;;;;;;;;x;;;;
+promote_capitalists_3;Encourage Capitalists Tier 3;;;;;;;;;x;;;;
+promote_clergymen_3;Encourage Clergymen Tier 3;;;;;;;;;x;;;;
+promote_clerks_3;Encourage Clerks Tier 3;;;;;;;;;x;;;;
+promote_craftsmen_3;Encourage Craftsmen Tier 3;;;;;;;;;x;;;;
+promote_officers_3;Encourage Officers Tier 3;;;;;;;;;x;;;;
+promote_soldiers_3;Encourage Soldiers Tier 3;;;;;;;;;x;;;;
+promote_bureaucrats_4;Encourage Bureaucrats Tier 4;;;;;;;;;x;;;;
+promote_capitalists_4;Encourage Capitalists Tier 4;;;;;;;;;x;;;;
+promote_clergymen_4;Encourage Clergymen Tier 4;;;;;;;;;x;;;;
+promote_clerks_4;Encourage Clerks Tier 4;;;;;;;;;x;;;;
+promote_craftsmen_4;Encourage Craftsmen Tier 4;;;;;;;;;x;;;;
+promote_officers_4;Encourage Officers Tier 4;;;;;;;;;x;;;;
+promote_soldiers_4;Encourage Soldiers Tier 4;;;;;;;;;x;;;;
+promote_bureaucrats_5;Encourage Bureaucrats Tier 5;;;;;;;;;x;;;;
+promote_capitalists_5;Encourage Capitalists Tier 5;;;;;;;;;x;;;;
+promote_clergymen_5;Encourage Clergymen Tier 5;;;;;;;;;x;;;;
+promote_clerks_5;Encourage Clerks Tier 5;;;;;;;;;x;;;;
+promote_craftsmen_5;Encourage Craftsmen Tier 5;;;;;;;;;x;;;;
+promote_officers_5;Encourage Officers Tier 5;;;;;;;;;x;;;;
+promote_soldiers_5;Encourage Soldiers Tier 5;;;;;;;;;x;;;;
+promote_bureaucrats_6;Encourage Bureaucrats Tier 6;;;;;;;;;x;;;;
+promote_capitalists_6;Encourage Capitalists Tier 6;;;;;;;;;x;;;;
+promote_clergymen_6;Encourage Clergymen Tier 6;;;;;;;;;x;;;;
+promote_clerks_6;Encourage Clerks Tier 6;;;;;;;;;x;;;;
+promote_craftsmen_6;Encourage Craftsmen Tier 6;;;;;;;;;x;;;;
+promote_officers_6;Encourage Officers Tier 6;;;;;;;;;x;;;;
+promote_soldiers_6;Encourage Soldiers Tier 6;;;;;;;;;x;;;;
+tier_2_title;ßGTier 2 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_2_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_3_title;ßGTier 3 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_3_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_4_title;ßGTier 4 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_4_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_5_title;ßGTier 5 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_5_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_6_title;ßGTier 6 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_6_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+pop_shift_invention_1;ßGPOP Bonus Promotion Event 1;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_1_desc;Your first promotion bonus invention has been completed! With this bonus, you may choose which POP type receives a bonus to passive promotion chance. You will only be able to see this bonus in the population menu under a specific pop group, then mouse over their promotion chance to whatever it is you gave a bonus to! ßGYou will be able to reset these bonuses at anytime using the Clear All National Promotion Bonuses decision.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_2;ßGTier 2 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_2_desc;Your Tier 2 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_3;ßGTier 3 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_3_desc;Your Tier 3 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_4;ßGTier 4 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_4_desc;Your Tier 4 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_5;ßGTier 5 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_5_desc;Your Tier 5 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_6;ßGTier 6 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_6_desc;Your Tier 6 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+promote_artisans;Encourage Artisans Tier 1;Encourager les artisans ;Handwerker fˆrdern;;Potenciar artesanos ;;;;;;;;;x;;;;
+promote_bureaucrats;Encourage Bureaucrats Tier 1;Encourager les bureaucrates ;BÅEokraten fˆrdern;;Potenciar burÛcratas ;;;;;;;;;x;;;;
+promote_capitalists;Encourage Capitalists Tier 1;Encourager les capitalistes ;Kapitalisten fˆrdern;;Potenciar capitalistas ;;;;;;;;;x;;;;
+promote_clerks;Encourage Clerks Tier 1;Encourager les employÈs ;Angestellte fˆrdern;;Potenciar oficinistas ;;;;;;;;;x;;;;
+promote_craftsmen;Encourage Craftsmen Tier 1;Encourager les ouvriers ;Facharbeiter fˆrdern;;Potenciar obreros ;;;;;;;;;x;;;;
+promote_farmers;Encourage Farmers Tier 1;Encourager les fermiers ;Bauern fˆrdern;;Potenciar campesinos ;;;;;;;;;x;;;;
+promote_labourers;Encourage Labourers Tier 1;Encourager les mineurs ;Arbeiter fˆrdern;;Potenciar peones ;;;;;;;;;x;;;;
+promote_officers;Encourage Officers Tier 1;Encourager les officiers ;Offiziere fˆrdern;;Potenciar oficiales ;;;;;;;;;x;;;;
+promote_soldiers;Encourage Soldiers Tier 1;Encourager les soldats ;Soldaten fˆrdern;;Potenciar soldados ;;;;;;;;;x;;;;
+take_capital_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x;;;;;;;;;;;
+take_capital_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x;;;;;;;;;;;
+LCT;Host Nation;Liechtenstein;Liechtenstein;;Liechtenstein;;;;;;;;;x;;;;;;;;;;;
+PROV3252;Host Nation;;;;;;;;;;;;;x
+LCT_3252;Host Nation;;;;;;;;;;;;;x
+southern_expansion_desc;Since Peter the Great, we have been looking for access to warm water. Now that the lands of Azerbaijan are ours, its people must be accepted and feel like a part of our empire.;;;;;;;;;;;;;x
