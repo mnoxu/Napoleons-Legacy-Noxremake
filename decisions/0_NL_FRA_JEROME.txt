@@ -50,7 +50,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					OR = {
-						culture = north_german 
+						culture = rhenish 
 						culture = north_german
 					}
 				}
@@ -62,7 +62,7 @@ political_decisions = {
 		picture = rhur_boom_decision
 		potential = { 
 			tag = FRA
-			accepted_culture = north_german
+			accepted_culture = rhenish
 			NOT = {has_country_flag = french_ruhr}
 		}
 		allow = {
@@ -94,7 +94,7 @@ political_decisions = {
 		picture = decision_rhi_HRE
 		potential = {
 			has_country_flag = jerome
-			NOT = {accepted_culture = north_german}
+			NOT = {accepted_culture = rhenish}
 		}
 		allow = {
 			war = no
@@ -107,7 +107,7 @@ political_decisions = {
 			is_greater_power = yes
 		}
 		effect = {
-			add_accepted_culture = north_german
+			add_accepted_culture = rhenish
 			RHI = {
 				all_core = {add_core = THIS}
 			}

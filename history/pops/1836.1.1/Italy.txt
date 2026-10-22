@@ -3,79 +3,79 @@
 #Turin (6400000/160000 POPS)
 720 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2000
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 4000
     }
 
     officers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 325
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1875
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 10000
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 3000
     }
 
     clerks = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 100
     }
 
     craftsmen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 3000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 5000
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 133300
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 400
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 100
     }
 
     craftsmen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 100
     }
@@ -83,67 +83,67 @@
 #Cuneo (276000/69000 POPS)
 3255 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 850
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1750
     }
 
     officers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 75
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 800
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 6000
     }
 
     craftsmen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1100
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 58325
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 100
     }
 
     craftsmen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 300
     }
@@ -151,61 +151,61 @@
 #Aosta (156000/39000 POPS)
 721 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 175
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 150
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 775
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 150
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 14250
     }
 
     aristocrats = {
-        culture = french
+        culture = cisalpine
         religion = placeholder
         size = 275
     }
 
     clergymen = {
-        culture = french
+        culture = cisalpine
         religion = placeholder
         size = 225
     }
 
     artisans = {
-        culture = french
+        culture = cisalpine
         religion = placeholder
         size = 1175
     }
 
     soldiers = {
-        culture = french
+        culture = cisalpine
         religion = placeholder
         size = 225
     }
 
     farmers = {
-        culture = french
+        culture = cisalpine
         religion = placeholder
         size = 21600
     }
@@ -213,31 +213,31 @@
 #Novara (212000/53000 POPS)
 722 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 950
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 525
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 3000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2000
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 46525
     }
@@ -245,31 +245,31 @@
 #Alessandria (326000/79000 POPS)
 723 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1500
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 800
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 9500
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2000
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 65200
     }
@@ -279,61 +279,61 @@
 #Genoa (644000/161000 POPS)
 724 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2550
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2000
     }
 
     officers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1600
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 10000
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 9000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 3000
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 140000
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 5
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 195
     }
@@ -341,31 +341,31 @@
 #Savona (316000/79000 POPS)
 725 = {
     aristocrats = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 1500
     }
 
     clergymen = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 800
     }
 
     artisans = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 4000
     }
 
     soldiers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 2000
     }
 
     farmers = {
-        culture = north_italian
+        culture = cisalpine
         religion = placeholder
         size = 70700
     }

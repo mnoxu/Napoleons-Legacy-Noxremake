@@ -5,7 +5,7 @@ political_decisions = {
 			has_country_flag = maximilien
 			ITA = {exists = no}
 			NOT = {has_country_flag = reintegrate_italy_kingdom}
-			NOT = {accepted_culture = north_italian}
+			NOT = {accepted_culture = cisalpine}
 		}
 		allow = {
 			war=no
@@ -47,7 +47,7 @@ political_decisions = {
 			war = no
 		}
 		effect = {
-			add_accepted_culture = north_italian
+			add_accepted_culture = cisalpine
 			SAR_720 = {add_core = FRA}
 			prestige = 20
 		}

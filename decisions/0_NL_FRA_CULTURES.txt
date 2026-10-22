@@ -29,17 +29,17 @@
 			picture = france_cisalpine
 			potential = {
 				has_country_flag = franceculture
-				NOT = { accepted_culture = north_italian }
+				NOT = { accepted_culture = cisalpine }
 			}
 			allow = {
 				720 = { owned_by = THIS }
 			}
 			effect = {
-				add_accepted_culture = north_italian
+				add_accepted_culture = cisalpine
 				SAR_720  = { add_core = FRA }	
 				any_pop = {
 					limit = {
-						culture = north_italian
+						culture = cisalpine
 					}
 					militancy=-1
 					consciousness=-1
@@ -51,13 +51,13 @@
 			picture = france_rhenish
 			potential = {
 				has_country_flag = franceculture
-				NOT = { accepted_culture = north_german }
+				NOT = { accepted_culture = rhenish }
 			}
 			allow = {
 				any_owned_province = { is_core = RHI }
 			}
 			effect = {
-				add_accepted_culture = north_german
+				add_accepted_culture = rhenish
 				RHI = {
 					all_core = {
 						add_core = FRA
@@ -65,7 +65,7 @@
 				}	
 				any_pop = {
 					limit = {
-						culture = north_german
+						culture = rhenish
 					}
 					militancy=-1
 					consciousness=-1

@@ -83,3 +83,11 @@ DIGER
 - ENG yonetimi cumhuriyet (democracy), GBR yonetimi mesruti monarsi (hms_government).
 - Kanada (CAN) topraklarinin tamami (75 province) baslangicta GBR'ye ait; GBR core'u eklendi, CAN core'lari duruyor.
 - CAN ordusu ve generali GBR'ye tasindi ("Canadian Army").
+- rhenish kulturu eklendi (germanic grubu, orijinal NL tanimi).
+- Alsace-Lorraine, Rheinland ve Nordrhein'daki tum Alman (north_german/south_german) poplar rhenish oldu.
+- rhenish referanslari geri geldi: BAD/HES/PRU kabul edilmis kultur, LUX/RHI ana kultur, Fransa kultur ve Jerome kararlari, NationalUnification, PRUFlavor eventleri.
+- cisalpine (Arpitan) kulturu eklendi (italian grubu, orijinal NL tanimi); Piemonte'nin tamami Arpitan.
+- cisalpine referanslari geri geldi: Fransa kultur ve Maximilien kararlari, Italya karari, NationalUnification.
+- Wallonie (Luxembourg province'i haric) tamamen Fransiz; Luxembourg province'indeki Almanlar rhenish.
+- Brussels province'inin %50'si Fransiz (Valonlar Fransiz oldu, Flamanlarin bir kismi Fransiz'a ayrildi).
+- Isvicre: Fransa'nin elindeki Cenevre, Neuchatel ve Sitten tamamen Fransiz; Isvicre'nin kendi topraklari (Zurih, Basel, Bern, Lucerne) tamamen south_german.

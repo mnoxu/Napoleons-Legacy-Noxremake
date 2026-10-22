@@ -53,7 +53,7 @@ political_decisions = {
 				tag = NIT
 				tag = ITA
 			}
-			NOT = {accepted_culture = north_italian}
+			NOT = {accepted_culture = cisalpine}
 		}
 		allow = {
 			SAR_720 = {owned_by = THIS}
@@ -65,7 +65,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10
-			add_accepted_culture = north_italian
+			add_accepted_culture = cisalpine
 		}
 	}
 
