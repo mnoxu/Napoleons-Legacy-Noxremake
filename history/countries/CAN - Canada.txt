@@ -88,4 +88,3 @@ upper_house = {
 
 schools = naval_tech_school
 
-oob = "CAN_oob.txt"

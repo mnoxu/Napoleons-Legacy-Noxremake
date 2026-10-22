@@ -79,3 +79,7 @@ DIGER
   Prag top fabrikasi 5. seviye).
 - Insa sureleri: fabrikalar 30 gun, fort 360, demiryolu 180, deniz ussu 360.
 - Yeni isimlerin hepsi localisation\00_Noxremake_ek.csv dosyasinda.
+
+- ENG yonetimi cumhuriyet (democracy), GBR yonetimi mesruti monarsi (hms_government).
+- Kanada (CAN) topraklarinin tamami (75 province) baslangicta GBR'ye ait; GBR core'u eklendi, CAN core'lari duruyor.
+- CAN ordusu ve generali GBR'ye tasindi ("Canadian Army").

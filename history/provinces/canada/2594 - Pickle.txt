@@ -1,5 +1,6 @@
-owner = CAN
-controller = CAN
+owner = GBR
+controller = GBR
 add_core = CAN
+add_core = GBR
 trade_goods = timber
 life_rating = 25
