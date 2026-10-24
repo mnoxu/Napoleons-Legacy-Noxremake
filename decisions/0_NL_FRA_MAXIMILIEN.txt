@@ -5,7 +5,7 @@ political_decisions = {
 			has_country_flag = maximilien
 			ITA = {exists = no}
 			NOT = {has_country_flag = reintegrate_italy_kingdom}
-			NOT = {accepted_culture = cisalpine}
+			NOT = {accepted_culture = north_italian}
 		}
 		allow = {
 			war=no
@@ -39,7 +39,7 @@ political_decisions = {
 		picture = piedmonte_decision
 		potential = {
 			has_country_flag = maximilien
-			NOT = {accepted_culture = north_italian}
+			NOT = {accepted_culture = cisalpine}
 		}
 		allow = {
 			SAR_720 = {owned_by = THIS}

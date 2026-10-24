@@ -42,6 +42,7 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
+			FRA = { release_vassal = NIT }
 		}
 	}
 

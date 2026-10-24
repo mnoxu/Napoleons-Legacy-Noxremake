@@ -1318,6 +1318,7 @@ province_event = {
 			limit = {
 				is_greater_power = yes
 				NOT = { tag = THIS }
+				NOT = { tag = LCT tag = GHO } #LCT/GHO korumasi
 			}
 			country_event = { id=13180 days=0 }
 		}
@@ -1329,6 +1330,7 @@ province_event = {
 			limit = {
 				is_greater_power = yes
 				NOT = { tag = THIS }
+				NOT = { tag = LCT tag = GHO } #LCT/GHO korumasi
 			}
 			country_event = { id=13170 days=0 }
 		}
@@ -1457,6 +1459,7 @@ country_event = {
 		civilized = no
 		part_of_sphere = yes
 		sphere_owner = {
+				NOT = { tag = LCT tag = GHO } #LCT/GHO korumasi
 				NOT = {
 				truce_with = THIS
 				}

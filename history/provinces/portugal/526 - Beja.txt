@@ -2,6 +2,7 @@ owner = UPB
 controller = UPB
 add_core = UPB
 trade_goods = iron
-life_rating = 35	
+life_rating = 35
 naval_base = 1
-1861.1.1 = { naval_base = 2 }
+add_core = POR
+1861.1.1 = { naval_base = 2 } 

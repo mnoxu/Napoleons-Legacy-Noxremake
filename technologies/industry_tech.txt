@@ -50,7 +50,7 @@ practical_steam_engine = {
 	cost = 7200
 
 	mine_rgo_eff = 0.05
-	farm_rgo_eff = 0.20
+	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -94,7 +94,7 @@ high_n_low_pressure_steam_engines = {
 	cost = 10800
 
 	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.25
+	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -482,16 +482,13 @@ mechanized_mining = {
 	activate_building = steel_factory 
 
 	rgo_goods_throughput = {
-		iron = 0.35
+		iron = 0.25
 	}
 	rgo_goods_throughput = {
 		coal = 0.25
 	}
 	rgo_goods_throughput = {
 		sulphur = 0.25
-	}
-	rgo_size = {
-		iron = 0.2
 	}
 	ai_chance = {
 		factor = 1.1
@@ -549,7 +546,7 @@ clean_coal = {
 		sulphur = 0.2
 	}
 	rgo_goods_throughput = {
-		iron = 0.2
+		iron = 0.1
 	}
 	rgo_size = {
 		iron = 0.2
@@ -653,7 +650,7 @@ cheap_steel = {
 		coal = 0.15
 	}
 	rgo_goods_throughput = {
-		iron = 0.25
+		iron = 0.15
 	}
 	
 	ai_chance = {

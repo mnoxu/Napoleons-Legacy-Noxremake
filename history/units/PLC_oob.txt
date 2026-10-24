@@ -367,3 +367,55 @@ army = {
 		home = 708
 	}
 }
+
+army = {
+	name = "Army of the Duchy of Warsaw"
+	location = 706
+	regiment = {
+		name= "5.3rd Division"
+		type = infantry
+		home = 719
+	}
+	
+	regiment = {
+		name= "5.4th Division"
+		type = artillery
+		home = 937
+	}
+	
+	regiment = {
+		name= "5.5th Division"
+		type = hussar
+		home = 936
+	}
+	
+	regiment = {
+		name = "5.6th Division"
+		type = infantry
+		home = 939
+	}
+	
+	regiment = { 
+		name = "5.7th Division"
+		type = artillery
+		home = 938
+	}
+	
+	regiment = { 
+		name = "5.8th Division"
+		type = artillery
+		home = 956
+	}
+	
+	regiment = { 
+		name = "5.9th Division"
+		type = artillery
+		home = 955
+	}
+	
+	regiment = { 
+		name = "5.10th Division"
+		type = artillery
+		home = 960
+	}
+}

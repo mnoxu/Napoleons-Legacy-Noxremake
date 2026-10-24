@@ -94,7 +94,7 @@ distribution_channels = {
 	limit = { business_banks = 1 }
 	news = no
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			ruling_party_ideology = liberal
@@ -106,7 +106,7 @@ distribution_channels = {
 	}
 	effect = {
 		factory_cost = -0.01
-		rgo_output = 0.22
+		rgo_output = 0.3
 	}
 }
 #investment_banks

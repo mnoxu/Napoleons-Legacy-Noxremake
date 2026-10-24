@@ -30,7 +30,8 @@ frigate = {
 	supply_consumption = 1.0
 	supply_cost = {
 		clipper_convoy = 0.13 #0.16
-		artillery = 0.04 #0.08
+		artillery = 0.02 #0.08
+		canned_food = 0.05
 	}
 	
 	#Naval Abilties

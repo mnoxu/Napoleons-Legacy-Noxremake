@@ -41,9 +41,9 @@ luxury_needs = {
 	telephones = 1.25
 	automobiles = 1.0
 	wine = 10
-	aeroplanes = 0.4
+	#aeroplanes = 0.4
 	radio = 2.0
-	fuel = 0.2
+	#fuel = 0.2
 }
 
 everyday_needs = {
@@ -62,7 +62,7 @@ everyday_needs = {
 life_needs = {
 	cattle = 0.75
 	wool =  0.85
-	fish =  1
+	fish =  1.05
 	fruit =  1
 	grain =  2.5
 }

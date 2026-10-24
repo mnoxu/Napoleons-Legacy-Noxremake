@@ -27,7 +27,7 @@ luxury_needs = {
 	wine = 5
 	#aeroplanes = 0.5
 	radio = 1.5
-	fuel = 0.2
+	#fuel = 0.2
 }
 
 everyday_needs = {

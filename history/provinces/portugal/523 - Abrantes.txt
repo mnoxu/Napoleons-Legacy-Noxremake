@@ -3,3 +3,4 @@ controller = UPB
 add_core = UPB
 trade_goods = grain
 life_rating = 35
+add_core = POR

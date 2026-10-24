@@ -5,10 +5,18 @@ political_decisions = {
 			tag = FRA
 			ai = no
 			NOT = { has_country_flag = chose_heir_nap }
+			NOT = { year = 1840 }
 		}
-		allow = { NET = { ai = yes } }
+		allow = { 
+			NOT = { year = 1840 }
+		}
 		effect = { 
 			create_vassal = NET
+			diplomatic_influence = {
+				who = NET
+				value = 200
+			}
+			release_vassal = NIT
 			set_country_flag = chose_heir_nap
 			set_country_flag = louis
 		}
@@ -19,16 +27,23 @@ political_decisions = {
 			tag = FRA
 			ai = no
 			NOT = { has_country_flag = chose_heir_nap } 
+			NOT = { year = 1840 }
 		}
 		allow = { 
-			HAN = { ai = yes }	
+			NOT = { year = 1840 }
 		}
 		effect = { 
+			diplomatic_influence = {
+				who = HAN
+				value = 200
+			}
+			release_vassal = NET
+			release_vassal = NIT
 			create_vassal = HAN
-      		  	create_vassal = FRM
-        			create_vassal = NAS
-      	  		create_vassal = HES
-        			create_vassal = BRA
+      		create_vassal = FRM
+        	create_vassal = NAS
+      	  	create_vassal = HES
+        	create_vassal = BRA
 			set_country_flag = chose_heir_nap
 			set_country_flag = jerome
 		}
@@ -38,9 +53,14 @@ political_decisions = {
 		potential = { 
 			tag = FRA
 			NOT = { has_country_flag = chose_heir_nap } 
+			NOT = { year = 1840 }
 		}
-		allow = { }
+		allow = { 
+			NOT = { year = 1840 }
+		}
 		effect = { 
+			release_vassal = NET
+			release_vassal = NIT
 			set_country_flag = chose_heir_nap
 			set_country_flag = alexandre
 		}
@@ -51,25 +71,18 @@ political_decisions = {
 			tag = FRA
 			ai = no
 			NOT = { has_country_flag = chose_heir_nap } 
+			NOT = { year = 1840 }
 		}
-		allow = { }
+		allow = { 
+			NOT = { year = 1840 }
+		}
 		effect = { 
-			set_country_flag = chose_heir_nap
-			any_country = {
-                			limit = {
-                  				primary_culture = north_italian
-					NOT = {tag = LOM tag = TUS}
-                			}
-				all_core = { add_core = NIT } 
-               			annex_to = LOM
-            		}
-           			create_vassal = LOM
-            		create_alliance = LOM
-            		diplomatic_influence = {
-                			who = LOM
-                			value = 300
-            		}
-			LOM = {change_tag = NIT}	
+			diplomatic_influence = {
+				who = NIT
+				value = 200
+			}
+			release_vassal = NET
+			set_country_flag = chose_heir_nap	
 			NIT = { all_core = { remove_core = LOM remove_core = VEN remove_core = MOD remove_core = LUC } } 
 			NIT = { prestige = -100 }
 			set_country_flag = maximilien
@@ -81,9 +94,14 @@ political_decisions = {
 			tag = FRA
 			ai = no
 			NOT = { has_country_flag = chose_heir_nap } 
+			NOT = { year = 1840 }
 		}
-		allow = { }
+		allow = { 
+			NOT = { year = 1840 }
+		}
 		effect = { 
+			release_vassal = NET
+			release_vassal = NIT
 			set_country_flag = chose_heir_nap
 			set_country_flag = republic
 			government = democracy

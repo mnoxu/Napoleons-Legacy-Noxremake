@@ -54,7 +54,7 @@ wright_n_langleys_aeroplanes = {
 tractors = {
 	limit = { combustion_engine = 1 }
 	chance = {
-		base = 100
+		base = 3
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -66,7 +66,7 @@ tractors = {
 	}
 	effect = {
 		shared_prestige = 5
-		rgo_output = 0.22
+		rgo_output = 0.3
 	}
 }
 #electrical_power_generation
@@ -348,7 +348,7 @@ precision_work = {
 machine_tools = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = precision_work
@@ -362,7 +362,7 @@ machine_tools = {
 		factory_goods_output = {
 			machine_parts = 0.02 
 		}
-		rgo_output = 0.22
+		rgo_output = 0.3
 		factory_throughput = 0.05
 	}
 }
@@ -899,7 +899,7 @@ steel_alloys = {
 	}
 	effect = {
 		rgo_goods_throughput = {
-		precious_metal = 0.05
+		iron = 0.05
 		}
 	}
 }
@@ -1112,7 +1112,7 @@ artificial_fertilizers = {
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			military_statistics = 1
@@ -1126,7 +1126,7 @@ nitroglycerin = {
 		factory_goods_output = {
 			explosives = 0.02
 		} 
-		rgo_output = 0.22
+		rgo_output = 0.3
 	}
 }
 chemical_wood_pulp_process = {
@@ -1323,7 +1323,7 @@ bell_n_greys_telephones = {
 electrical_lighting = {
 	limit = { electricity = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -1339,7 +1339,7 @@ electrical_lighting = {
 	}
 	effect = {
 		factory_throughput = 0.1
-		rgo_output = 0.22
+		rgo_output = 0.3
 	}
 }
 

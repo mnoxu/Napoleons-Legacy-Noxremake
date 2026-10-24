@@ -91,3 +91,47 @@ DIGER
 - Wallonie (Luxembourg province'i haric) tamamen Fransiz; Luxembourg province'indeki Almanlar rhenish.
 - Brussels province'inin %50'si Fransiz (Valonlar Fransiz oldu, Flamanlarin bir kismi Fransiz'a ayrildi).
 - Isvicre: Fransa'nin elindeki Cenevre, Neuchatel ve Sitten tamamen Fransiz; Isvicre'nin kendi topraklari (Zurih, Basel, Bern, Lucerne) tamamen south_german.
+
+EKONOMI (IGoR'a gore)
+- common\production_types.txt IGoR surumu (fabrika urun miktarlari, girdiler, sablonlar, artisan uretimi, kahve/cay RGO).
+  dye zinciri korundu: dye_factory, dye_plantation, leather_factory, wool_fabric_factory ve artisan surumleri.
+- Artisan uretimindeki hatali "poptype = artisan" -> "artisans" duzeltildi.
+- common\goods.txt IGoR fiyatlari (ham maddeler ~0.22 kat, machine_parts 18.25); dye 12 -> 2.6.
+- Fabrika teknolojileri IGoR: 6 organizasyon teknolojisi factory_output +0.25, 6 iktisat teknolojisi factory_input -0.05.
+- RGO teknolojileri/icatlari IGoR: farm/mine verimleri, rgo_output 0.3, maden icatlarindaki precious_metal bonuslari kaldirildi,
+  steel_alloys iron'a bonus veriyor, darwinism education 0.5; bazi icatlarin cikma sansi IGoR'daki gibi (base 100 -> 2/3).
+- issues.txt: social_reforms tamamen IGoR surumu (maas/guvenlik reformlari input/output/throughput bonusu veriyor);
+  full_citizenship rgo_output +0.1.
+- 17 IGoR event modifier'i eklendi (labor_union, strike_solution, treaty_port_buff, may_day vb.).
+- Kucuk ulke vergi bonuslari eklendi: desperate/microscopic/tiny/small/medium_nation (tax_efficiency +50%..+10%).
+- Bu modifier'lari kullanan IGoR eventleri eklendi: events\Irish woes.txt (Buyuk Irlanda Kitligi, Young Irelanders, Fenianlar),
+  events\treaty_port.txt (antlasma limani altyapisi), events\nepal_boom.txt (Katmandu/Jumla buyumesi).
+- decisions\IGoR_ekonomi_kararlari.txt: Portekiz Regenerador + Lizbon Enstitusu + Porto Endustri Okulu, Bruksel Senne'nin
+  ustunun kapatilmasi, Hollanda cultuurstelsel, Belcika Colonial Destiny + Force Publique.
+- instituto_industrial_lisboa, irish_republicans, nationalist_agitation modifierlari, nationalists event resmi ve tum yazilar eklendi.
+- Ulke kurtarma CB'leri IGoR surumu: free_peoples (boyutsuz olan kapali, boyutlu free_peoples_* kullaniliyor),
+  liberate_country (1914 sonrasi, infamy 2.2 -> 1.3, savas skoru 0.9), release_puppet (infamy 1.5, savas skoru 7.5,
+  infamy'si yuksek ulke kullanamaz), become_independent (sadece vassal, sphere'e alma da istenebilir).
+- PLC ordusu orijinal NL'den (history\units\PLC_oob.txt; eksik olan "Army of the Duchy of Warsaw" geri geldi).
+- PLC'nin 40 province'inin pop'lari orijinal NL'den (din placeholder).
+- Pop ihtiyaclari (life/everyday/luxury) 11 pop tipinde IGoR surumu: aristokrat ve kapitalist gunluk ihtiyaclari
+  regular_clothes/furniture, luks ihtiyaclardan fuel/aeroplanes/oil/rubber/konvoylar kalkti, askerlerden ammunition kalkti.
+- Bina maliyetleri IGoR: cement_factory (cement yerine coal), fort ve naval_base (daha pahali mal maliyeti, para maliyeti yok).
+  Insa sureleri bu modun ayari olarak kaldi (fort/naval 360, demiryolu 180).
+- Birimler IGoR: topcu uretimi artillery 30 -> 50, gemi ve ucak ikmal maliyetleri (canned_food/coal eklendi).
+- defines.lua: GOLD_TO_WORKER_PAY_RATE 3 -> 10, TRADE_CAP_LOW_LIMIT_NAVAL 0.4 -> 1.
+
+NIT (ROYAUME D'ITALIE) - orijinal NL'deki gibi
+- Milano, Bergamo, Brescia, Venedik, Verona, Padova, Treviso, Udine, Trento, Lugano, Chur, Modena, Massa, Bologna,
+  Ferrara, Ravenna, Lucca ve Ancona (18 province) baslangicta NIT'in; NIT core'lari geri geldi, Modena konserve fabrikasi geri geldi.
+  (LOM, VEN, MOD ve LUC baslangicta topraksiz; PAP Ancona'yi kaybetti.)
+- NIT Fransa'nin vassali (history\diplomacy\PuppetStates.txt), Fransa'nin NIT uzerinde nufuzu var (FRA_oob).
+- NIT ordusu (history\units\NIT_oob.txt) ve dominion_rules bayragi geri geldi.
+- decisions\0_NL_FRA_HEIR.txt orijinal surum (varis secimleri NIT/NET'i serbest birakiyor, Maximilien NIT'e nufuz veriyor).
+- events\DUAFlavor.txt: "The Fate of The French Empire" (1840'ta varis secilmediyse Fransa'ya zorunlu secim eventi).
+- 0_NL_ITA: Italya kurulunca Fransa NIT'i serbest birakiyor.
+- 0_NL_FRA_MAXIMILIEN: north_italian / cisalpine kosullarinin yeri duzeltildi (onceki degisiklikte yer degistirmisti).
+- LCT/GHO savas korumasi IGoR'daki gibi tum CB'lere eklendi (LCT/GHO hedef olamaz, tarafsizlik modifier'i olan ulkeye/ulke
+  ile CB kullanilamaz); ayrica LCT ve GHO hicbir CB ile savas acamaz (tarafsizlik karari alinmasa bile).
+- Event taramasi: zorla savas acan eventlerden CivilizationAndGunBoats 13160/13200'e LCT/GHO korumasi eklendi
+  (ACW'deki USA-CSA savasi disinda LCT'yi savasa sokabilecek baska event yok).

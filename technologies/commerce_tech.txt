@@ -375,7 +375,7 @@ early_classical_theory_and_critique = {
 	cost = 3600
 	
 	activate_building = lumber_mill
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -397,7 +397,7 @@ late_classical_theory = {
 	year = 1836
 	cost = 7200
 
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -427,7 +427,7 @@ collectivist_theory = {
 	year = 1848
 	cost = 10800
 
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -457,7 +457,7 @@ the_historical_theory = {
 	year = 1870
 	cost = 14400
 
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -487,7 +487,7 @@ neoclassical_theory = {
 	year = 1900
 	cost = 18000
 
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -517,7 +517,7 @@ keynesian_economics = {
 	year = 1919
 	cost = 21600
 
-	factory_input = -0.01
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -735,8 +735,7 @@ guild_based_production = {
 	year = 1836
 	cost = 3600
 	activate_building = canned_food_factory 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -770,8 +769,7 @@ organized_factories = {
 	year = 1836
 	cost = 7200
 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 		ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -805,8 +803,7 @@ scientific_management = {
 	year = 1850
 	cost = 10800
 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -840,8 +837,7 @@ time_saving_measures = {
 	year = 1870
 	cost = 14400
 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -863,8 +859,7 @@ management_strategy = {
 	year = 1900
 	cost = 18000
 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -886,8 +881,7 @@ organizational_development = {
 	year = 1919
 	cost = 21600
 
-	factory_output = 0.02
-	factory_throughput = 0.01
+	factory_output = 0.25
 	ai_chance = {
 		factor = 1.05
 		modifier = {

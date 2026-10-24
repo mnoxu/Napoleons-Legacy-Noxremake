@@ -114,6 +114,12 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { is_our_vassal = THIS }
 		OR =
 		{
@@ -155,6 +161,12 @@ status_quo = {
 	constructing_cb = no
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -190,6 +202,8 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -277,6 +291,12 @@ civil_war = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -333,6 +353,12 @@ add_to_sphere = {
 	construction_speed = 0.5
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
@@ -379,6 +405,12 @@ take_from_sphere = {
 	construction_speed = 0.5
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
@@ -429,6 +461,12 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		always = no # kapatildi: boyutlu (tiny..huge) surumleri kullaniliyor
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -479,6 +517,12 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		any_owned_province = {
 			is_core = THIS
 		}
@@ -527,6 +571,12 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
 		THIS = {
@@ -585,6 +635,12 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		always = no # kapatildi: boyutlu (tiny..huge) surumleri kullaniliyor
 		# this = { NOT = { badboy = 1 } }
 		
@@ -653,6 +709,12 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		always = no # kapatildi: boyutlu (tiny..huge) surumleri kullaniliyor
 		# this = { NOT = { badboy = 1 } }
 		
@@ -691,6 +753,13 @@ place_in_the_sun = {
 # Colonial competition
 colonial_competition = {
 	sprite_index = 7
+	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+	}
 	is_triggered_only = yes
 	constructing_cb = no    # only used in crises
 	crisis = no
@@ -792,6 +861,12 @@ demand_reperations = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 	NOT = { has_country_modifier = no_more_war_reperations }
 	}
 	
@@ -818,6 +893,12 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { is_our_vassal = THIS }
 		is_disarmed = no
 	}
@@ -860,13 +941,11 @@ free_peoples = {
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
-	
-	construction_speed = 0.5
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 0
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -874,9 +953,14 @@ free_peoples = {
 	
 	
 	can_use = {
-		THIS = {
-			civilized = yes
-		}
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
+		NOT = { ai = no }
+		NOT = { ai = yes }
 	}
 
 	# THIS - us
@@ -897,7 +981,7 @@ free_peoples = {
 							tag = SCA
 							tag = ITA
 							tag = YUG
-							tag = ROM 
+							tag = ROM
 							tag = CZH
 						}
 					}
@@ -944,9 +1028,9 @@ liberate_country = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 2.2
+	badboy_factor = 1.3
 	prestige_factor = 1
-	peace_cost_factor = 1
+	peace_cost_factor = 0.9
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -960,7 +1044,29 @@ liberate_country = {
 	
 	
 	can_use = {
-		# this = { NOT = { badboy = 1 } }
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
+		year = 1914
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
 		THIS = {
 			civilized = yes
 		}
@@ -970,31 +1076,30 @@ liberate_country = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		FROM = { total_pops = 1000000 }
 		number_of_states = 2
 		NOT = {
 			tag = FROM
 			this_culture_union = FROM	
 		}
-		OR = {
-			exists = yes
-			NOT = {
-					tag = GER
-					tag = NGF
-					tag = PRU
-					tag = SCA
-					tag = SWE
-					tag = ITA
-					#tag = SIC
-					tag = YUG
-					tag = AUS
-					tag = HUN
-					tag = HND
-					#tag = PLC
-					tag = UKR
-					tag = CSA
+		from = {
+			OR = {
+				exists = yes
+				NOT = {
+						OR = {
+							tag = GER
+							tag = NGF
+							tag = PRU
+							tag = SCA
+							tag = SWE
+							tag = ITA
+
+							tag = AUS
+							tag = PLC
+
+						}
+					}
+				}
 			}
-		}
 		
 		any_owned_province = {
 			is_core = FROM
@@ -1053,6 +1158,12 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 
 
@@ -1093,9 +1204,9 @@ release_puppet = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1
+	badboy_factor = 1.5
 	prestige_factor = 1
-	peace_cost_factor = 15
+	peace_cost_factor = 7.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1108,9 +1219,16 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		# this = { NOT = { badboy = 1 } }
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		this = { NOT = { badboy = 1 } }
 		num_of_vassals_no_substates = 1
-		
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
 	}
 	
 	# THIS - us
@@ -1159,6 +1277,12 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 
 
@@ -1208,9 +1332,9 @@ become_independent = {
 	
 	always = yes
 
-	badboy_factor = 1
+	badboy_factor = 3
 	prestige_factor = 1
-	peace_cost_factor = 15
+	peace_cost_factor = 40
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1223,14 +1347,26 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
 		is_our_vassal = THIS
+		has_recently_lost_war = no
 	}
 	
 	# THIS - us
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
+	allowed_countries = {
+		OR = {
+			FROM = { is_our_vassal = THIS }
+			war_with = THIS
+		}
+	}
 	
 	po_release_puppet = yes
+	po_add_to_sphere = yes
 
 	war_name = WAR_INDEPENDENCE_NAME
 	
@@ -1278,6 +1414,12 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 
 
@@ -1317,6 +1459,12 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		always = no # kapatildi: boyutlu (tiny..huge) surumleri kullaniliyor
 		#NOT = { tag = CHI }
 		# this = { NOT = { badboy = 1 } }
@@ -1375,6 +1523,12 @@ demand_concession_casus_belli_player_early = {
 	always = no
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		ai = no
 		#NOT = { tag = CHI }
 		# this = { NOT = { badboy = 1 } }
@@ -1434,6 +1588,12 @@ demand_concession_casus_belli_china = {
 	always = no
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		tag = CHI
 		# this = { NOT = { badboy = 1 } }
 
@@ -1489,6 +1649,12 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		THIS = {
 			civilized = yes
@@ -1546,6 +1712,12 @@ unification_humiliate_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1596,6 +1768,12 @@ unification_release_puppet_cb = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		num_of_vassals_no_substates = 1
 		THIS = {
 			culture_has_union_tag = yes
@@ -1652,6 +1830,12 @@ unification_casus_belli = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -1718,6 +1902,12 @@ unification_annex_casus_belli = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1775,6 +1965,12 @@ rude_boy = {
 	good_relation_militancy_factor = 0
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
 	}
@@ -1818,6 +2014,12 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 
 
 		THIS = {
@@ -1900,6 +2102,12 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		THIS = {
 			# If actor ruling party is not communist
 			NOT = {
@@ -1956,6 +2164,7 @@ great_war_penalty_cb = {
 	war_name = WAR_NAME
 	
 	#can_use = {
+
 	#	NOT = { is_our_vassal = THIS }
 	#	is_disarmed = no
 	#}
@@ -1976,6 +2185,8 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2076,6 +2287,8 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2186,6 +2399,12 @@ acquire_treaty_port = {
 	always = no
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 
 
@@ -2274,6 +2493,12 @@ negotiated_transfer = {
 
 
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		THIS = { ai = no }
 		ai = no
 		number_of_states = 2 # annex if you want their last state
@@ -2347,6 +2572,12 @@ make_puppet_small = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		# this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
@@ -2403,6 +2634,12 @@ make_puppet_large = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { tag = LCT } #LCT/GHO korumasi
+		NOT = { tag = GHO } #LCT/GHO korumasi
+		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } #LCT/GHO korumasi
+		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } } #LCT/GHO korumasi
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		OR = {
 			total_pops = 3000000
 			number_of_states = 10
@@ -2470,6 +2707,8 @@ acquire_core_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -2534,6 +2773,8 @@ acquire_core_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -2598,6 +2839,8 @@ acquire_core_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -2662,6 +2905,8 @@ acquire_core_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -2726,6 +2971,8 @@ acquire_core_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -2789,6 +3036,8 @@ acquire_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2891,6 +3140,8 @@ acquire_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2994,6 +3245,8 @@ acquire_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3097,6 +3350,8 @@ acquire_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3200,6 +3455,8 @@ acquire_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3304,6 +3561,8 @@ place_in_the_sun_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3385,6 +3644,8 @@ place_in_the_sun_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3466,6 +3727,8 @@ place_in_the_sun_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3547,6 +3810,8 @@ place_in_the_sun_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3628,6 +3893,8 @@ place_in_the_sun_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -3708,6 +3975,8 @@ free_peoples_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -3790,6 +4059,8 @@ free_peoples_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -3872,6 +4143,8 @@ free_peoples_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -3954,6 +4227,8 @@ free_peoples_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -4036,6 +4311,8 @@ free_peoples_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -4121,6 +4398,8 @@ demand_concession_casus_belli_tiny = {
 	always = no
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -4196,6 +4475,8 @@ demand_concession_casus_belli_small = {
 	always = no
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -4271,6 +4552,8 @@ demand_concession_casus_belli_medium = {
 	always = no
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -4346,6 +4629,8 @@ demand_concession_casus_belli_large = {
 	always = no
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -4421,6 +4706,8 @@ demand_concession_casus_belli_huge = {
 	always = no
 
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -4495,6 +4782,8 @@ make_puppet_small = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 1 } }
@@ -4566,6 +4855,8 @@ make_puppet_large = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		OR = {

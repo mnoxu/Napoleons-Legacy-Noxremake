@@ -41,6 +41,7 @@ pensions = trinket_pensions
 health_care = trinket_health_care
 school_reforms = low_schools
 
+set_country_flag = dominion_rules
 
 #========================= T E C H N O L O G I E S =========================
 
@@ -72,5 +73,5 @@ basic_chemistry = 1
 
 post_napoleonic_army_doctrine = yes
 
-
+oob = "NIT_oob.txt"
 #========================= END OF FILE =========================

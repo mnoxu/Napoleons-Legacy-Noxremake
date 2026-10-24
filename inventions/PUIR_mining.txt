@@ -59,9 +59,6 @@ pneumatic_drill = {
 		rgo_goods_throughput = {
 			sulphur = 0.1
 		}
-		rgo_goods_throughput = {
-			precious_metal = 0.1
-		}
 	}	
 }
 
@@ -100,9 +97,6 @@ deep_shaft_mining = {
 		rgo_goods_throughput = {
 			sulphur = 0.15
 		}
-		rgo_goods_throughput = {
-			precious_metal = 0.1
-		} 
 		rgo_size = {
 			coal = 0.1
 		}
@@ -111,9 +105,6 @@ deep_shaft_mining = {
 		}
 		rgo_size = {
 			sulphur = 0.1
-		}
-		rgo_size = {
-			precious_metal = 0.1
 		}
 	}	
 }
@@ -144,10 +135,7 @@ motor_housing_insulation = {
 		} 
 		rgo_goods_throughput = {
 			sulphur = 0.1
-		} 
-		rgo_goods_throughput = {
-			precious_metal = 0.1
-		} 
+		}
 	}
 }
 
@@ -183,9 +171,6 @@ modern_mine_hoists = {
 
 		rgo_goods_throughput = {
 			coal = 0.1
-		}
-		rgo_goods_throughput = {
-			precious_metal = 0.1
 		}
 	}
 }
@@ -251,10 +236,7 @@ steam_shovel = {
 		} 
 		rgo_goods_throughput = {
 			sulphur = 0.15
-		} 
-		rgo_goods_throughput = {
-			precious_metal = 0.15
-		} 
+		}
 	}
 }
 
@@ -291,9 +273,6 @@ conveyor_belt = {
 		}
 		rgo_goods_throughput = {
 			sulphur = 0.15
-		}
-		rgo_goods_throughput = {
-			precious_metal = 0.15
 		}
 		factory_throughput = 0.05
 	}	
