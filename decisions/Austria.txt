@@ -256,4 +256,45 @@ political_decisions = {
 				factor = 1
 			}
 	}
+
+	annex_bosnia = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			is_greater_power = yes	
+			NOT = {
+				has_global_flag = bos_vassalized
+			}		
+		}
+
+		allow = {
+			war = no
+			OR = {
+				BOS = {in_sphere = THIS}
+				BOS = {vassal_of = THIS}
+				BOS = { all_core = { owned_by = THIS } } 
+			}
+			revolution_n_counterrevolution = 1
+			psychoanalysis = 1
+		}
+			
+		effect = {
+			prestige = 10
+			inherit = BOS
+			BOS = { all_core = { add_core = THIS }}
+			badboy = 5
+			relation = {
+				who = SER
+				value = -400
+			}
+			add_accepted_culture = bosniak
+			set_global_flag = bos_vassalized
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

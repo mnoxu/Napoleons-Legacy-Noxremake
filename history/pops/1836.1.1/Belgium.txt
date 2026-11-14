@@ -1,6 +1,18 @@
 #Flanders Region (2558000)
 #Brussels (772000/193000 POPS)
 387 = {
+    craftsmen = {
+        culture = flemish
+        religion = placeholder
+        size = 10000
+    }
+
+    craftsmen = {
+        culture = french
+        religion = placeholder
+        size = 10000
+    }
+
     clergymen = {
         culture = ashkenazi
         religion = placeholder

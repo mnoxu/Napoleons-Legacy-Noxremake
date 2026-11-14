@@ -6,32 +6,32 @@ trade_goods = sulphur
 life_rating = 40
 railroad = 1
 state_building = {
-	level = 1
+	level = 2
 	building = cement_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = fertilizer_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = explosives_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = steel_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = artillery_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = ammunition_factory
 	upgrade = yes
 }

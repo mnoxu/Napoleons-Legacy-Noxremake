@@ -183,7 +183,7 @@
     soldiers = {
         culture = south_german
         religion = placeholder
-        size = 1150
+        size = 10150
     }
 
     farmers = {
@@ -284,6 +284,12 @@
 #under the rule of Austria in 1836
 #Vienna (1084000/271000 POPS)
 619 = {
+    craftsmen = {
+        culture = south_german
+        religion = placeholder
+        size = 20000
+    }
+
     aristocrats = {
         culture = south_german
         religion = placeholder
@@ -359,7 +365,7 @@
     soldiers = {
         culture = south_german
         religion = placeholder
-        size = 10000
+        size = 19000
     }
 
     farmers = {
@@ -527,7 +533,7 @@
     soldiers = {
         culture = south_german
         religion = placeholder
-        size = 1550
+        size = 10550
     }
 
     farmers = {

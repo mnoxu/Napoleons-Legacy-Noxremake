@@ -1,0 +1,160 @@
+# Orijinal NL (SPA.txt): Ispanya somurgeleri geri alma kararlari
+political_decisions = {
+
+	santo_domingo_is_back = {
+		potential = {
+			tag = SPA
+			NOT = { has_country_flag = santo_domingo_reclaimed }
+			accepted_culture = caribeno #orijinalde cuba_unlocked flag'i; bizde expand_citizenship1 caribeno'yu accepted yapiyor
+		}
+		
+		allow = {
+			owns = 2214
+			owns = 2216
+		}
+		
+		effect = {
+			add_core = 2214
+			add_core = 2216
+			prestige = 5
+			set_country_flag = santo_domingo_reclaimed
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1
+			}
+		}
+	}
+
+	spanish_USCA = {
+		potential = {
+			OR = { tag = SPA tag = IBR }	#Iberia olunca da
+			NOT = { has_country_flag = usca_reclaimed }
+		}
+		
+		allow = {
+			ideological_thought = 1
+			OR = {
+				UCA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							province_id = 2190	#Belize
+						}
+					}
+				}
+				UCA = {
+					exists = yes
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			UCA = { all_core = { add_core = THIS } }
+			2190 = { remove_core = SPA remove_core = IBR }	#Belize haric (orijinaldeki gibi)
+			prestige = 10
+			MEX = {
+				relation = {
+					who = THIS
+					value = -200
+				}
+			}
+			GCO = {
+				relation = {
+					who = THIS
+					value = -200
+				}
+			}
+			set_country_flag = usca_reclaimed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reverse_bolivarian_conquests = {
+        potential = {
+            tag = SPA
+			has_country_flag = usca_reclaimed
+            NOT = { has_country_flag = reversed_bolivarian_conquests }
+			exists = GCO
+			NOT = { year = 1870 }
+		}    
+               
+        allow = {
+            state_n_government = 1
+			UCA = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							province_id = 2190
+						}
+						
+					}
+				}
+			}	  
+			NOT = { year = 1870 }
+			NOT = { badboy = 0.5 }
+        }
+               
+        effect = {
+            set_country_flag = reversed_bolivarian_conquests
+            casus_belli = {
+				target = GCO
+				type = conquest_any
+				months = 60
+			}
+			badboy = 12
+        }
+               
+                ai_will_do = {
+                        factor = 1
+                }
+    }
+
+	reclaim_gran_colombia = {
+		potential = {
+			OR = { tag = SPA tag = IBR }	#Iberia olunca da
+			NOT = { has_country_flag = reclaimed_gran_colombia }
+		}
+		
+		allow = {
+			state_n_government = 1
+			OR = {
+				GCO = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							province_id = 2242	#Mahdia
+							province_id = 2243	#Essequibo
+						}
+					}
+				}
+				GCO = {
+					exists = yes
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = reclaimed_gran_colombia
+			GCO = { all_core = { add_core = THIS } }
+			2242 = { remove_core = SPA remove_core = IBR }	#Guyana haric (orijinaldeki gibi)
+			2243 = { remove_core = SPA remove_core = IBR }
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

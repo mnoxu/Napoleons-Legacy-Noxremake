@@ -1437,12 +1437,6 @@
         size = 2500
     }
 
-    soldiers = {
-        culture = byelorussian
-        religion = placeholder
-        size = 1100
-    }
-
     farmers = {
         culture = byelorussian
         religion = placeholder
@@ -1477,12 +1471,6 @@
         culture = russian
         religion = placeholder
         size = 250
-    }
-
-    soldiers = {
-        culture = russian
-        religion = placeholder
-        size = 50
     }
 
     farmers = {
@@ -1521,12 +1509,6 @@
         size = 250
     }
 
-    soldiers = {
-        culture = polish
-        religion = placeholder
-        size = 25
-    }
-
     farmers = {
         culture = polish
         religion = placeholder
@@ -1545,16 +1527,140 @@
         size = 1500
     }
 
-    soldiers = {
-        culture = ashkenazi
-        religion = placeholder
-        size = 75
-    }
-
     farmers = {
         culture = ashkenazi
         religion = placeholder
         size = 6350
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 1034
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 47
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 23
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 70
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 30
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 150
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 66
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 2940
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 54
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 12
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 21
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 15
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 192
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 30
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 9
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 12
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 15
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 2
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 50
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 90
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 381
     }
 }
 #Polotsk (628000/157000 POPS)
@@ -1569,12 +1675,6 @@
         culture = byelorussian
         religion = placeholder
         size = 4400
-    }
-
-    soldiers = {
-        culture = byelorussian
-        religion = placeholder
-        size = 1225
     }
 
     farmers = {
@@ -1601,12 +1701,6 @@
         size = 450
     }
 
-    soldiers = {
-        culture = polish
-        religion = placeholder
-        size = 75
-    }
-
     farmers = {
         culture = polish
         religion = placeholder
@@ -1623,12 +1717,6 @@
         culture = ashkenazi
         religion = placeholder
         size = 2500
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = placeholder
-        size = 200
     }
 
     farmers = {
@@ -1655,12 +1743,6 @@
         size = 250
     }
 
-    soldiers = {
-        culture = russian
-        religion = placeholder
-        size = 50
-    }
-
     farmers = {
         culture = russian
         religion = placeholder
@@ -1679,16 +1761,145 @@
         size = 250
     }
 
-    soldiers = {
-        culture = lithuanian
-        religion = placeholder
-        size = 50
-    }
-
     farmers = {
         culture = lithuanian
         religion = placeholder
         size = 4625
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 1151
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 70
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 188
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 47
+    }
+	soldiers = {
+        culture = lithuanian
+        religion = placeholder
+        size = 47
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 74
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 264
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 74
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 6909
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 90
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 27
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 236
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 11
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 150
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 12
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 968
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 108
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 15
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 171
+    }
+	soldiers = {
+        culture = lithuanian
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = lithuanian
+        religion = placeholder
+        size = 15
+    }
+	soldiers = {
+        culture = lithuanian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = lithuanian
+        religion = placeholder
+        size = 278
     }
 }
 #Pastavy (348000/87000 POPS)
@@ -1911,12 +2122,6 @@
         size = 3150
     }
 
-    soldiers = {
-        culture = byelorussian
-        religion = placeholder
-        size = 1100
-    }
-
     farmers = {
         culture = byelorussian
         religion = placeholder
@@ -1939,12 +2144,6 @@
         culture = polish
         religion = placeholder
         size = 200
-    }
-
-    soldiers = {
-        culture = polish
-        religion = placeholder
-        size = 25
     }
 
     farmers = {
@@ -1971,12 +2170,6 @@
         size = 300
     }
 
-    soldiers = {
-        culture = russian
-        religion = placeholder
-        size = 50
-    }
-
     farmers = {
         culture = russian
         religion = placeholder
@@ -1995,16 +2188,100 @@
         size = 1250
     }
 
-    soldiers = {
-        culture = ashkenazi
-        religion = placeholder
-        size = 75
-    }
-
     farmers = {
         culture = ashkenazi
         religion = placeholder
         size = 6600
+    }
+	soldiers = {
+        culture = byelorussian
+        religion = placeholder
+        size = 6019
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 23
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 47
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 70
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 36
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 12
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 2
+    }
+	soldiers = {
+        culture = polish
+        religion = placeholder
+        size = 71
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 84
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 18
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 3
+    }
+	soldiers = {
+        culture = russian
+        religion = placeholder
+        size = 191
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 75
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 5
+    }
+	soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 396
     }
 }
 #Gomel (388000/97000 POPS)

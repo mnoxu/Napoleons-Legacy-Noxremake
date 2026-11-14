@@ -17,6 +17,31 @@ country_event = {
 	desc = "EVTDESC600034"
 	picture = "debate"
     option = {
+        name = "The Commonwealth is led from Canada. (Canada integration is quicker)"
+        any_pop = {
+            limit = {
+                culture = anglo_canadian
+            }
+			militancy=-2
+			consciousness=-2
+		}
+		all_core = {
+			limit = {
+					OR = {
+						is_core = CAN
+					}
+					NOT = { life_rating = 40 }
+				}
+				life_rating = 5
+		}
+        GBR = {capital = 46}
+        clr_country_flag = new_world_nation
+		set_country_flag = gbr_capital_canada
+        ai_chance = {
+			factor = 0 #AI Sidney/Guney Afrika arasinda secmeye devam etsin
+    	}
+	}
+	option = {
         name = "Establish the Capital in South Africa (Will stop you from getting immigrants)"
         any_pop = {
             limit = {

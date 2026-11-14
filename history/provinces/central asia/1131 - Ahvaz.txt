@@ -1,4 +1,5 @@
 owner = GHO
 life_rating = 1
+trade_goods = grain
 controller = GHO
 add_core = GHO

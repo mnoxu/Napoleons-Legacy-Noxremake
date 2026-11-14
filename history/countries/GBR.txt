@@ -72,12 +72,25 @@ publishing_industry = 1
 mechanized_mining = 1
 experimental_railroad = 1
 basic_chemistry = 1
+#NL MP BRI teknolojileri
+late_classical_theory = 1
+market_structure = 1
+private_bank_money_bill_printing = 1
+ad_hoc_money_bill_printing = 1
+stock_exchange = 1
+mechanical_production = 1
+practical_steam_engine = 1
+steamers = 1
+naval_professionalism = 1
+battleship_column_doctrine = 1
 
 
 
 #========================= I N V E N T I O N S =========================
 
 post_napoleonic_army_doctrine = yes
+commerce_raiders = yes
+precision_work = yes
 
 #========================= END OF FILE =========================
 

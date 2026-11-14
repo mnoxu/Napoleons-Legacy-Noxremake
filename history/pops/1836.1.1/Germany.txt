@@ -1164,6 +1164,12 @@
 #under the rule of Prussia 1836
 #Berlin (772000/193000 POPS)
 549 = {
+    craftsmen = {
+        culture = north_german
+        religion = placeholder
+        size = 20000
+    }
+
 	aristocrats = {
 		culture = north_german
 		religion = placeholder

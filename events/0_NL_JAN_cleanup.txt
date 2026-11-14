@@ -45,12 +45,12 @@ country_event = { 		#the day one setup event
 				}
 		}
 		any_country = {
-			limit = { is_greater_power = yes }
-			treasury = 100000
+			limit = { ai = no is_greater_power = yes }	#sadece oyuncular
+			treasury = 200000
 		}
 		any_country = {
-			limit = { is_greater_power = no }
-			treasury = 50000
+			limit = { ai = no is_greater_power = no }
+			treasury = 100000
 		}
 			any_country = { 
 				limit = { 

@@ -37,10 +37,6 @@ raw_material_goods = {
 		cost = 0.44
 		color = { 255 255 255 }
 	}
-	dye = {	
-		cost = 2.6
-		color = { 69 0 182 }
-	}
 	wool = { 
 		cost = 0.22
 		color = { 234 195 158 }

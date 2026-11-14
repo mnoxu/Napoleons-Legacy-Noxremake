@@ -1237,7 +1237,7 @@
 	craftsmen = {
         culture = french
         religion = placeholder
-        size = 80000
+        size = 40000
     }
 }
 #Brittany Region (2616000)
@@ -1482,6 +1482,12 @@
 #Ile De France Region (2132000)
 #Paris (1520000/380000 POPS)
 425 = {
+    craftsmen = {
+        culture = french
+        religion = placeholder
+        size = 25000
+    }
+
     aristocrats = {
         culture = french
         religion = placeholder

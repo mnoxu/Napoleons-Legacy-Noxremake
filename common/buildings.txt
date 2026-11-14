@@ -514,27 +514,6 @@ canned_food_factory = {
 	pop_build_factory = yes
 }
 
-dye_factory = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 80
-		iron = 200
-		cement = 200
-		lumber = 200
-	}
-	time = 30
-	visibility = yes
-	onmap = no
-
-	production_type = dye_factory
-	pop_build_factory = yes
-}
-
 liquor_distillery = {
 	type = factory
 
@@ -616,46 +595,6 @@ fabric_factory = {
 	onmap = no
 
 	production_type = fabric_factory
-	pop_build_factory = yes
-}
-
-wool_fabric_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 20
-		iron = 200
-		cement = 200
-		lumber = 200
-	}
-	time = 30
-	visibility = yes
-	onmap = no
-		
-	production_type = wool_fabric_factory
-	pop_build_factory = yes
-}
-
-leather_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 20
-		iron = 200
-		cement = 200
-		lumber = 200
-	}
-	time = 30
-	visibility = yes
-	onmap = no
-		
-	production_type = leather_factory
 	pop_build_factory = yes
 }
 
@@ -756,7 +695,6 @@ naval_base = {
 		canned_food = 2800
 	}
 	time = 360
-	naval_capacity = 1
 	capital = yes
 	onmap = yes
 	port = yes

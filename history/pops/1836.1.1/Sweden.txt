@@ -186,6 +186,12 @@
 #Svealand Region : 1178000
 #Stockholm (196000/49000 POPs)
 322 = {
+    craftsmen = {
+        culture = swedish
+        religion = placeholder
+        size = 12500
+    }
+
     aristocrats = {
         culture = swedish
         religion = placeholder

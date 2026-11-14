@@ -2,6 +2,12 @@
 #under the rule of Austria in 1836
 #Prague (1572000/393000 POPS)
 625 = {
+    craftsmen = {
+        culture = czech
+        religion = placeholder
+        size = 25000
+    }
+
     bureaucrats = {
         culture = czech
         religion = placeholder
@@ -41,7 +47,7 @@
     craftsmen = {
         culture = czech
         religion = placeholder
-        size = 113000
+        size = 63000
     }
 
     soldiers = {
@@ -95,7 +101,7 @@
     soldiers = {
         culture = south_german
         religion = placeholder
-        size = 10000
+        size = 19000
     }
 
     farmers = {

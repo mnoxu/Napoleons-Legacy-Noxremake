@@ -252,12 +252,6 @@
         size = 1350
     }
 
-    soldiers = {
-        culture = ukrainian
-        religion = placeholder
-        size = 1100
-    }
-
     farmers = {
         culture = ukrainian
         religion = placeholder
@@ -294,17 +288,21 @@
         size = 8300
     }
 
-    soldiers = {
-        culture = russian
-        religion = placeholder
-        size = 1675
-    }
-
     farmers = {
         culture = russian
         religion = placeholder
         size = 148250
     }
+	soldiers = {
+		culture = ukrainian
+		religion = placeholder
+		size = 7000
+	}
+	soldiers = {
+		culture = russian
+		religion = placeholder
+		size = 1675
+	}
 }
 #Orel (656000/164000 POPS)
 1017 = {

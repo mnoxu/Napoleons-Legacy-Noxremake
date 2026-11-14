@@ -135,3 +135,148 @@ NIT (ROYAUME D'ITALIE) - orijinal NL'deki gibi
   ile CB kullanilamaz); ayrica LCT ve GHO hicbir CB ile savas acamaz (tarafsizlik karari alinmasa bile).
 - Event taramasi: zorla savas acan eventlerden CivilizationAndGunBoats 13160/13200'e LCT/GHO korumasi eklendi
   (ACW'deki USA-CSA savasi disinda LCT'yi savasa sokabilecek baska event yok).
+
+==================== v1.4 ====================
+
+BASLANGIC ASKERI FABRIKALARI
+- Berlin: top, konserve, celik fabrikasi eklendi (cephane ve tufek zaten vardi).
+- Viyana: top, konserve, celik fabrikasi eklendi (cephane zaten vardi; tufek fabrikasi ayni state'te Judenburg'da var).
+- Prag: tufek ve konserve fabrikasi eklendi (celik, top, cephane zaten vardi).
+- Stockholm: top ve tufek fabrikasi eklendi (cephane, celik, konserve zaten vardi).
+
+AVUSTURYA ORDUSU
+- Baslangic ordusu 40 tugaydan 60 tugaya cikti (PLC 58): V. Armee (Prag, 10 tugay) ve VI. Armee (Viyana, 10 tugay) eklendi.
+- Viyana, Linz, Graz ve Prag'daki asker pop'larina +9000 eklendi (yeni tugaylarin ve onceden fazla yuklu olanlarin
+  asker pop'u yetsin diye). Diger yeni tugaylar Plzen, Karlsbad, Olomouc, Hradec Kralove, Bratislava ve Budapeste'deki
+  bos kapasiteyi kullaniyor.
+
+PRAG VE VIYANA
+- Prag'a 25.000 Cek craftsmen, Viyana'ya 20.000 Guney Alman craftsmen eklendi.
+- Prag ve Viyana state'lerindeki baslangic fabrikalari seviye 2 (Prag'daki top fabrikasi 5, Viyana'daki makine parcasi 3 kaldi;
+  Viyana state'indeki Judenburg tufek fabrikasi da 2 oldu).
+- Prag'a fort 1 eklendi (Viyana'da zaten fort 1 vardi).
+
+PARIS
+- Paris'e 25.000 Fransiz craftsmen eklendi.
+- Paris: kagit ve mobilya fabrikasi silindi, celik fabrikasi eklendi; top, cephane ve celik seviye 2.
+- Ayni state'teki Orleans'ta zaten olan konserve ve cam fabrikasi seviye 2 oldu.
+
+BERLIN VE STOCKHOLM
+- Berlin'e 20.000 Kuzey Alman craftsmen eklendi; Berlin'deki tum baslangic fabrikalari seviye 2.
+- Stockholm'e 12.500 Isvec craftsmen eklendi; Stockholm'deki tum baslangic fabrikalari seviye 2.
+
+INGILTERE
+- Londra'ya 12.500, Liverpool'a 7.500 British craftsmen eklendi.
+- Liverpool state'indeki (Northwest England) tum baslangic fabrikalari seviye 2: Liverpool'da clipper tersanesi ve
+  kiyafet, Manchester'da celik, cimento ve kumas fabrikasi.
+
+BELCIKA
+- Bruksel'e 10.000 Flaman ve 10.000 Fransiz craftsmen eklendi.
+- Bruksel state'indeki (Brabant) tum baslangic fabrikalari seviye 2: Bruksel'de cimento, gubre, patlayici, celik,
+  top ve cephane; Gent'te kumas ve konserve fabrikasi.
+
+PLC
+- PLC oyuna Fransa'nin sphere'inde basliyor (FRA_oob).
+
+CRAFTSMEN AZALTMA
+- Bohemia'dan 50.000 (Prag'daki Cek craftsmen 113.000 -> 63.000), Normandie'den 40.000 (Caen 80.000 -> 40.000),
+  Southeast England'dan 40.000 (Londra 158.500 -> 118.500) craftsmen silindi.
+
+OSMANLI
+- Istanbul'a ve Bursa'ya 5.000'er Turk craftsmen eklendi.
+
+TECH SCHOOL
+- Tech school degistirme kararlarinin sartlari: 50 prestij, academic_confusion modifier'i olmamasi, Prusya okulunda
+  olmamak ve savasta olmamak (gemi sayisi, askeri/sanayi puani, bilinc ve isyan sartlari kaldirildi).
+
+GHO / IRAN
+- GHO'nun 20 Iran province'ine IGoR'daki RGO'lar eklendi (life_rating 1 ve 1 pop zaten IGoR'daki gibiydi).
+- Iran ordulari ve alaylarin home province'leri GHO topraklarindan Iran topraklarina tasindi (IGoR'daki konumlar).
+
+LCT
+- LCT pop'larinin okuma yazma orani 0, plurality 0.
+- LCT oyuna civ basliyor, ilk gun World Bank Primitive Forced eventi ile unciv oluyor (GHO gibi).
+- world_bank_rp_nerf: arastirma puani -10000, diplomatik puan kazanci +%1000.
+
+DYE (IGoR'daki gibi kaldirildi)
+- Dye mali oyundan cikarildi (common/goods.txt artik IGoR ile ayni).
+- Dye fabrikasi, dye plantation, yun kumas ve deri kumas fabrikalari (ve artisan versiyonlari) kaldirildi; IGoR'da bunlar
+  yorum satiri.
+- Dye RGO'lu 22 province IGoR'daki RGO'ya dondu: 20'si grain, Raipur iron, Rouen silk (Saltillo ve Monclova icin
+  vanilla dosyasi yerine moda dosya eklendi).
+- Mal ikonlari kaymasin diye IGoR'un resources dds'leri ve 48 frame'lik interface/core.gfx, mapitems.gfx eklendi.
+- Badajoz ve Almendralejo kereste, Chihuahua ve Chilpancingo life rating 30, Villahermosa life rating 35 (IGoR'daki gibi;
+  bu province'ler icin vanilla dosyasi yerine moda dosya eklendi).
+
+KRIZLER (IGoR'daki gibi)
+- CRISIS_TEMPERATURE_ON_MOBILIZE = 0.
+- on_crisis_declare_interest: kriz cikinca GP'lere 'ilgileniyor muyuz' eventi (20000).
+- events/crises.txt (vanilla kriz eventleri 20000, 20100-20105) eklendi; IGoR bunlari vanilla'dan aliyordu.
+
+GBR BAYRAGI
+- GBR'nin varsayilan bayragi NL MP'de gorunen bayrak oldu (dortlu Ingiltere/Iskocya bayragi).
+
+IGoR DEFINES
+- Donanma ikmali (NAVAL_BASE_*_SUPPLY_SCORE, NAVAL_LOW_SUPPLY_DAMAGE_*), core olmayan/somurge province'lerde tugay
+  icin asker pop esigi (POP_MIN_SIZE_FOR_REGIMENT_*_MULTIPLIER) ve somurgeyi state yapma maliyeti (150) IGoR'daki gibi.
+
+ORIJINAL NL KARARLARI
+- annex_bosnia (Avusturya/KUK): BOS'u ilhak, bosniak accepted.
+- Ispanya: santo_domingo_is_back, spanish_USCA, reverse_bolivarian_conquests, reclaim_gran_colombia (decisions/SPA_reclaim.txt).
+- reverse_bolivarian_conquests icin orijinal conquest_any CB'si eklendi (LCT/GHO korumali).
+
+KANADA (orijinal NL'e gore, GBR = orijinaldeki BRI)
+- na_expansion artik GBR'de (Kanada GBR'nin elinde oldugu icin CAN yoksa da calisiyor): Kanada core'lari, anglo_canadian
+  ve french_canadian accepted.
+- na_expansion_eng: ENG Kanada core'larini (sphere/vassal yoluyla) alirsa ayni karar ENG icin.
+- 600034: GBR'ye 'Commonwealth Kanada'dan yonetilir' secenegi (baskent Toronto) geri geldi; AI bu secenegi secmez.
+
+GEMI IKMALI (IGoR'daki gibi)
+- Gemilerin deniz ikmal puani tuketimi (supply_consumption_score) 0; naval_base'in naval_capacity'si kaldirildi.
+  Limanlarin ikmal puani zaten 0'di; artik donanma buyuklugu liman kapasitesiyle sinirli degil (IGoR gibi).
+
+ENG ORDUSU
+- ENG'nin 4th Corps'u Ottawa'dan (GBR toprak) Manchester'a tasindi.
+
+IGoR DENIZ AYARLARI
+- Gemi yapim sureleri IGoR'daki gibi (yariya indi: firkateyn 90, man-o-war/ironclad/monitor/commerce raider/kruvazor 180,
+  zirhli/dretnot 360 gun); zirhli ve dretnot icin liman basina sinir kalkti.
+- NAVAL_COMBAT_MAX_TARGETS = 2, NAVAL_COMBAT_RETREAT_MIN_DISTANCE = 0.5.
+- ammunition_conservation_system ve underway_refueling icatlari IGoR'daki gibi.
+
+ISPANYA / IBERIA
+- spanish_USCA ve reclaim_gran_colombia: Iberia (IBR) icin de cikiyor; topraklara sahip olmak YA DA USCA/Gran Colombia'yi
+  sphere'de ya da vassal olarak tutmak yetiyor. Core'lar ulkenin tum core'larina veriliyor (Belize ve Guyana haric).
+- Filipinler karari (expand_citizenship2): sartlar Nationalism and Imperialism ve Filipinler'in 11 core province'inin hepsine
+  (Sulu dahil) sahip olmak; SPA ve IBR alabiliyor. Eski surum haritada olmayan bolgelere bakiyordu, bu yuzden calismiyordu.
+- Sulu (Jolo, 1464) oyun basinda Ispanya'nin; Sulu Sultanligi'nin baskenti Sandakan (1397) oldu.
+
+YARDIM (GRANT) SISTEMI - IGoR'daki gibi
+- Eski grant kararlari (Grants.txt) ve eventleri (grants 1/2) kaldirildi; yerine IGoR'un 'Manage Money Grants and
+  Military Supplies Aid' karari (0Grants.txt) ve 914XX PlayerGrants eventleri geldi. Istek yapinca 7 gunluk
+  requested_grant bekleme suresi var; oyuncular yardim vermeyi acip kapatabiliyor.
+
+AVUSTURYA
+- VI. Armee Viyana'dan Brno'ya (631) tasindi.
+
+BASLANGIC PARASI
+- Setup eventi (600420) parayi sadece oyunculara veriyor: GP oyunculara 200.000, diger oyunculara 100.000; AI almiyor.
+
+RUSYA (NL MP'ye gore)
+- RUS_oob NL MP'deki gibi: Riga ve Kuressaare'de (Isvec topraklari) baslayan iki ordu Orsha ve Moskova'ya dondu.
+- Belarus ve Ukrayna'daki 9 province'in (945, 946, 948, 962, 963, 969, 977, 978, 980) asker pop'lari NL MP'deki gibi;
+  Rusya'nin toplam asker pop'u ~164 binden ~229 bine cikti.
+
+GBR TEKNOLOJILERI
+- GBR'ye NL MP'deki BRI'nin (Kanada/Sidney'deki Ingiliz Imparatorlugu) 10 teknolojisi ve 2 icadi eklendi (25 -> 35 teknoloji).
+
+LOCALISATION
+- RUS_710 'Ma^3opolskie' -> 'Malopolskie' (Lehce harf bozuk gorunuyordu).
+- Grant eventlerinin eksik 4 secenegi (Give_0.05M/0.1M/0.25M/0.5M_Grant), kanal/bogaz modifier'lari, Meksika Homestead Act,
+  IGoR'dan gelen dusunur/bilim insani icatlari, capital supply depot eventleri, setup karari ve state boyutu ulke sifatlari eklendi.
+
+RGO DEGISTIRME (IGoR'daki gibi)
+- decisions/RGO Change.txt ve events/RGOChangeEvents.txt IGoR'dan: ac/kapa karari, core'larda ve somurgelerde ayri
+  maden (komur/demir/kukurt) ve tarim (tahil, meyve, balik, sigir, yun, pamuk, ipek) kararlari.
+- Maden ve tarim icin ayri 5 yillik bekleme modifier'i (rgo_changed_mine, rgo_changed_farm); resimler ve metinler eklendi.
+- RGO eventleri ve kararlari icin IGoR'un metinleri (eski RGO Change.csv'deki secenek isimleri yeni eventlerle uyusmuyordu).

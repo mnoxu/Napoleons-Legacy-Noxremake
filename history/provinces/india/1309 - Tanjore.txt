@@ -2,6 +2,6 @@ owner = DEN
 controller = DEN
 add_core = HYD
 add_core = HND
-trade_goods = dye
+trade_goods = grain
 life_rating = 30
 colonial = 2

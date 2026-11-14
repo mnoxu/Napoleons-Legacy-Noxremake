@@ -1,4 +1,9 @@
 #Sphere of Influence
+PLC = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
 IRE = { 
 	value = 125
 	level = 5

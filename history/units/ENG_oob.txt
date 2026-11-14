@@ -419,7 +419,7 @@ army = {
 
 army = {
 	name = "4th Corps"
-	location = 57
+	location = 278
 	regiment = {
 		name= "4.Light Brigade"
 		type = hussar

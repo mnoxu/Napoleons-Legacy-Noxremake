@@ -310,6 +310,12 @@
 #under the rule of Ottoman Empire in 1836
 #Istanbul (764000/191000 POPS)
 860 = {
+    craftsmen = {
+        culture = turkish
+        religion = placeholder
+        size = 5000
+    }
+
     aristocrats = {
         culture = turkish
         religion = placeholder
@@ -696,6 +702,12 @@
 #under the rule of Ottoman Empire in 1836
 #Bursa (400000/100000 POPS)
 863 = {
+    craftsmen = {
+        culture = turkish
+        religion = placeholder
+        size = 5000
+    }
+
     aristocrats = {
         culture = turkish
         religion = placeholder

@@ -706,6 +706,14 @@ rgo_changed = {
 	icon = 12
 }
 
+rgo_changed_mine = {
+	icon = 12
+}
+
+rgo_changed_farm = {
+	icon = 12
+}
+
 craftsmen_fix_cooldown = {
 	icon = 12
 }
@@ -908,7 +916,8 @@ ghost_rp_nerf = {
 
 world_bank_rp_nerf = {
 	global_pop_militancy_modifier = -100.0
-	research_points_modifier = -1
+	research_points_modifier = -100.0
+	diplomatic_points_modifier = 100.0
 	prestige = -10
 	icon = 10
 }
@@ -1063,4 +1072,9 @@ nationalist_agitation = {
 	pop_consciousness_modifier = 0.25
 	pop_militancy_modifier = 0.05
 	icon = 4
+}
+
+#IGoR: yardim istegi bekleme suresi (0Grants.txt / 914XX PlayerGrants.txt)
+requested_grant = {
+	icon = 10
 }

@@ -9,7 +9,7 @@ leader = {
 
 army = {
 	name = "Army of Persia"
-	location = 1120
+	location = 1121
 	regiment = {
 		name= "1. Cavalry Brigade"
 		type = cavalry
@@ -25,7 +25,7 @@ army = {
 	regiment = {
 		name= "3. Cavalry Brigade"
 		type = cavalry
-		home = 1125
+		home = 1121
 	}
 
 	regiment = {
@@ -59,13 +59,13 @@ army = {
 	regiment = {
 		name= "5. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1124
+		home = 1108
 	}
 
 	regiment = {
 		name= "6. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1130
+		home = 1117
 	}
 
 	regiment = {
@@ -83,13 +83,13 @@ army = {
 	regiment = {
 		name= "9. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1120
+		home = 1135
 	}
 }
 
 army = {
 	name = "Northern Army of Persia"
-	location = 1112
+	location = 1149
 	regiment = {
 		name= "10. Bakhsh-i Piyadenizam"
 		type = infantry
@@ -99,7 +99,7 @@ army = {
 	regiment = {
 		name= "11. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1112
+		home = 1150
 	}
 
 	regiment = {
@@ -111,13 +111,13 @@ army = {
 	regiment = {
 		name= "13. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1113
+		home = 1129
 	}
 
 	regiment = {
 		name= "14. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1116
+		home = 1150
 	}
 
 	regiment = {
@@ -130,17 +130,17 @@ army = {
 
 army = {
 	name = "Southern Army of Persia"
-	location = 1142
+	location = 1108
 	regiment = {
 		name= "16. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1142
+		home = 1121
 	}
 
 	regiment = {
 		name= "17. Bakhsh-i Piyadenizam"
 		type = infantry
-		home = 1141
+		home = 1114
 	}
 
 	regiment = {

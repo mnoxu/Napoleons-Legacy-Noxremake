@@ -4914,3 +4914,68 @@ make_puppet_large = {
 		}
 	}
 }
+
+# Orijinal NL: kararlarla verilen sinirsiz fetih CB'si (reverse_bolivarian_conquests)
+conquest_any = {
+    sprite_index = 2
+    is_triggered_only = yes
+    months = 12
+    constructing_cb = no
+    crisis = no
+
+	always = no
+
+    can_use = {
+		THIS = { NOT = { tag = LCT } NOT = { tag = GHO } } #LCT/GHO korumasi
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		NOT = { is_our_vassal = THIS }
+		# only one state or unciv
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = {
+			NOT = { has_country_flag = conquerable_1865 }
+		}
+		NOT = { has_country_flag = conquerable_1865 }
+	}
+
+    badboy_factor = 0
+    prestige_factor = 0
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 0
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 60
+
+    good_relation_prestige_factor = 0
+    good_relation_infamy_factor = 0
+    good_relation_militancy_factor = 0
+
+    po_annex = yes
+
+    war_name = WAR_CONQUEST_NAME
+
+    on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+}

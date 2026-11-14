@@ -255,7 +255,7 @@ leader = {
 
 army = {
 	name = "Army Corps of the Guard"
-	location = 354
+	location = 944
 	regiment = {
 		name= "1.1-ya Gvardeiskaya Pekhotnaya Diviziya"
 		type = hussar
@@ -320,7 +320,7 @@ army = {
 
 army = {
 	name = "1. Line Corps"
-	location = 353
+	location = 1008
 	regiment = {
 		name= "1.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar

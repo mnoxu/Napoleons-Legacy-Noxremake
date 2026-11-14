@@ -1640,7 +1640,7 @@ naval_strike_success_criterium = {
 underway_refueling = {
 	limit = { naval_logistics = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = cracking
@@ -1652,7 +1652,7 @@ underway_refueling = {
 	}
 	effect = {
 		navy_base = {
-			supply_consumption = -0.2
+			supply_consumption = -0.15
 		}
 	}
 }
@@ -1660,7 +1660,7 @@ underway_refueling = {
 ammunition_conservation_system = {
 	limit = { naval_logistics = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = armoured_turrets
@@ -1672,7 +1672,7 @@ ammunition_conservation_system = {
 	}
 	effect = {
 		navy_base = {
-			supply_consumption = -0.2
+			supply_consumption = -0.15
 		}
 	}
 }
